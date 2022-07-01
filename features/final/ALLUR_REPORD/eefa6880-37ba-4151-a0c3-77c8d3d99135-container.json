@@ -1,0 +1,32 @@
+{
+	"uuid": "16f1745c-f1f6-4019-b16a-c5e312441f50",
+	"name": "Контекст_Открытие формы списка \"ТоварныеЗапасы\"",
+	"description": "",
+	"children": [
+		"eefa6880-37ba-4151-a0c3-77c8d3d99135"
+	],
+	"befores": [
+		{
+			"name": "Дано я подключаю профиль TestClient \"Этот клиент\"",
+			"start": 1656656403231,
+			"stop": 1656656403871,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Этот клиент"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

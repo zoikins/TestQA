@@ -1,0 +1,32 @@
+{
+	"uuid": "5da73211-c6ee-41ed-a2bc-844a62fb24a7",
+	"name": "Контекст__0203 Сравнение с макетом",
+	"description": "",
+	"children": [
+		"3dbac120-97fa-4884-a5ee-1363d5b25619"
+	],
+	"befores": [
+		{
+			"name": "Дано я подключаю профиль TestClient \"Этот клиент\"",
+			"start": 1656656511128,
+			"stop": 1656656511741,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Этот клиент"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

@@ -1,0 +1,2030 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Users",
+    "children" : [ {
+      "name" : "Экспорт пользователей",
+      "children" : [ {
+        "name" : "_0102 подготовительный (установка расширений)",
+        "children" : [ {
+          "name" : "_0102 подготовительный (установка расширений)",
+          "uid" : "f3338b7fc008a898",
+          "parentUid" : "b9e26cfe3896eda770da912d2c96a551",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656272447,
+            "stop" : 1656656285410,
+            "duration" : 12963
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "b9e26cfe3896eda770da912d2c96a551"
+      }, {
+        "name" : "_00011 Экспорт пользователей",
+        "children" : [ {
+          "name" : "_00011 Экспорт пользователей",
+          "uid" : "350a6decfe4a5df",
+          "parentUid" : "b9845f5220139ed579314cdb4dc919b4",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656286414,
+            "stop" : 1656656287484,
+            "duration" : 1070
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "b9845f5220139ed579314cdb4dc919b4"
+      }, {
+        "name" : "_00011 Экспорт пользователей ИБ",
+        "children" : [ {
+          "name" : "_00011 Экспорт пользователей ИБ",
+          "uid" : "eb1942f997aa022",
+          "parentUid" : "6b2ad7caceed0c6ca5469c20f455a905",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656288449,
+            "stop" : 1656656292367,
+            "duration" : 3918
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "6b2ad7caceed0c6ca5469c20f455a905"
+      } ],
+      "uid" : "c9b1173933423dfffcf182316432bcb2"
+    }, {
+      "name" : "Дымовые тесты",
+      "children" : [ {
+        "name" : "Открытие формы списка \"Заказ\"",
+        "children" : [ {
+          "name" : "Открытие формы списка \"Заказ\"",
+          "uid" : "8e07a10aaeed0492",
+          "parentUid" : "b59df73d3835d6c918240d5db7a98d28",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656293321,
+            "stop" : 1656656294532,
+            "duration" : 1211
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "b59df73d3835d6c918240d5db7a98d28"
+      }, {
+        "name" : "Открытие формы объекта \"Заказ\"",
+        "children" : [ {
+          "name" : "Открытие формы объекта \"Заказ\"",
+          "uid" : "565211a100903382",
+          "parentUid" : "ea62f6e471218573b5940157b43cecea",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656295559,
+            "stop" : 1656656296773,
+            "duration" : 1214
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "ea62f6e471218573b5940157b43cecea"
+      }, {
+        "name" : "Открытие формы списка \"ОперацияПоУчетуТоваров\"",
+        "children" : [ {
+          "name" : "Открытие формы списка \"ОперацияПоУчетуТоваров\"",
+          "uid" : "94dfe2d28229102",
+          "parentUid" : "5ca1e6879fc8105a3e5b4bbd7370ae5e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656297792,
+            "stop" : 1656656298712,
+            "duration" : 920
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "5ca1e6879fc8105a3e5b4bbd7370ae5e"
+      }, {
+        "name" : "Открытие формы объекта \"ОперацияПоУчетуТоваров\"",
+        "children" : [ {
+          "name" : "Открытие формы объекта \"ОперацияПоУчетуТоваров\"",
+          "uid" : "2695aba52919decb",
+          "parentUid" : "8aeeb272fe43bf310726745c3a4628ab",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656299617,
+            "stop" : 1656656300592,
+            "duration" : 975
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "8aeeb272fe43bf310726745c3a4628ab"
+      }, {
+        "name" : "Открытие формы списка \"Оплата\"",
+        "children" : [ {
+          "name" : "Открытие формы списка \"Оплата\"",
+          "uid" : "a3b7cf6ec6f2658",
+          "parentUid" : "f52afbf3de76e8acebf5f1233ca0d0ff",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656301657,
+            "stop" : 1656656302597,
+            "duration" : 940
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "f52afbf3de76e8acebf5f1233ca0d0ff"
+      }, {
+        "name" : "Открытие формы объекта \"Оплата\"",
+        "children" : [ {
+          "name" : "Открытие формы объекта \"Оплата\"",
+          "uid" : "9132245dcda6abc9",
+          "parentUid" : "b2d6851121ed22913d14efe0a5d27464",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656303476,
+            "stop" : 1656656304420,
+            "duration" : 944
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "b2d6851121ed22913d14efe0a5d27464"
+      }, {
+        "name" : "Открытие формы списка \"ПоступлениеДенег\"",
+        "children" : [ {
+          "name" : "Открытие формы списка \"ПоступлениеДенег\"",
+          "uid" : "c59591483125d019",
+          "parentUid" : "eefd01fb5c26829a1b02d97d87e87db8",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656305303,
+            "stop" : 1656656306262,
+            "duration" : 959
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "eefd01fb5c26829a1b02d97d87e87db8"
+      }, {
+        "name" : "Открытие формы объекта \"ПоступлениеДенег\"",
+        "children" : [ {
+          "name" : "Открытие формы объекта \"ПоступлениеДенег\"",
+          "uid" : "9a90e607698217a",
+          "parentUid" : "b95671cd66c5e9f0632f1d5cebd21a3b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656307137,
+            "stop" : 1656656308063,
+            "duration" : 926
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "b95671cd66c5e9f0632f1d5cebd21a3b"
+      }, {
+        "name" : "Открытие формы списка \"ПриходТовара\"",
+        "children" : [ {
+          "name" : "Открытие формы списка \"ПриходТовара\"",
+          "uid" : "37c2c1780e11f890",
+          "parentUid" : "0023950290691a06b7c443be8535682d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656308963,
+            "stop" : 1656656309932,
+            "duration" : 969
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "0023950290691a06b7c443be8535682d"
+      }, {
+        "name" : "Открытие формы объекта \"ПриходТовара\"",
+        "children" : [ {
+          "name" : "Открытие формы объекта \"ПриходТовара\"",
+          "uid" : "ae58334309912ef",
+          "parentUid" : "6d0559146e94f0bd60611101017aeedd",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656310997,
+            "stop" : 1656656312002,
+            "duration" : 1005
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "6d0559146e94f0bd60611101017aeedd"
+      }, {
+        "name" : "Открытие формы списка \"РасходТовара\"",
+        "children" : [ {
+          "name" : "Открытие формы списка \"РасходТовара\"",
+          "uid" : "dca7d4141add4782",
+          "parentUid" : "708af1a9d0bef0ad3d44e4c2b3726dc3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656313030,
+            "stop" : 1656656314041,
+            "duration" : 1011
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "708af1a9d0bef0ad3d44e4c2b3726dc3"
+      }, {
+        "name" : "Открытие формы объекта \"РасходТовара\"",
+        "children" : [ {
+          "name" : "Открытие формы объекта \"РасходТовара\"",
+          "uid" : "6f19e1c750f0530",
+          "parentUid" : "5ce2db9e6f57bdf11a781e8bf06a984e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656315059,
+            "stop" : 1656656316051,
+            "duration" : 992
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "5ce2db9e6f57bdf11a781e8bf06a984e"
+      }, {
+        "name" : "Открытие формы объекта \"ВзаимосвязьПродажТоваров\"",
+        "children" : [ {
+          "name" : "Открытие формы объекта \"ВзаимосвязьПродажТоваров\"",
+          "uid" : "f794d82138240aaf",
+          "parentUid" : "d34cbbb83d351a55baaedc717260e829",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656317091,
+            "stop" : 1656656318056,
+            "duration" : 965
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "d34cbbb83d351a55baaedc717260e829"
+      }, {
+        "name" : "Открытие формы объекта \"ДашбордПродажи\"",
+        "children" : [ {
+          "name" : "Открытие формы объекта \"ДашбордПродажи\"",
+          "uid" : "a815551e6c090de0",
+          "parentUid" : "1f560e0e6d65e17cf5a999ba93706de4",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656318930,
+            "stop" : 1656656320290,
+            "duration" : 1360
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "1f560e0e6d65e17cf5a999ba93706de4"
+      }, {
+        "name" : "Открытие формы объекта \"ДинамикаПродаж\"",
+        "children" : [ {
+          "name" : "Открытие формы объекта \"ДинамикаПродаж\"",
+          "uid" : "1f42689dca98f17d",
+          "parentUid" : "9e6275e94dfcc2d48e04e10f281a5b64",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656321358,
+            "stop" : 1656656322308,
+            "duration" : 950
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "9e6275e94dfcc2d48e04e10f281a5b64"
+      }, {
+        "name" : "Открытие формы объекта \"ДокументыОплата\"",
+        "children" : [ {
+          "name" : "Открытие формы объекта \"ДокументыОплата\"",
+          "uid" : "2a258e5249da75cf",
+          "parentUid" : "f1e525ea40dc2a25dd9484587e4653a3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656323186,
+            "stop" : 1656656324144,
+            "duration" : 958
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "f1e525ea40dc2a25dd9484587e4653a3"
+      }, {
+        "name" : "Открытие формы объекта \"ОстаткиТоваровНаСкладах\"",
+        "children" : [ {
+          "name" : "Открытие формы объекта \"ОстаткиТоваровНаСкладах\"",
+          "uid" : "b33611afe03719d7",
+          "parentUid" : "0b835923634ecdb220ed6028754e807d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656325218,
+            "stop" : 1656656326163,
+            "duration" : 945
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "0b835923634ecdb220ed6028754e807d"
+      }, {
+        "name" : "Открытие формы объекта \"ОтчетПоВзаиморасчетам\"",
+        "children" : [ {
+          "name" : "Открытие формы объекта \"ОтчетПоВзаиморасчетам\"",
+          "uid" : "94b5368c28af66b4",
+          "parentUid" : "5efcc2fad3029649539d613a6eb25faa",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656327039,
+            "stop" : 1656656328033,
+            "duration" : 994
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "5efcc2fad3029649539d613a6eb25faa"
+      }, {
+        "name" : "Открытие формы объекта \"ПрайсЛист\"",
+        "children" : [ {
+          "name" : "Открытие формы объекта \"ПрайсЛист\"",
+          "uid" : "9b3c978871df2bb8",
+          "parentUid" : "ee482965cf3855999825e26bbf9d2cc4",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656329077,
+            "stop" : 1656656330032,
+            "duration" : 955
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "ee482965cf3855999825e26bbf9d2cc4"
+      }, {
+        "name" : "Открытие формы объекта \"АдминистративныйСервис\"",
+        "children" : [ {
+          "name" : "Открытие формы объекта \"АдминистративныйСервис\"",
+          "uid" : "675a6c877bc51668",
+          "parentUid" : "502ce11aa84f5e09a2675d9e6f178c94",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656331106,
+            "stop" : 1656656332037,
+            "duration" : 931
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "502ce11aa84f5e09a2675d9e6f178c94"
+      }, {
+        "name" : "Открытие формы объекта \"ДемонстрацияВозможностейДиаграмм\"",
+        "children" : [ {
+          "name" : "Открытие формы объекта \"ДемонстрацияВозможностейДиаграмм\"",
+          "uid" : "382441f248255ca3",
+          "parentUid" : "ebdacb7237231bb61a581d07da5346b5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656332931,
+            "stop" : 1656656333994,
+            "duration" : 1063
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "ebdacb7237231bb61a581d07da5346b5"
+      }, {
+        "name" : "Открытие формы объекта \"ЖурналРегистрации\"",
+        "children" : [ {
+          "name" : "Открытие формы объекта \"ЖурналРегистрации\"",
+          "uid" : "b809367074dd62db",
+          "parentUid" : "24efe16c6470cccbb621e4cfb671f611",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656334966,
+            "stop" : 1656656336103,
+            "duration" : 1137
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "24efe16c6470cccbb621e4cfb671f611"
+      }, {
+        "name" : "Открытие формы объекта \"НастройкиПользователя\"",
+        "children" : [ {
+          "name" : "Открытие формы объекта \"НастройкиПользователя\"",
+          "uid" : "724b96978d67e216",
+          "parentUid" : "a4836aa7b4221cd6559428441725d4b0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656337000,
+            "stop" : 1656656337948,
+            "duration" : 948
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "a4836aa7b4221cd6559428441725d4b0"
+      }, {
+        "name" : "Открытие формы объекта \"ПроведениеДокументов\"",
+        "children" : [ {
+          "name" : "Открытие формы объекта \"ПроведениеДокументов\"",
+          "uid" : "9f867ea1d8bfe8d5",
+          "parentUid" : "0f58edbbfd84d52649bfc879fcdc945f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656339026,
+            "stop" : 1656656339995,
+            "duration" : 969
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "0f58edbbfd84d52649bfc879fcdc945f"
+      }, {
+        "name" : "Открытие формы объекта \"Путеводитель\"",
+        "children" : [ {
+          "name" : "Открытие формы объекта \"Путеводитель\"",
+          "uid" : "44f8bf94474e36f3",
+          "parentUid" : "e732a0e618820768eec8d979723f1c17",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656341061,
+            "stop" : 1656656342237,
+            "duration" : 1176
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "e732a0e618820768eec8d979723f1c17"
+      }, {
+        "name" : "Открытие формы объекта \"РедактированиеЦен\"",
+        "children" : [ {
+          "name" : "Открытие формы объекта \"РедактированиеЦен\"",
+          "uid" : "dd2ebb1c8073214e",
+          "parentUid" : "1f51b96c0374ab3f8e039a79ae00fac9",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656343179,
+            "stop" : 1656656344235,
+            "duration" : 1056
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "1f51b96c0374ab3f8e039a79ae00fac9"
+      }, {
+        "name" : "Открытие формы объекта \"СписокАктивныхПользователей\"",
+        "children" : [ {
+          "name" : "Открытие формы объекта \"СписокАктивныхПользователей\"",
+          "uid" : "e665dd4d6a079f73",
+          "parentUid" : "68e88bb330bf210c7bac32625ac310ce",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656345170,
+            "stop" : 1656656346292,
+            "duration" : 1122
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "68e88bb330bf210c7bac32625ac310ce"
+      }, {
+        "name" : "Открытие формы объекта \"УдалениеПомеченныхОбъектов\"",
+        "children" : [ {
+          "name" : "Открытие формы объекта \"УдалениеПомеченныхОбъектов\"",
+          "uid" : "b2a5c6f22dd08d9e",
+          "parentUid" : "454af250ae91c1fe0b6240e332d034b2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656347261,
+            "stop" : 1656656348329,
+            "duration" : 1068
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "454af250ae91c1fe0b6240e332d034b2"
+      }, {
+        "name" : "Открытие формы объекта \"УправлениеАгрегатамиПродаж\"",
+        "children" : [ {
+          "name" : "Открытие формы объекта \"УправлениеАгрегатамиПродаж\"",
+          "uid" : "16e1ed417f9f7115",
+          "parentUid" : "8008044f472762608a41f235ad0383c9",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656349291,
+            "stop" : 1656656350326,
+            "duration" : 1035
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "8008044f472762608a41f235ad0383c9"
+      }, {
+        "name" : "Открытие формы объекта \"УправлениеНастройкамиФорм\"",
+        "children" : [ {
+          "name" : "Открытие формы объекта \"УправлениеНастройкамиФорм\"",
+          "uid" : "159cd2e462500606",
+          "parentUid" : "1d55ac1c73284c13fc53726d5cee3912",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656351321,
+            "stop" : 1656656352644,
+            "duration" : 1323
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "1d55ac1c73284c13fc53726d5cee3912"
+      }, {
+        "name" : "Открытие формы объекта \"УправлениеПолнотекстовымПоиском\"",
+        "children" : [ {
+          "name" : "Открытие формы объекта \"УправлениеПолнотекстовымПоиском\"",
+          "uid" : "85f90bbab99e1f47",
+          "parentUid" : "2eff9da729f6316e4a16ee30423b8955",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656353556,
+            "stop" : 1656656354587,
+            "duration" : 1031
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "2eff9da729f6316e4a16ee30423b8955"
+      }, {
+        "name" : "Открытие формы объекта \"УправлениеСистемойВзаимодействия\"",
+        "children" : [ {
+          "name" : "Открытие формы объекта \"УправлениеСистемойВзаимодействия\"",
+          "uid" : "f99c7a9c3c9835aa",
+          "parentUid" : "e80dff935ebcd476f06ee494990c9227",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656355679,
+            "stop" : 1656656356657,
+            "duration" : 978
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "e80dff935ebcd476f06ee494990c9227"
+      }, {
+        "name" : "Открытие формы объекта \"ЭлектроннаяПочта\"",
+        "children" : [ {
+          "name" : "Открытие формы объекта \"ЭлектроннаяПочта\"",
+          "uid" : "262bf06dce176414",
+          "parentUid" : "024b7863439e795ac3f830d97ac63c93",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656357713,
+            "stop" : 1656656358732,
+            "duration" : 1019
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "024b7863439e795ac3f830d97ac63c93"
+      }, {
+        "name" : "Открытие формы объекта \"VAExtension_ПроверкаФоновыхЗаданий\"",
+        "children" : [ {
+          "name" : "Открытие формы объекта \"VAExtension_ПроверкаФоновыхЗаданий\"",
+          "uid" : "64e209c390ff81b2",
+          "parentUid" : "af6a667738d22a59f633403054303492",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656359748,
+            "stop" : 1656656361119,
+            "duration" : 1371
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "af6a667738d22a59f633403054303492"
+      }, {
+        "name" : "Открытие формы объекта \"VAExtension_ВыполнитьПроизвольныйКод\"",
+        "children" : [ {
+          "name" : "Открытие формы объекта \"VAExtension_ВыполнитьПроизвольныйКод\"",
+          "uid" : "de9dbb3a3d6b7789",
+          "parentUid" : "023bc360c5d0d244e143128c66f8200a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656362180,
+            "stop" : 1656656363117,
+            "duration" : 937
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "023bc360c5d0d244e143128c66f8200a"
+      }, {
+        "name" : "Открытие формы объекта \"VAExtension_ДанныеТекущегоОкна\"",
+        "children" : [ {
+          "name" : "Открытие формы объекта \"VAExtension_ДанныеТекущегоОкна\"",
+          "uid" : "e0fad5835c4df229",
+          "parentUid" : "e4a6ccb2b976df4c13737cb021928da0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656364212,
+            "stop" : 1656656365158,
+            "duration" : 946
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "e4a6ccb2b976df4c13737cb021928da0"
+      }, {
+        "name" : "Открытие формы объекта \"VAExtension_ПолучениеМакета\"",
+        "children" : [ {
+          "name" : "Открытие формы объекта \"VAExtension_ПолучениеМакета\"",
+          "uid" : "3440450428cecf4f",
+          "parentUid" : "6de265cb544eeb3085b954305d0bedcb",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656366100,
+            "stop" : 1656656367184,
+            "duration" : 1084
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "6de265cb544eeb3085b954305d0bedcb"
+      }, {
+        "name" : "Открытие формы объекта \"VAExtension_ОткрытьВсеФункции\"",
+        "children" : [ {
+          "name" : "Открытие формы объекта \"VAExtension_ОткрытьВсеФункции\"",
+          "uid" : "36c29acb3ceee622",
+          "parentUid" : "f8a67a76864ea1f583ae76a7abb12f0e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656368133,
+            "stop" : 1656656369237,
+            "duration" : 1104
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "f8a67a76864ea1f583ae76a7abb12f0e"
+      }, {
+        "name" : "Открытие формы объекта \"VAExtension_ОткрытьНастройкаНачальнойСтраницы\"",
+        "children" : [ {
+          "name" : "Открытие формы объекта \"VAExtension_ОткрытьНастройкаНачальнойСтраницы\"",
+          "uid" : "e7eff36072b9939e",
+          "parentUid" : "58ff3e0762c3edb0e4d7a4b0b9676218",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656370312,
+            "stop" : 1656656371341,
+            "duration" : 1029
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "58ff3e0762c3edb0e4d7a4b0b9676218"
+      }, {
+        "name" : "Открытие формы списка \"КурсыВалют\"",
+        "children" : [ {
+          "name" : "Открытие формы списка \"КурсыВалют\"",
+          "uid" : "2864fc1267d5d7f9",
+          "parentUid" : "02f2ce405fbdc1652e941e1c28d9111b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656372338,
+            "stop" : 1656656373302,
+            "duration" : 964
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "02f2ce405fbdc1652e941e1c28d9111b"
+      }, {
+        "name" : "Открытие формы объекта \"КурсыВалют\"",
+        "children" : [ {
+          "name" : "Открытие формы объекта \"КурсыВалют\"",
+          "uid" : "e564c83aedbc4e16",
+          "parentUid" : "36fa6a676e9e90f19550d470a2c57efa",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656374369,
+            "stop" : 1656656375300,
+            "duration" : 931
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "36fa6a676e9e90f19550d470a2c57efa"
+      }, {
+        "name" : "Открытие формы списка \"МобильныеОтчеты\"",
+        "children" : [ {
+          "name" : "Открытие формы списка \"МобильныеОтчеты\"",
+          "uid" : "c15086e68d11f363",
+          "parentUid" : "accd6b243d4210d2d499c8e3afdfd2d5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656376199,
+            "stop" : 1656656377150,
+            "duration" : 951
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "accd6b243d4210d2d499c8e3afdfd2d5"
+      }, {
+        "name" : "Открытие формы объекта \"МобильныеОтчеты\"",
+        "children" : [ {
+          "name" : "Открытие формы объекта \"МобильныеОтчеты\"",
+          "uid" : "cfb0d2a086fd01c4",
+          "parentUid" : "c789ccac2500d23295e4aa577fb246b2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656378227,
+            "stop" : 1656656379168,
+            "duration" : 941
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "c789ccac2500d23295e4aa577fb246b2"
+      }, {
+        "name" : "Открытие формы списка \"СостояниеВходящихПисем\"",
+        "children" : [ {
+          "name" : "Открытие формы списка \"СостояниеВходящихПисем\"",
+          "uid" : "c872bddae999f8c1",
+          "parentUid" : "77d088d06d5874c5ba29b4aa941b548d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656380057,
+            "stop" : 1656656380989,
+            "duration" : 932
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "77d088d06d5874c5ba29b4aa941b548d"
+      }, {
+        "name" : "Открытие формы объекта \"СостояниеВходящихПисем\"",
+        "children" : [ {
+          "name" : "Открытие формы объекта \"СостояниеВходящихПисем\"",
+          "uid" : "6c7adcee5ec964e3",
+          "parentUid" : "525b8401d152aec12af80a757f424e5f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656381891,
+            "stop" : 1656656382823,
+            "duration" : 932
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "525b8401d152aec12af80a757f424e5f"
+      }, {
+        "name" : "Открытие формы списка \"СостояниеИсходящихПисем\"",
+        "children" : [ {
+          "name" : "Открытие формы списка \"СостояниеИсходящихПисем\"",
+          "uid" : "66cf470ca9869635",
+          "parentUid" : "ded6af20d9c031e315df756d0be6f60e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656383714,
+            "stop" : 1656656384665,
+            "duration" : 951
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "ded6af20d9c031e315df756d0be6f60e"
+      }, {
+        "name" : "Открытие формы объекта \"СостояниеИсходящихПисем\"",
+        "children" : [ {
+          "name" : "Открытие формы объекта \"СостояниеИсходящихПисем\"",
+          "uid" : "a4fe2157d1d8c0b7",
+          "parentUid" : "3a6d5de519b7ea2e04efd2bd4e605de8",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656385544,
+            "stop" : 1656656386793,
+            "duration" : 1249
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "3a6d5de519b7ea2e04efd2bd4e605de8"
+      }, {
+        "name" : "Открытие формы списка \"Характеристики\"",
+        "children" : [ {
+          "name" : "Открытие формы списка \"Характеристики\"",
+          "uid" : "f98d97ed5145e2d4",
+          "parentUid" : "d175139923d59490fae22cf55f4a1482",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656387778,
+            "stop" : 1656656388722,
+            "duration" : 944
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "d175139923d59490fae22cf55f4a1482"
+      }, {
+        "name" : "Открытие формы объекта \"Характеристики\"",
+        "children" : [ {
+          "name" : "Открытие формы объекта \"Характеристики\"",
+          "uid" : "654c0f9a40a56d7b",
+          "parentUid" : "1e11cf10d0d96d5e548a77bad212cb2a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656389603,
+            "stop" : 1656656390546,
+            "duration" : 943
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "1e11cf10d0d96d5e548a77bad212cb2a"
+      }, {
+        "name" : "Открытие формы списка \"ЦеныТоваров\"",
+        "children" : [ {
+          "name" : "Открытие формы списка \"ЦеныТоваров\"",
+          "uid" : "6899682f2432ad8c",
+          "parentUid" : "e230d89c8d74688fd95e66ae8bebddd5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656391639,
+            "stop" : 1656656392615,
+            "duration" : 976
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "e230d89c8d74688fd95e66ae8bebddd5"
+      }, {
+        "name" : "Открытие формы объекта \"ЦеныТоваров\"",
+        "children" : [ {
+          "name" : "Открытие формы объекта \"ЦеныТоваров\"",
+          "uid" : "1fc981dce044c57c",
+          "parentUid" : "af4f21663a2f875d4ee1a8f1816540ee",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656393669,
+            "stop" : 1656656394589,
+            "duration" : 920
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "af4f21663a2f875d4ee1a8f1816540ee"
+      }, {
+        "name" : "Открытие формы списка \"Взаиморасчеты\"",
+        "children" : [ {
+          "name" : "Открытие формы списка \"Взаиморасчеты\"",
+          "uid" : "ef5ebb9f54bb4061",
+          "parentUid" : "5df64dfce0d09059257b06678329ea60",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656395497,
+            "stop" : 1656656396500,
+            "duration" : 1003
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "5df64dfce0d09059257b06678329ea60"
+      }, {
+        "name" : "Открытие формы объекта \"Взаиморасчеты\"",
+        "children" : [ {
+          "name" : "Открытие формы объекта \"Взаиморасчеты\"",
+          "uid" : "85afbe45864030b1",
+          "parentUid" : "4dfe9f82e4a7503dc50b18d5e43beefc",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656397528,
+            "stop" : 1656656398433,
+            "duration" : 905
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "4dfe9f82e4a7503dc50b18d5e43beefc"
+      }, {
+        "name" : "Открытие формы списка \"Продажи\"",
+        "children" : [ {
+          "name" : "Открытие формы списка \"Продажи\"",
+          "uid" : "7cb063948f9b836c",
+          "parentUid" : "bfed6047e885642d3aae8f65203e5751",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656399355,
+            "stop" : 1656656400322,
+            "duration" : 967
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "bfed6047e885642d3aae8f65203e5751"
+      }, {
+        "name" : "Открытие формы объекта \"Продажи\"",
+        "children" : [ {
+          "name" : "Открытие формы объекта \"Продажи\"",
+          "uid" : "e1252e205346ccbb",
+          "parentUid" : "c641463297a0ccd1556f9232bf1a3552",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656401386,
+            "stop" : 1656656402261,
+            "duration" : 875
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "c641463297a0ccd1556f9232bf1a3552"
+      }, {
+        "name" : "Открытие формы списка \"ТоварныеЗапасы\"",
+        "children" : [ {
+          "name" : "Открытие формы списка \"ТоварныеЗапасы\"",
+          "uid" : "302397c9508f5444",
+          "parentUid" : "4de4cf0e27ceeeb2617d8243c2e381d1",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656403179,
+            "stop" : 1656656404159,
+            "duration" : 980
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "4de4cf0e27ceeeb2617d8243c2e381d1"
+      }, {
+        "name" : "Открытие формы объекта \"ТоварныеЗапасы\"",
+        "children" : [ {
+          "name" : "Открытие формы объекта \"ТоварныеЗапасы\"",
+          "uid" : "e0193393cdc6ebd4",
+          "parentUid" : "bdabc6298cbfff4d4c5d27ae6021e556",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656405074,
+            "stop" : 1656656406137,
+            "duration" : 1063
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "bdabc6298cbfff4d4c5d27ae6021e556"
+      }, {
+        "name" : "Открытие формы списка \"Банки\"",
+        "children" : [ {
+          "name" : "Открытие формы списка \"Банки\"",
+          "uid" : "225f3c64bcf513f5",
+          "parentUid" : "69fda9b035dbcd55b15dcfc6085223fb",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656407275,
+            "stop" : 1656656408433,
+            "duration" : 1158
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "69fda9b035dbcd55b15dcfc6085223fb"
+      }, {
+        "name" : "Открытие формы объекта \"Банки\"",
+        "children" : [ {
+          "name" : "Открытие формы объекта \"Банки\"",
+          "uid" : "e3b4f6ccd78d1e20",
+          "parentUid" : "0b7ec9550698f656a91b730129f2721e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656409403,
+            "stop" : 1656656410429,
+            "duration" : 1026
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "0b7ec9550698f656a91b730129f2721e"
+      }, {
+        "name" : "Открытие формы списка \"Валюты\"",
+        "children" : [ {
+          "name" : "Открытие формы списка \"Валюты\"",
+          "uid" : "a618d1a749489329",
+          "parentUid" : "41d973ad82cead35d5324a0e4a792243",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656411402,
+            "stop" : 1656656412491,
+            "duration" : 1089
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "41d973ad82cead35d5324a0e4a792243"
+      }, {
+        "name" : "Открытие формы объекта \"Валюты\"",
+        "children" : [ {
+          "name" : "Открытие формы объекта \"Валюты\"",
+          "uid" : "4a0f9279bffb2f46",
+          "parentUid" : "1169ca6caaa5a3a6bab053a45f8ff5c2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656413572,
+            "stop" : 1656656414492,
+            "duration" : 920
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "1169ca6caaa5a3a6bab053a45f8ff5c2"
+      }, {
+        "name" : "Открытие формы списка \"ВидыЦен\"",
+        "children" : [ {
+          "name" : "Открытие формы списка \"ВидыЦен\"",
+          "uid" : "cbacdd38be0d25d3",
+          "parentUid" : "b31ce6487d8ae89e32e81ab30adedc63",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656415432,
+            "stop" : 1656656416548,
+            "duration" : 1116
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "b31ce6487d8ae89e32e81ab30adedc63"
+      }, {
+        "name" : "Открытие формы объекта \"ВидыЦен\"",
+        "children" : [ {
+          "name" : "Открытие формы объекта \"ВидыЦен\"",
+          "uid" : "ec6f28ac96107bad",
+          "parentUid" : "2e523adf2b9eb82a9444a08a0afad1b8",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656417431,
+            "stop" : 1656656418366,
+            "duration" : 935
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "2e523adf2b9eb82a9444a08a0afad1b8"
+      }, {
+        "name" : "Открытие формы списка \"Встречи\"",
+        "children" : [ {
+          "name" : "Открытие формы списка \"Встречи\"",
+          "uid" : "62186f913924601b",
+          "parentUid" : "12747724b3beb6ae18ddd87c5fb4404f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656419264,
+            "stop" : 1656656420436,
+            "duration" : 1172
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "12747724b3beb6ae18ddd87c5fb4404f"
+      }, {
+        "name" : "Открытие формы объекта \"Встречи\"",
+        "children" : [ {
+          "name" : "Открытие формы объекта \"Встречи\"",
+          "uid" : "d014690dfa411d51",
+          "parentUid" : "5d3b4517889d0e5d81ef97a0e0aad974",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656421496,
+            "stop" : 1656656422465,
+            "duration" : 969
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "5d3b4517889d0e5d81ef97a0e0aad974"
+      }, {
+        "name" : "Открытие формы списка \"ВходящиеПисьма\"",
+        "children" : [ {
+          "name" : "Открытие формы списка \"ВходящиеПисьма\"",
+          "uid" : "14d84af495e7ae39",
+          "parentUid" : "2b6c1b878bb2245ff8d761c13b76c38d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656423527,
+            "stop" : 1656656424488,
+            "duration" : 961
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "2b6c1b878bb2245ff8d761c13b76c38d"
+      }, {
+        "name" : "Открытие формы объекта \"ВходящиеПисьма\"",
+        "children" : [ {
+          "name" : "Открытие формы объекта \"ВходящиеПисьма\"",
+          "uid" : "22ce04d2fda80c71",
+          "parentUid" : "918c6f25e434b5774ec1a9954e7401a7",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656425562,
+            "stop" : 1656656426521,
+            "duration" : 959
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "918c6f25e434b5774ec1a9954e7401a7"
+      }, {
+        "name" : "Открытие формы списка \"ЗначенияХарактеристик\"",
+        "children" : [ {
+          "name" : "Открытие формы списка \"ЗначенияХарактеристик\"",
+          "uid" : "753be2e392c9c373",
+          "parentUid" : "50869604cffbc4dcef968055a7f0d14e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656427591,
+            "stop" : 1656656428555,
+            "duration" : 964
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "50869604cffbc4dcef968055a7f0d14e"
+      }, {
+        "name" : "Открытие формы объекта \"ЗначенияХарактеристик\"",
+        "children" : [ {
+          "name" : "Открытие формы объекта \"ЗначенияХарактеристик\"",
+          "uid" : "8f6ad0f9a721afcd",
+          "parentUid" : "f6588f6027323fc08a1770f7bd3c9336",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656429430,
+            "stop" : 1656656430353,
+            "duration" : 923
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "f6588f6027323fc08a1770f7bd3c9336"
+      }, {
+        "name" : "Открытие формы списка \"ИсходящиеПисьма\"",
+        "children" : [ {
+          "name" : "Открытие формы списка \"ИсходящиеПисьма\"",
+          "uid" : "afcc2761ef8f6401",
+          "parentUid" : "4f2f9b53f01c85615a95580db3acb8ac",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656431246,
+            "stop" : 1656656432183,
+            "duration" : 937
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "4f2f9b53f01c85615a95580db3acb8ac"
+      }, {
+        "name" : "Открытие формы объекта \"ИсходящиеПисьма\"",
+        "children" : [ {
+          "name" : "Открытие формы объекта \"ИсходящиеПисьма\"",
+          "uid" : "ef1ce81a51ab1266",
+          "parentUid" : "791773598a4096b637a6aa2dacb2887d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656433071,
+            "stop" : 1656656434339,
+            "duration" : 1268
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "791773598a4096b637a6aa2dacb2887d"
+      }, {
+        "name" : "Открытие формы списка \"Контрагенты\"",
+        "children" : [ {
+          "name" : "Открытие формы списка \"Контрагенты\"",
+          "uid" : "e61f1729cc05fdc7",
+          "parentUid" : "942de7679fdb92a490920797f1143443",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656435304,
+            "stop" : 1656656436326,
+            "duration" : 1022
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "942de7679fdb92a490920797f1143443"
+      }, {
+        "name" : "Открытие формы объекта \"Контрагенты\"",
+        "children" : [ {
+          "name" : "Открытие формы объекта \"Контрагенты\"",
+          "uid" : "fd5088f488c3108b",
+          "parentUid" : "93a864b57f354133d82579a11f402901",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656437347,
+            "stop" : 1656656438354,
+            "duration" : 1007
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "93a864b57f354133d82579a11f402901"
+      }, {
+        "name" : "Открытие формы списка \"МобильныеУстройства\"",
+        "children" : [ {
+          "name" : "Открытие формы списка \"МобильныеУстройства\"",
+          "uid" : "6708a35c15a7624d",
+          "parentUid" : "e3249f64c196d18026609d49d2383a6a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656439373,
+            "stop" : 1656656440310,
+            "duration" : 937
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "e3249f64c196d18026609d49d2383a6a"
+      }, {
+        "name" : "Открытие формы объекта \"МобильныеУстройства\"",
+        "children" : [ {
+          "name" : "Открытие формы объекта \"МобильныеУстройства\"",
+          "uid" : "559f926acdc154c9",
+          "parentUid" : "0ce72bcd02bffc57c90193335044d969",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656441203,
+            "stop" : 1656656442133,
+            "duration" : 930
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "0ce72bcd02bffc57c90193335044d969"
+      }, {
+        "name" : "Открытие формы списка \"НастройкиТорговогоОборудования\"",
+        "children" : [ {
+          "name" : "Открытие формы списка \"НастройкиТорговогоОборудования\"",
+          "uid" : "5714d0a2172bd27b",
+          "parentUid" : "8f816aebddf338caeb1f7d028367deb2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656443025,
+            "stop" : 1656656443960,
+            "duration" : 935
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "8f816aebddf338caeb1f7d028367deb2"
+      }, {
+        "name" : "Открытие формы объекта \"НастройкиТорговогоОборудования\"",
+        "children" : [ {
+          "name" : "Открытие формы объекта \"НастройкиТорговогоОборудования\"",
+          "uid" : "bdd4efbe382eea8f",
+          "parentUid" : "c525a6b92968cc6b988a95cc9917885d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656444859,
+            "stop" : 1656656445780,
+            "duration" : 921
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "c525a6b92968cc6b988a95cc9917885d"
+      }, {
+        "name" : "Открытие формы списка \"Организации\"",
+        "children" : [ {
+          "name" : "Открытие формы списка \"Организации\"",
+          "uid" : "7ab8aa62e1d354e3",
+          "parentUid" : "8c6e2683859e5d0a3b78bd3725848c28",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656446681,
+            "stop" : 1656656447625,
+            "duration" : 944
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "8c6e2683859e5d0a3b78bd3725848c28"
+      }, {
+        "name" : "Открытие формы объекта \"Организации\"",
+        "children" : [ {
+          "name" : "Открытие формы объекта \"Организации\"",
+          "uid" : "46f16965287ed33e",
+          "parentUid" : "01b7be0b0857306bd379756228e53fd9",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656448511,
+            "stop" : 1656656449466,
+            "duration" : 955
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "01b7be0b0857306bd379756228e53fd9"
+      }, {
+        "name" : "Открытие формы списка \"Пользователи\"",
+        "children" : [ {
+          "name" : "Открытие формы списка \"Пользователи\"",
+          "uid" : "91db3ac027746554",
+          "parentUid" : "68cbaadf1171393b77160c117aaf0297",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656450544,
+            "stop" : 1656656451771,
+            "duration" : 1227
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "68cbaadf1171393b77160c117aaf0297"
+      }, {
+        "name" : "Открытие формы объекта \"Пользователи\"",
+        "children" : [ {
+          "name" : "Открытие формы объекта \"Пользователи\"",
+          "uid" : "d4ccd5e20bd92ba5",
+          "parentUid" : "0267c3fdc7fc2b2ee67f7c185215da17",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656452784,
+            "stop" : 1656656453702,
+            "duration" : 918
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "0267c3fdc7fc2b2ee67f7c185215da17"
+      }, {
+        "name" : "Открытие формы списка \"ПочтовыеВложения\"",
+        "children" : [ {
+          "name" : "Открытие формы списка \"ПочтовыеВложения\"",
+          "uid" : "76f3c9837c56276d",
+          "parentUid" : "b38eeb5983117483476bc07b9438ae7e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656454806,
+            "stop" : 1656656455749,
+            "duration" : 943
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "b38eeb5983117483476bc07b9438ae7e"
+      }, {
+        "name" : "Открытие формы объекта \"ПочтовыеВложения\"",
+        "children" : [ {
+          "name" : "Открытие формы объекта \"ПочтовыеВложения\"",
+          "uid" : "1e67d9c3c9a6bf99",
+          "parentUid" : "b92bc1b1c96aed10d2bc502ae915a199",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656456836,
+            "stop" : 1656656457760,
+            "duration" : 924
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "b92bc1b1c96aed10d2bc502ae915a199"
+      }, {
+        "name" : "Открытие формы списка \"РасчетныеСчета\"",
+        "children" : [ {
+          "name" : "Открытие формы списка \"РасчетныеСчета\"",
+          "uid" : "3829fac3e815e34f",
+          "parentUid" : "5643a7e1abd96acece004915d14805cd",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656458680,
+            "stop" : 1656656459613,
+            "duration" : 933
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "5643a7e1abd96acece004915d14805cd"
+      }, {
+        "name" : "Открытие формы объекта \"РасчетныеСчета\"",
+        "children" : [ {
+          "name" : "Открытие формы объекта \"РасчетныеСчета\"",
+          "uid" : "7db0578a2338f838",
+          "parentUid" : "af036e0c573c1879dd0e8b6e290429b5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656460539,
+            "stop" : 1656656461623,
+            "duration" : 1084
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "af036e0c573c1879dd0e8b6e290429b5"
+      }, {
+        "name" : "Открытие формы списка \"РасчетныеСчетаКонтрагентов\"",
+        "children" : [ {
+          "name" : "Открытие формы списка \"РасчетныеСчетаКонтрагентов\"",
+          "uid" : "2a0d10d38f866c20",
+          "parentUid" : "5d36691e739d2c870190cbf1996bab47",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656462730,
+            "stop" : 1656656463887,
+            "duration" : 1157
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "5d36691e739d2c870190cbf1996bab47"
+      }, {
+        "name" : "Открытие формы объекта \"РасчетныеСчетаКонтрагентов\"",
+        "children" : [ {
+          "name" : "Открытие формы объекта \"РасчетныеСчетаКонтрагентов\"",
+          "uid" : "c86faa0893fb976e",
+          "parentUid" : "70e76fb465ddb996bdc6397f595075b7",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656464853,
+            "stop" : 1656656465909,
+            "duration" : 1056
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "70e76fb465ddb996bdc6397f595075b7"
+      }, {
+        "name" : "Открытие формы списка \"Регионы\"",
+        "children" : [ {
+          "name" : "Открытие формы списка \"Регионы\"",
+          "uid" : "3c9f18278a79aa04",
+          "parentUid" : "56756fbc31a193a79dcc28f848476083",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656466887,
+            "stop" : 1656656467944,
+            "duration" : 1057
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "56756fbc31a193a79dcc28f848476083"
+      }, {
+        "name" : "Открытие формы объекта \"Регионы\"",
+        "children" : [ {
+          "name" : "Открытие формы объекта \"Регионы\"",
+          "uid" : "9514ce9d602f6b12",
+          "parentUid" : "1f74c303b9cf5df008963736e2239fc9",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656469031,
+            "stop" : 1656656469939,
+            "duration" : 908
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "1f74c303b9cf5df008963736e2239fc9"
+      }, {
+        "name" : "Открытие формы списка \"Склады\"",
+        "children" : [ {
+          "name" : "Открытие формы списка \"Склады\"",
+          "uid" : "5b1c2bf7334a0b5a",
+          "parentUid" : "74b3874cada16d4377c77b6836cca130",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656471064,
+            "stop" : 1656656472215,
+            "duration" : 1151
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "74b3874cada16d4377c77b6836cca130"
+      }, {
+        "name" : "Открытие формы объекта \"Склады\"",
+        "children" : [ {
+          "name" : "Открытие формы объекта \"Склады\"",
+          "uid" : "d7dc8956f7f57206",
+          "parentUid" : "7d9cdbf40c3a713f7424bc961d4668cf",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656473150,
+            "stop" : 1656656474235,
+            "duration" : 1085
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "7d9cdbf40c3a713f7424bc961d4668cf"
+      }, {
+        "name" : "Открытие формы списка \"Товары\"",
+        "children" : [ {
+          "name" : "Открытие формы списка \"Товары\"",
+          "uid" : "9cc724daaf554c2a",
+          "parentUid" : "a901d6268e251b056679aec43cb032f8",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656475118,
+            "stop" : 1656656476115,
+            "duration" : 997
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "a901d6268e251b056679aec43cb032f8"
+      }, {
+        "name" : "Открытие формы объекта \"Товары\"",
+        "children" : [ {
+          "name" : "Открытие формы объекта \"Товары\"",
+          "uid" : "2d9a302556cf317d",
+          "parentUid" : "a78d05d6b8a839a37e8be949943dd376",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656477152,
+            "stop" : 1656656478503,
+            "duration" : 1351
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "a78d05d6b8a839a37e8be949943dd376"
+      }, {
+        "name" : "Открытие формы списка \"ХранилищеВариантовОтчетов\"",
+        "children" : [ {
+          "name" : "Открытие формы списка \"ХранилищеВариантовОтчетов\"",
+          "uid" : "1df512e7ee52be6e",
+          "parentUid" : "06535ccea02cc200499452e8dae5dc3e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656479588,
+            "stop" : 1656656480565,
+            "duration" : 977
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "06535ccea02cc200499452e8dae5dc3e"
+      }, {
+        "name" : "Открытие формы объекта \"ХранилищеВариантовОтчетов\"",
+        "children" : [ {
+          "name" : "Открытие формы объекта \"ХранилищеВариантовОтчетов\"",
+          "uid" : "8365606f5ee75c3",
+          "parentUid" : "9559515addfa7067c45d3479e07466c0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656481622,
+            "stop" : 1656656482589,
+            "duration" : 967
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "9559515addfa7067c45d3479e07466c0"
+      }, {
+        "name" : "Открытие формы списка \"ХранимыеФайлы\"",
+        "children" : [ {
+          "name" : "Открытие формы списка \"ХранимыеФайлы\"",
+          "uid" : "3ea1206c3539e8cc",
+          "parentUid" : "94355b64b01c83ef7376966085ae6c79",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656483652,
+            "stop" : 1656656484670,
+            "duration" : 1018
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "94355b64b01c83ef7376966085ae6c79"
+      }, {
+        "name" : "Открытие формы объекта \"ХранимыеФайлы\"",
+        "children" : [ {
+          "name" : "Открытие формы объекта \"ХранимыеФайлы\"",
+          "uid" : "c091ecfccfe3e28",
+          "parentUid" : "53fe781bd3bc826312ecd415894b9a71",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656485688,
+            "stop" : 1656656486711,
+            "duration" : 1023
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "53fe781bd3bc826312ecd415894b9a71"
+      } ],
+      "uid" : "ea47cb3c074308fd070313f82c9ca733"
+    }, {
+      "name" : "проверка  Движения документа Расход товара",
+      "children" : [ {
+        "name" : "_0305 агрузка данных",
+        "children" : [ {
+          "name" : "_0305 агрузка данных",
+          "uid" : "a485515992769395",
+          "parentUid" : "f4b3d59786b8e50e8c164a12e067953c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656487715,
+            "stop" : 1656656488877,
+            "duration" : 1162
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "f4b3d59786b8e50e8c164a12e067953c"
+      }, {
+        "name" : "_0306 Проведение документов",
+        "children" : [ {
+          "name" : "_0306 Проведение документов",
+          "uid" : "25045aecc2404c1b",
+          "parentUid" : "25942749bcfa3db954c5e2c427b6a092",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656489742,
+            "stop" : 1656656490847,
+            "duration" : 1105
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "25942749bcfa3db954c5e2c427b6a092"
+      }, {
+        "name" : "_0307 Регистр Взаиморасчеты",
+        "children" : [ {
+          "name" : "_0307 Регистр Взаиморасчеты",
+          "uid" : "bceca8ef75c11611",
+          "parentUid" : "e1a02a92825513694709cf2bd01b4b84",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656491776,
+            "stop" : 1656656493266,
+            "duration" : 1490
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "e1a02a92825513694709cf2bd01b4b84"
+      }, {
+        "name" : "_0308 Регистр Продажи",
+        "children" : [ {
+          "name" : "_0308 Регистр Продажи",
+          "uid" : "9e31d0d5e86f51f4",
+          "parentUid" : "dea2fc73e3e85e2246c5dc8f3ce13553",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656494216,
+            "stop" : 1656656495705,
+            "duration" : 1489
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "dea2fc73e3e85e2246c5dc8f3ce13553"
+      }, {
+        "name" : "_0309 Регистр ТоварныеЗапасы",
+        "children" : [ {
+          "name" : "_0309 Регистр ТоварныеЗапасы",
+          "uid" : "29322c264582f9e9",
+          "parentUid" : "534c9d020b5f55496601d9ddbed0bc5b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656496655,
+            "stop" : 1656656498099,
+            "duration" : 1444
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "534c9d020b5f55496601d9ddbed0bc5b"
+      } ],
+      "uid" : "a3528786ac394918619033be8d135a6b"
+    }, {
+      "name" : "Товары добавление внешних файлов",
+      "children" : [ {
+        "name" : "_0101 Подготовка",
+        "children" : [ {
+          "name" : "_0101 Подготовка",
+          "uid" : "6109ea86952d7c33",
+          "parentUid" : "c77980f3a5251ada8cb09b197bbe6c2a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656499088,
+            "stop" : 1656656500738,
+            "duration" : 1650
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "c77980f3a5251ada8cb09b197bbe6c2a"
+      }, {
+        "name" : "_0102 добавление файла и перевыбор",
+        "children" : [ {
+          "name" : "_0102 добавление файла и перевыбор",
+          "uid" : "d19cf0e1a10060d0",
+          "parentUid" : "746f2619fdab85a52668f44c8a385260",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656501630,
+            "stop" : 1656656505305,
+            "duration" : 3675
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "746f2619fdab85a52668f44c8a385260"
+      } ],
+      "uid" : "23360f5799cfd8acafa2b42953b62e43"
+    }, {
+      "name" : "Отчет Остатки",
+      "children" : [ {
+        "name" : "_0201 Загрузка данных расхода и прихода",
+        "children" : [ {
+          "name" : "_0201 Загрузка данных расхода и прихода",
+          "uid" : "296868b26f1bbc32",
+          "parentUid" : "4de439c32cc8c095f2d00c9f4bd5e66d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656506403,
+            "stop" : 1656656508066,
+            "duration" : 1663
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "4de439c32cc8c095f2d00c9f4bd5e66d"
+      }, {
+        "name" : "_0202 проведение",
+        "children" : [ {
+          "name" : "_0202 проведение",
+          "uid" : "98fd8c7e9881c226",
+          "parentUid" : "e08c532dcf9d38b5ab85790d9657088c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656509044,
+            "stop" : 1656656510088,
+            "duration" : 1044
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "e08c532dcf9d38b5ab85790d9657088c"
+      }, {
+        "name" : "_0203 Сравнение с макетом",
+        "children" : [ {
+          "name" : "_0203 Сравнение с макетом",
+          "uid" : "1bc5b0cd6f1c180c",
+          "parentUid" : "2c48ffa91138e5ab971e5da0276a7e68",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656511074,
+            "stop" : 1656656517832,
+            "duration" : 6758
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "2c48ffa91138e5ab971e5da0276a7e68"
+      } ],
+      "uid" : "205b1fb562650b1ab275eff0e7996857"
+    }, {
+      "name" : "Документ Заказ Продавец",
+      "children" : [ {
+        "name" : "_0403 Документ Загрузка данных",
+        "children" : [ {
+          "name" : "_0403 Документ Загрузка данных",
+          "uid" : "e1267bb801a95772",
+          "parentUid" : "967a71b9bf0948d8160799d8b9f2bc04",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656518798,
+            "stop" : 1656656531773,
+            "duration" : 12975
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "967a71b9bf0948d8160799d8b9f2bc04"
+      }, {
+        "name" : "_0403 Документ Заказ Продавец",
+        "children" : [ {
+          "name" : "_0403 Документ Заказ Продавец",
+          "uid" : "a693a8f35a664863",
+          "parentUid" : "f08d1033f782e9ead7d9697968f474ce",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656532808,
+            "stop" : 1656656536435,
+            "duration" : 3627
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "f08d1033f782e9ead7d9697968f474ce"
+      } ],
+      "uid" : "ce739cf94931188b928b331c1779f228"
+    }, {
+      "name" : "Документ Расход товара Продавец",
+      "children" : [ {
+        "name" : "_0401 Документ Расход товара Продавец",
+        "children" : [ {
+          "name" : "_0401 Документ Расход товара Продавец",
+          "uid" : "7eaaa65c10f77a05",
+          "parentUid" : "5acab25a51639c70b602c76bb8b68bee",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656537284,
+            "stop" : 1656656538469,
+            "duration" : 1185
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "5acab25a51639c70b602c76bb8b68bee"
+      }, {
+        "name" : "_0402Документ Расход товара Продавец",
+        "children" : [ {
+          "name" : "_0402Документ Расход товара Продавец",
+          "uid" : "8e9125da269ee374",
+          "parentUid" : "ee12f9f633d44216ad5e4bbb2e82eb39",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656539514,
+            "stop" : 1656656543647,
+            "duration" : 4133
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "ee12f9f633d44216ad5e4bbb2e82eb39"
+      } ],
+      "uid" : "5463a88ca1ccb1683883bc4c70cce89a"
+    }, {
+      "name" : "Документ Расход товара",
+      "children" : [ {
+        "name" : "_0301 Загрузка данных",
+        "children" : [ {
+          "name" : "_0301 Загрузка данных",
+          "uid" : "5d1f390afcbfbf2e",
+          "parentUid" : "523fc5661f7971fa284fd76888b9c94c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656544589,
+            "stop" : 1656656545901,
+            "duration" : 1312
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "523fc5661f7971fa284fd76888b9c94c"
+      }, {
+        "name" : "_0302 Заполнение документа",
+        "children" : [ {
+          "name" : "_0302 Заполнение документа",
+          "uid" : "160042479e7873d5",
+          "parentUid" : "fe0e0158ba24502e3b299a08c72e7415",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656546826,
+            "stop" : 1656656551719,
+            "duration" : 4893
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "fe0e0158ba24502e3b299a08c72e7415"
+      }, {
+        "name" : "_0303 Проверка печатной формы",
+        "children" : [ {
+          "name" : "_0303 Проверка печатной формы",
+          "uid" : "a12f06241c8f7ef2",
+          "parentUid" : "aed1ac394d410c6c9028ea99bb306edb",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656656552712,
+            "stop" : 1656656554771,
+            "duration" : 2059
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "aed1ac394d410c6c9028ea99bb306edb"
+      } ],
+      "uid" : "7beef2418969bb962f55360d3dc5cfee"
+    } ],
+    "uid" : "8233a41300bd5d5bd2551cb8ccf39969"
+  } ]
+}

@@ -1,0 +1,32 @@
+{
+	"uuid": "4de1dd73-83f6-4c4d-b724-f46837b08781",
+	"name": "Контекст__0301 Загрузка данных",
+	"description": "",
+	"children": [
+		"6abd8fdb-35ba-46ef-a8c6-4cce63ecb0ba"
+	],
+	"befores": [
+		{
+			"name": "Дано я подключаю профиль TestClient \"Этот клиент\"",
+			"start": 1656656544635,
+			"stop": 1656656545294,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Этот клиент"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

@@ -1,0 +1,128 @@
+{
+  "uid" : "8f6ad0f9a721afcd",
+  "name" : "Открытие формы объекта \"ЗначенияХарактеристик\"",
+  "historyId" : "Дымовые тесты.Открытие формы объекта \"ЗначенияХарактеристик\"",
+  "time" : {
+    "start" : 1656656429430,
+    "stop" : 1656656430353,
+    "duration" : 923
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Дано я подключаю профиль TestClient \"Этот клиент\"",
+    "time" : {
+      "start" : 1656656429480,
+      "stop" : 1656656430100,
+      "duration" : 620
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ {
+      "name" : "Парам1",
+      "value" : "Этот клиент"
+    } ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Дано Я открываю основную форму справочника \"ЗначенияХарактеристик\"",
+      "time" : {
+        "start" : 1656656430237,
+        "stop" : 1656656430243,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "ЗначенияХарактеристик"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Если появилось предупреждение тогда",
+      "time" : {
+        "start" : 1656656430245,
+        "stop" : 1656656430347,
+        "duration" : 102
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "И Я закрываю текущее окно",
+      "time" : {
+        "start" : 1656656430348,
+        "stop" : 1656656430352,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Открытие формы объекта \"ЗначенияХарактеристик\""
+  }, {
+    "name" : "feature",
+    "value" : "Дымовые тесты"
+  }, {
+    "name" : "epic",
+    "value" : "Users"
+  }, {
+    "name" : "suite",
+    "value" : "Дымовые тесты"
+  }, {
+    "name" : "tag",
+    "value" : "tree"
+  }, {
+    "name" : "package",
+    "value" : "быстрые проверки"
+  }, {
+    "name" : "host",
+    "value" : "skm-01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "tree" ]
+  },
+  "source" : "8f6ad0f9a721afcd.json",
+  "parameterValues" : [ ]
+}

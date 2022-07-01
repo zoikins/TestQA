@@ -1,0 +1,128 @@
+{
+  "uid" : "a4fe2157d1d8c0b7",
+  "name" : "Открытие формы объекта \"СостояниеИсходящихПисем\"",
+  "historyId" : "Дымовые тесты.Открытие формы объекта \"СостояниеИсходящихПисем\"",
+  "time" : {
+    "start" : 1656656385544,
+    "stop" : 1656656386793,
+    "duration" : 1249
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Дано я подключаю профиль TestClient \"Этот клиент\"",
+    "time" : {
+      "start" : 1656656385593,
+      "stop" : 1656656386223,
+      "duration" : 630
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ {
+      "name" : "Парам1",
+      "value" : "Этот клиент"
+    } ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Дано Я открываю основную форму регистра сведений \"СостояниеИсходящихПисем\"",
+      "time" : {
+        "start" : 1656656386360,
+        "stop" : 1656656386376,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "СостояниеИсходящихПисем"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Если появилось предупреждение тогда",
+      "time" : {
+        "start" : 1656656386767,
+        "stop" : 1656656386780,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "И Я закрываю текущее окно",
+      "time" : {
+        "start" : 1656656386784,
+        "stop" : 1656656386792,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Открытие формы объекта \"СостояниеИсходящихПисем\""
+  }, {
+    "name" : "feature",
+    "value" : "Дымовые тесты"
+  }, {
+    "name" : "epic",
+    "value" : "Users"
+  }, {
+    "name" : "suite",
+    "value" : "Дымовые тесты"
+  }, {
+    "name" : "tag",
+    "value" : "tree"
+  }, {
+    "name" : "package",
+    "value" : "быстрые проверки"
+  }, {
+    "name" : "host",
+    "value" : "skm-01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "tree" ]
+  },
+  "source" : "a4fe2157d1d8c0b7.json",
+  "parameterValues" : [ ]
+}

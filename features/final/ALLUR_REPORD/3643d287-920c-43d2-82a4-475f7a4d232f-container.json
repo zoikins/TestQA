@@ -1,0 +1,32 @@
+{
+	"uuid": "cd8fca8d-55ce-436d-a2bb-7916ccce5ee4",
+	"name": "Контекст_Открытие формы объекта \"УправлениеНастройкамиФорм\"",
+	"description": "",
+	"children": [
+		"3643d287-920c-43d2-82a4-475f7a4d232f"
+	],
+	"befores": [
+		{
+			"name": "Дано я подключаю профиль TestClient \"Этот клиент\"",
+			"start": 1656656351379,
+			"stop": 1656656352043,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Этот клиент"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

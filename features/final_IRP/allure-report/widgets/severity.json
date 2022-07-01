@@ -1,0 +1,21 @@
+[ {
+  "uid" : "2f143bd8d3fdf6bc",
+  "name" : "_0201 Тестирование отчета D4011_FreeStocks (Свободные остатки)",
+  "time" : {
+    "start" : 1656497398540,
+    "stop" : 1656497421133,
+    "duration" : 22593
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cec7a30f5a3e3a98",
+  "name" : "_0201 подготовительный (экспорт данных)",
+  "time" : {
+    "start" : 1656497423840,
+    "stop" : 1656497423840,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+} ]

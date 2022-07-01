@@ -1,0 +1,101 @@
+{
+	"uuid": "c9db6ea0-ade2-486a-84a6-1cc4c162b6ed",
+	"historyId": "Дымовые тесты.Открытие формы объекта \"СостояниеВходящихПисем\"",
+	"name": "Открытие формы объекта \"СостояниеВходящихПисем\"",
+	"fullName": null,
+	"start": 1656656381891,
+	"stop": 1656656382823,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму регистра сведений \"СостояниеВходящихПисем\"",
+			"start": 1656656382697,
+			"stop": 1656656382703,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СостояниеВходящихПисем"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение тогда",
+			"start": 1656656382705,
+			"stop": 1656656382817,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1656656382818,
+			"stop": 1656656382822,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы объекта \"СостояниеВходящихПисем\""
+		},
+		{
+			"name": "feature",
+			"value": "Дымовые тесты"
+		},
+		{
+			"name": "epic",
+			"value": "Users"
+		},
+		{
+			"name": "suite",
+			"value": "Дымовые тесты"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "быстрые проверки"
+		},
+		{
+			"name": "host",
+			"value": "skm-01"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

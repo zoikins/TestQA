@@ -1,0 +1,101 @@
+{
+	"uuid": "f8ffa8b5-d577-46c2-a39e-022e4db2228b",
+	"historyId": "Дымовые тесты.Открытие формы объекта \"УдалениеПомеченныхОбъектов\"",
+	"name": "Открытие формы объекта \"УдалениеПомеченныхОбъектов\"",
+	"fullName": null,
+	"start": 1656656347261,
+	"stop": 1656656348329,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму обработки \"УдалениеПомеченныхОбъектов\"",
+			"start": 1656656348171,
+			"stop": 1656656348174,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "УдалениеПомеченныхОбъектов"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение тогда",
+			"start": 1656656348175,
+			"stop": 1656656348322,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1656656348323,
+			"stop": 1656656348328,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы объекта \"УдалениеПомеченныхОбъектов\""
+		},
+		{
+			"name": "feature",
+			"value": "Дымовые тесты"
+		},
+		{
+			"name": "epic",
+			"value": "Users"
+		},
+		{
+			"name": "suite",
+			"value": "Дымовые тесты"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "быстрые проверки"
+		},
+		{
+			"name": "host",
+			"value": "skm-01"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

@@ -1,0 +1,101 @@
+{
+	"uuid": "86a3c52a-4fce-4180-8434-c6a285c00378",
+	"historyId": "Дымовые тесты.Открытие формы объекта \"АдминистративныйСервис\"",
+	"name": "Открытие формы объекта \"АдминистративныйСервис\"",
+	"fullName": null,
+	"start": 1656656331106,
+	"stop": 1656656332037,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму обработки \"АдминистративныйСервис\"",
+			"start": 1656656331924,
+			"stop": 1656656331931,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "АдминистративныйСервис"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение тогда",
+			"start": 1656656331932,
+			"stop": 1656656332032,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1656656332033,
+			"stop": 1656656332037,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы объекта \"АдминистративныйСервис\""
+		},
+		{
+			"name": "feature",
+			"value": "Дымовые тесты"
+		},
+		{
+			"name": "epic",
+			"value": "Users"
+		},
+		{
+			"name": "suite",
+			"value": "Дымовые тесты"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "быстрые проверки"
+		},
+		{
+			"name": "host",
+			"value": "skm-01"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

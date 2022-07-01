@@ -1,0 +1,128 @@
+{
+  "uid" : "ec6f28ac96107bad",
+  "name" : "Открытие формы объекта \"ВидыЦен\"",
+  "historyId" : "Дымовые тесты.Открытие формы объекта \"ВидыЦен\"",
+  "time" : {
+    "start" : 1656656417431,
+    "stop" : 1656656418366,
+    "duration" : 935
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Дано я подключаю профиль TestClient \"Этот клиент\"",
+    "time" : {
+      "start" : 1656656417483,
+      "stop" : 1656656418115,
+      "duration" : 632
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ {
+      "name" : "Парам1",
+      "value" : "Этот клиент"
+    } ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Дано Я открываю основную форму справочника \"ВидыЦен\"",
+      "time" : {
+        "start" : 1656656418244,
+        "stop" : 1656656418250,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "ВидыЦен"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Если появилось предупреждение тогда",
+      "time" : {
+        "start" : 1656656418251,
+        "stop" : 1656656418359,
+        "duration" : 108
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "И Я закрываю текущее окно",
+      "time" : {
+        "start" : 1656656418360,
+        "stop" : 1656656418365,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Открытие формы объекта \"ВидыЦен\""
+  }, {
+    "name" : "feature",
+    "value" : "Дымовые тесты"
+  }, {
+    "name" : "epic",
+    "value" : "Users"
+  }, {
+    "name" : "suite",
+    "value" : "Дымовые тесты"
+  }, {
+    "name" : "tag",
+    "value" : "tree"
+  }, {
+    "name" : "package",
+    "value" : "быстрые проверки"
+  }, {
+    "name" : "host",
+    "value" : "skm-01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "tree" ]
+  },
+  "source" : "ec6f28ac96107bad.json",
+  "parameterValues" : [ ]
+}

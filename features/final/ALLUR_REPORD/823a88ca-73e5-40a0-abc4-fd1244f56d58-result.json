@@ -1,0 +1,101 @@
+{
+	"uuid": "823a88ca-73e5-40a0-abc4-fd1244f56d58",
+	"historyId": "Дымовые тесты.Открытие формы объекта \"Встречи\"",
+	"name": "Открытие формы объекта \"Встречи\"",
+	"fullName": null,
+	"start": 1656656421496,
+	"stop": 1656656422465,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю основную форму справочника \"Встречи\"",
+			"start": 1656656422311,
+			"stop": 1656656422317,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Встречи"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если появилось предупреждение тогда",
+			"start": 1656656422318,
+			"stop": 1656656422458,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю текущее окно",
+			"start": 1656656422459,
+			"stop": 1656656422463,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие формы объекта \"Встречи\""
+		},
+		{
+			"name": "feature",
+			"value": "Дымовые тесты"
+		},
+		{
+			"name": "epic",
+			"value": "Users"
+		},
+		{
+			"name": "suite",
+			"value": "Дымовые тесты"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "быстрые проверки"
+		},
+		{
+			"name": "host",
+			"value": "skm-01"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

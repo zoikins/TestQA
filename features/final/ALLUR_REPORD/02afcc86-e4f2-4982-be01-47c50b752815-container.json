@@ -1,0 +1,32 @@
+{
+	"uuid": "09a22639-8f09-4824-ade8-d89ed4dbad22",
+	"name": "Контекст_Открытие формы объекта \"ДашбордПродажи\"",
+	"description": "",
+	"children": [
+		"02afcc86-e4f2-4982-be01-47c50b752815"
+	],
+	"befores": [
+		{
+			"name": "Дано я подключаю профиль TestClient \"Этот клиент\"",
+			"start": 1656656319322,
+			"stop": 1656656319894,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Этот клиент"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

@@ -1,0 +1,32 @@
+{
+	"uuid": "57461d7e-d39c-489a-afa5-6e8603115242",
+	"name": "Контекст_Открытие формы списка \"РасчетныеСчетаКонтрагентов\"",
+	"description": "",
+	"children": [
+		"aacf8844-6178-4053-9580-852872d49869"
+	],
+	"befores": [
+		{
+			"name": "Дано я подключаю профиль TestClient \"Этот клиент\"",
+			"start": 1656656462792,
+			"stop": 1656656463445,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Этот клиент"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

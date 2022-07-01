@@ -1,0 +1,128 @@
+{
+  "uid" : "559f926acdc154c9",
+  "name" : "Открытие формы объекта \"МобильныеУстройства\"",
+  "historyId" : "Дымовые тесты.Открытие формы объекта \"МобильныеУстройства\"",
+  "time" : {
+    "start" : 1656656441203,
+    "stop" : 1656656442133,
+    "duration" : 930
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Дано я подключаю профиль TestClient \"Этот клиент\"",
+    "time" : {
+      "start" : 1656656441257,
+      "stop" : 1656656441884,
+      "duration" : 627
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ {
+      "name" : "Парам1",
+      "value" : "Этот клиент"
+    } ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Дано Я открываю основную форму справочника \"МобильныеУстройства\"",
+      "time" : {
+        "start" : 1656656442009,
+        "stop" : 1656656442015,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "МобильныеУстройства"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Если появилось предупреждение тогда",
+      "time" : {
+        "start" : 1656656442016,
+        "stop" : 1656656442126,
+        "duration" : 110
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "И Я закрываю текущее окно",
+      "time" : {
+        "start" : 1656656442127,
+        "stop" : 1656656442132,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Открытие формы объекта \"МобильныеУстройства\""
+  }, {
+    "name" : "feature",
+    "value" : "Дымовые тесты"
+  }, {
+    "name" : "epic",
+    "value" : "Users"
+  }, {
+    "name" : "suite",
+    "value" : "Дымовые тесты"
+  }, {
+    "name" : "tag",
+    "value" : "tree"
+  }, {
+    "name" : "package",
+    "value" : "быстрые проверки"
+  }, {
+    "name" : "host",
+    "value" : "skm-01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "tree" ]
+  },
+  "source" : "559f926acdc154c9.json",
+  "parameterValues" : [ ]
+}

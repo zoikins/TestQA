@@ -1,0 +1,32 @@
+{
+	"uuid": "a0da10ba-886c-4b14-9383-1a0a060ae2eb",
+	"name": "Контекст_Открытие формы объекта \"СписокАктивныхПользователей\"",
+	"description": "",
+	"children": [
+		"2e1b3bf3-61cc-4327-94c6-bdc79f0848fc"
+	],
+	"befores": [
+		{
+			"name": "Дано я подключаю профиль TestClient \"Этот клиент\"",
+			"start": 1656656345224,
+			"stop": 1656656345855,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Этот клиент"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

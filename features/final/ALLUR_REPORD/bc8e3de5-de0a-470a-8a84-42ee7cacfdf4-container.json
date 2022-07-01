@@ -1,0 +1,32 @@
+{
+	"uuid": "b74ce564-2f99-4abc-a3a2-f1a741ff2111",
+	"name": "Контекст_Открытие формы объекта \"ВходящиеПисьма\"",
+	"description": "",
+	"children": [
+		"bc8e3de5-de0a-470a-8a84-42ee7cacfdf4"
+	],
+	"befores": [
+		{
+			"name": "Дано я подключаю профиль TestClient \"Этот клиент\"",
+			"start": 1656656425640,
+			"stop": 1656656426266,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Этот клиент"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

@@ -1,0 +1,32 @@
+{
+	"uuid": "1669a722-d424-432c-8f41-fd076006848f",
+	"name": "Контекст_Открытие формы списка \"Контрагенты\"",
+	"description": "",
+	"children": [
+		"17e31253-578f-47a5-a0ff-80addf380991"
+	],
+	"befores": [
+		{
+			"name": "Дано я подключаю профиль TestClient \"Этот клиент\"",
+			"start": 1656656435358,
+			"stop": 1656656435981,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Этот клиент"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

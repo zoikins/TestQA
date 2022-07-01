@@ -1,0 +1,32 @@
+{
+	"uuid": "02764003-4de8-49b8-850a-e5eb57b03329",
+	"name": "Контекст_Открытие формы списка \"ХранимыеФайлы\"",
+	"description": "",
+	"children": [
+		"bfd03aab-9bf3-4436-8acb-4aa85c0ffde7"
+	],
+	"befores": [
+		{
+			"name": "Дано я подключаю профиль TestClient \"Этот клиент\"",
+			"start": 1656656483721,
+			"stop": 1656656484353,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Этот клиент"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

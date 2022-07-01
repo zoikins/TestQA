@@ -1,0 +1,32 @@
+{
+	"uuid": "eaf44636-7596-4acd-9db2-cfd010146dda",
+	"name": "Контекст__0102 добавление файла и перевыбор",
+	"description": "",
+	"children": [
+		"5a7d8a86-93c2-4844-878b-69832084f9be"
+	],
+	"befores": [
+		{
+			"name": "Дано я подключаю профиль TestClient \"Этот клиент\"",
+			"start": 1656656501683,
+			"stop": 1656656502293,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Этот клиент"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

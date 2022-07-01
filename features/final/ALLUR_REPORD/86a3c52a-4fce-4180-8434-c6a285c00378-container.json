@@ -1,0 +1,32 @@
+{
+	"uuid": "f82ca6a1-46c6-4509-af25-d6feb74d853c",
+	"name": "Контекст_Открытие формы объекта \"АдминистративныйСервис\"",
+	"description": "",
+	"children": [
+		"86a3c52a-4fce-4180-8434-c6a285c00378"
+	],
+	"befores": [
+		{
+			"name": "Дано я подключаю профиль TestClient \"Этот клиент\"",
+			"start": 1656656331173,
+			"stop": 1656656331776,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Этот клиент"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

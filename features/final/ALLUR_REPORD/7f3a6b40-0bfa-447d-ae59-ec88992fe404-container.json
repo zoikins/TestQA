@@ -1,0 +1,32 @@
+{
+	"uuid": "be137b7d-04d5-40db-b48b-df93ea699a78",
+	"name": "Контекст_Открытие формы объекта \"РедактированиеЦен\"",
+	"description": "",
+	"children": [
+		"7f3a6b40-0bfa-447d-ae59-ec88992fe404"
+	],
+	"befores": [
+		{
+			"name": "Дано я подключаю профиль TestClient \"Этот клиент\"",
+			"start": 1656656343235,
+			"stop": 1656656343857,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Этот клиент"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

@@ -1,0 +1,32 @@
+{
+	"uuid": "5d85cfb1-c9a4-47c1-80c2-c4ee60290d13",
+	"name": "Контекст__0308 Регистр Продажи",
+	"description": "",
+	"children": [
+		"a6c5f8f4-047b-46bc-8c59-f41bb4ecfb6d"
+	],
+	"befores": [
+		{
+			"name": "Дано я подключаю профиль TestClient \"Этот клиент\"",
+			"start": 1656656494278,
+			"stop": 1656656494870,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Этот клиент"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

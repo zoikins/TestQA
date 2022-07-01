@@ -1,0 +1,134 @@
+{
+	"uuid": "b8dc3fbe-bb91-4d5a-9239-d21914e75f7d",
+	"historyId": "Документ Расход товара._0303 Проверка печатной формы",
+	"name": "_0303 Проверка печатной формы",
+	"fullName": null,
+	"start": 1656656552712,
+	"stop": 1656656554771,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "И я закрываю все окна клиентского приложения",
+			"start": 1656656553533,
+			"stop": 1656656553938,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Дано Я открываю навигационную ссылку \"e1cib/data/Документ.РасходТовара?ref=a1aa086266c6d20f11e70b13d9094c69\"",
+			"start": 1656656554135,
+			"stop": 1656656554138,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "e1cib/data/Документ.РасходТовара?ref=a1aa086266c6d20f11e70b13d9094c69"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаДокументРасходТовараПечатьРасходнойНакладной'",
+			"start": 1656656554139,
+			"stop": 1656656554264,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаДокументРасходТовараПечатьРасходнойНакладной"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда Табличный документ \"SpreadsheetDocument\" равен макету \"Документ Расход товара расходная накладная\"",
+			"start": 1656656554265,
+			"stop": 1656656554770,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "SpreadsheetDocument"
+				},
+				{
+					"name": "Парам2",
+					"value": "Документ Расход товара расходная накладная"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "_0303 Проверка печатной формы"
+		},
+		{
+			"name": "feature",
+			"value": "Документ Расход товара"
+		},
+		{
+			"name": "epic",
+			"value": "Users"
+		},
+		{
+			"name": "suite",
+			"value": "Документ Расход товара"
+		},
+		{
+			"name": "tag",
+			"value": "расходтовара"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Продажи"
+		},
+		{
+			"name": "host",
+			"value": "skm-01"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

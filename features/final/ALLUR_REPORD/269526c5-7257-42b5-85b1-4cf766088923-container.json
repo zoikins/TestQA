@@ -1,0 +1,32 @@
+{
+	"uuid": "d5efe36f-fcc3-4e88-90e8-44949da292cd",
+	"name": "Контекст_Открытие формы объекта \"Организации\"",
+	"description": "",
+	"children": [
+		"269526c5-7257-42b5-85b1-4cf766088923"
+	],
+	"befores": [
+		{
+			"name": "Дано я подключаю профиль TestClient \"Этот клиент\"",
+			"start": 1656656448564,
+			"stop": 1656656449179,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Этот клиент"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

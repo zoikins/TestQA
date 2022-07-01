@@ -1,0 +1,128 @@
+{
+  "uid" : "ae58334309912ef",
+  "name" : "Открытие формы объекта \"ПриходТовара\"",
+  "historyId" : "Дымовые тесты.Открытие формы объекта \"ПриходТовара\"",
+  "time" : {
+    "start" : 1656656310997,
+    "stop" : 1656656312002,
+    "duration" : 1005
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Дано я подключаю профиль TestClient \"Этот клиент\"",
+    "time" : {
+      "start" : 1656656311067,
+      "stop" : 1656656311658,
+      "duration" : 591
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ {
+      "name" : "Парам1",
+      "value" : "Этот клиент"
+    } ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Дано Я открываю основную форму документа \"ПриходТовара\"",
+      "time" : {
+        "start" : 1656656311808,
+        "stop" : 1656656311814,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "ПриходТовара"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Если появилось предупреждение тогда",
+      "time" : {
+        "start" : 1656656311815,
+        "stop" : 1656656311997,
+        "duration" : 182
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "И Я закрываю текущее окно",
+      "time" : {
+        "start" : 1656656311997,
+        "stop" : 1656656312001,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Открытие формы объекта \"ПриходТовара\""
+  }, {
+    "name" : "feature",
+    "value" : "Дымовые тесты"
+  }, {
+    "name" : "epic",
+    "value" : "Users"
+  }, {
+    "name" : "suite",
+    "value" : "Дымовые тесты"
+  }, {
+    "name" : "tag",
+    "value" : "tree"
+  }, {
+    "name" : "package",
+    "value" : "быстрые проверки"
+  }, {
+    "name" : "host",
+    "value" : "skm-01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "tree" ]
+  },
+  "source" : "ae58334309912ef.json",
+  "parameterValues" : [ ]
+}

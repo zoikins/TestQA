@@ -1,0 +1,32 @@
+{
+	"uuid": "e8bc1d40-a98a-418b-8405-dd6269697b33",
+	"name": "Контекст_Открытие формы объекта \"Валюты\"",
+	"description": "",
+	"children": [
+		"e53f3289-27f5-4faa-ae8c-38c60d074bc6"
+	],
+	"befores": [
+		{
+			"name": "Дано я подключаю профиль TestClient \"Этот клиент\"",
+			"start": 1656656413626,
+			"stop": 1656656414254,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Этот клиент"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

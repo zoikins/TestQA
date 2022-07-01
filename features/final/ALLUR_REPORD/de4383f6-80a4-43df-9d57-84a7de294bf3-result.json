@@ -1,0 +1,76 @@
+{
+	"uuid": "de4383f6-80a4-43df-9d57-84a7de294bf3",
+	"historyId": "проверка  Движения документа Расход товара._0306 Проведение документов",
+	"name": "_0306 Проведение документов",
+	"fullName": null,
+	"start": 1656656489742,
+	"stop": 1656656490847,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "И я выполняю код встроенного языка на сервере",
+			"start": 1656656490562,
+			"stop": 1656656490846,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "86b1fd0f-d566-412e-82f3-e35f9ccee7e9-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "_0306 Проведение документов"
+		},
+		{
+			"name": "feature",
+			"value": "проверка  Движения документа Расход товара"
+		},
+		{
+			"name": "epic",
+			"value": "Users"
+		},
+		{
+			"name": "suite",
+			"value": "проверка  Движения документа Расход товара"
+		},
+		{
+			"name": "tag",
+			"value": "расходтовара"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "движение документов"
+		},
+		{
+			"name": "host",
+			"value": "skm-01"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

@@ -1,0 +1,32 @@
+{
+	"uuid": "03f3ea94-185d-4bb0-a329-1c78e5119760",
+	"name": "Контекст_Открытие формы списка \"КурсыВалют\"",
+	"description": "",
+	"children": [
+		"bd15f26d-3b95-4283-8f60-055abddd6b1e"
+	],
+	"befores": [
+		{
+			"name": "Дано я подключаю профиль TestClient \"Этот клиент\"",
+			"start": 1656656372397,
+			"stop": 1656656373028,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Этот клиент"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

@@ -1,0 +1,32 @@
+{
+	"uuid": "69d8f6a1-7175-46d8-87f9-7b0a282dec2c",
+	"name": "Контекст_Открытие формы объекта \"Склады\"",
+	"description": "",
+	"children": [
+		"52273aba-88b0-40f4-88a1-0355d8082b3f"
+	],
+	"befores": [
+		{
+			"name": "Дано я подключаю профиль TestClient \"Этот клиент\"",
+			"start": 1656656473202,
+			"stop": 1656656473821,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Этот клиент"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

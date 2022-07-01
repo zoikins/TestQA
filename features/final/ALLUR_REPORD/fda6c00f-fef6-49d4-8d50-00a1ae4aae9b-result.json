@@ -1,0 +1,136 @@
+{
+	"uuid": "fda6c00f-fef6-49d4-8d50-00a1ae4aae9b",
+	"historyId": "проверка  Движения документа Расход товара._0307 Регистр Взаиморасчеты",
+	"name": "_0307 Регистр Взаиморасчеты",
+	"fullName": null,
+	"start": 1656656491776,
+	"stop": 1656656493266,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "И я закрываю все окна клиентского приложения",
+			"start": 1656656492593,
+			"stop": 1656656492802,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Дано Я открываю навигационную ссылку \"e1cib/data/Документ.РасходТовара?ref=a1aa086266c6d20f11e70b13d9094c69\"",
+			"start": 1656656492992,
+			"stop": 1656656492995,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "e1cib/data/Документ.РасходТовара?ref=a1aa086266c6d20f11e70b13d9094c69"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И В текущем окне я нажимаю кнопку командного интерфейса 'Регистр взаиморасчетов с контрагентами'",
+			"start": 1656656492996,
+			"stop": 1656656493138,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Регистр взаиморасчетов с контрагентами"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда таблица \"Список\" стала равной:",
+			"start": 1656656493138,
+			"stop": 1656656493265,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Список"
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "653c9133-f1a6-4810-a714-1070f578379e-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "_0307 Регистр Взаиморасчеты"
+		},
+		{
+			"name": "feature",
+			"value": "проверка  Движения документа Расход товара"
+		},
+		{
+			"name": "epic",
+			"value": "Users"
+		},
+		{
+			"name": "suite",
+			"value": "проверка  Движения документа Расход товара"
+		},
+		{
+			"name": "tag",
+			"value": "расходтовара"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "движение документов"
+		},
+		{
+			"name": "host",
+			"value": "skm-01"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

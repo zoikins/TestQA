@@ -1,0 +1,40 @@
+{
+	"uuid": "a6f8a890-7789-488f-a45c-6443a94ffb15",
+	"name": "Контекст__0402Документ Расход товара Продавец",
+	"description": "",
+	"children": [
+		"3968fd83-e42d-4cc6-88f7-6945d1b66b79"
+	],
+	"befores": [
+		{
+			"name": "Дано я подключаю TestClient \"Продавец\" логин \"Продавец\" пароль \"\"",
+			"start": 1656656539559,
+			"stop": 1656656540136,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Продавец"
+				},
+				{
+					"name": "Парам2",
+					"value": "Продавец"
+				},
+				{
+					"name": "Парам3",
+					"value": ""
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

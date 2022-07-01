@@ -1,0 +1,32 @@
+{
+	"uuid": "4a05e928-90e3-4438-b313-19cb634b8b3f",
+	"name": "Контекст_Открытие формы объекта \"ЦеныТоваров\"",
+	"description": "",
+	"children": [
+		"2e955362-8444-4583-bc0b-b2d7cc6db2ab"
+	],
+	"befores": [
+		{
+			"name": "Дано я подключаю профиль TestClient \"Этот клиент\"",
+			"start": 1656656393747,
+			"stop": 1656656394371,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Этот клиент"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

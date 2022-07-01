@@ -1,0 +1,32 @@
+{
+	"uuid": "8180aaf1-13e9-4050-a9f6-c4f7e124c95f",
+	"name": "Контекст__0309 Регистр ТоварныеЗапасы",
+	"description": "",
+	"children": [
+		"50908c86-d1b6-4f6e-99d8-ed8e66debd2c"
+	],
+	"befores": [
+		{
+			"name": "Дано я подключаю профиль TestClient \"Этот клиент\"",
+			"start": 1656656496711,
+			"stop": 1656656497312,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Этот клиент"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

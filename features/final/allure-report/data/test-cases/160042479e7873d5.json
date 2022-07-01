@@ -1,0 +1,1748 @@
+{
+  "uid" : "160042479e7873d5",
+  "name" : "_0302 Заполнение документа",
+  "historyId" : "Документ Расход товара._0302 Заполнение документа",
+  "time" : {
+    "start" : 1656656546826,
+    "stop" : 1656656551719,
+    "duration" : 4893
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Дано я подключаю профиль TestClient \"Этот клиент\"",
+    "time" : {
+      "start" : 1656656546868,
+      "stop" : 1656656547490,
+      "duration" : 622
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ {
+      "name" : "Парам1",
+      "value" : "Этот клиент"
+    } ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "И я закрываю все окна клиентского приложения",
+      "time" : {
+        "start" : 1656656547632,
+        "stop" : 1656656548044,
+        "duration" : 412
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Дано Я открываю навигационную ссылку \"e1cib/data/Документ.РасходТовара?ref=a1aa086266c6d20f11e70b13d9094c69\"",
+      "time" : {
+        "start" : 1656656548241,
+        "stop" : 1656656548245,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "e1cib/data/Документ.РасходТовара?ref=a1aa086266c6d20f11e70b13d9094c69"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "* заполнение шапки",
+      "time" : {
+        "start" : 1656656548245,
+        "stop" : 1656656549012,
+        "duration" : 767
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "И я нажимаю кнопку выбора у поля с именем \"Дата\"",
+        "time" : {
+          "start" : 1656656548245,
+          "stop" : 1656656548372,
+          "duration" : 127
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Дата"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "И в поле с именем 'Дата' я ввожу текст '25.06.2020  0:00:00'",
+        "time" : {
+          "start" : 1656656548373,
+          "stop" : 1656656548419,
+          "duration" : 46
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Дата"
+        }, {
+          "name" : "Парам2",
+          "value" : "25.06.2020  0:00:00"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "И элемент формы 'Дата' стал равен '25.06.2020  0:00:00'",
+        "time" : {
+          "start" : 1656656548420,
+          "stop" : 1656656548428,
+          "duration" : 8
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Дата"
+        }, {
+          "name" : "Парам2",
+          "value" : "25.06.2020  0:00:00"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "И из выпадающего списка с именем \"Организация\" я выбираю точное значение 'ООО \"Товары\"'",
+        "time" : {
+          "start" : 1656656548428,
+          "stop" : 1656656548476,
+          "duration" : 48
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Организация"
+        }, {
+          "name" : "Парам2",
+          "value" : "ООО \"Товары\""
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "И элемент формы с именем 'Организация' стал равен 'ООО \"Товары\"'",
+        "time" : {
+          "start" : 1656656548476,
+          "stop" : 1656656548524,
+          "duration" : 48
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Организация"
+        }, {
+          "name" : "Парам2",
+          "value" : "ООО \"Товары\""
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "И я нажимаю кнопку выбора у поля с именем \"Покупатель\"",
+        "time" : {
+          "start" : 1656656548525,
+          "stop" : 1656656548551,
+          "duration" : 26
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Покупатель"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "И в таблице \"Список\" я перехожу к строке:",
+        "time" : {
+          "start" : 1656656548552,
+          "stop" : 1656656548746,
+          "duration" : 194
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "91a8258b214eaf3",
+          "name" : "table",
+          "source" : "91a8258b214eaf3.csv",
+          "type" : "text/csv",
+          "size" : 81
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Список"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1
+      }, {
+        "name" : "И в таблице \"Список\" я выбираю текущую строку",
+        "time" : {
+          "start" : 1656656548747,
+          "stop" : 1656656548759,
+          "duration" : 12
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Список"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "И элемент формы с именем 'Покупатель' стал равен 'Попов Б.В. ИЧП '",
+        "time" : {
+          "start" : 1656656548760,
+          "stop" : 1656656548817,
+          "duration" : 57
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Покупатель"
+        }, {
+          "name" : "Парам2",
+          "value" : "Попов Б.В. ИЧП "
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "И из выпадающего списка с именем \"Склад\" я выбираю точное значение 'Средний'",
+        "time" : {
+          "start" : 1656656548818,
+          "stop" : 1656656548855,
+          "duration" : 37
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Склад"
+        }, {
+          "name" : "Парам2",
+          "value" : "Средний"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "И элемент формы с именем 'Склад' стал равен 'Средний'",
+        "time" : {
+          "start" : 1656656548856,
+          "stop" : 1656656548874,
+          "duration" : 18
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Склад"
+        }, {
+          "name" : "Парам2",
+          "value" : "Средний"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "И из выпадающего списка с именем \"ВидЦен\" я выбираю точное значение 'Мелкооптовая'",
+        "time" : {
+          "start" : 1656656548875,
+          "stop" : 1656656548912,
+          "duration" : 37
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "ВидЦен"
+        }, {
+          "name" : "Парам2",
+          "value" : "Мелкооптовая"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "И элемент формы с именем 'ВидЦен' стал равен 'Мелкооптовая'",
+        "time" : {
+          "start" : 1656656548913,
+          "stop" : 1656656548957,
+          "duration" : 44
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "ВидЦен"
+        }, {
+          "name" : "Парам2",
+          "value" : "Мелкооптовая"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "И из выпадающего списка с именем \"Валюта\" я выбираю точное значение 'Рубли'",
+        "time" : {
+          "start" : 1656656548958,
+          "stop" : 1656656548993,
+          "duration" : 35
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Валюта"
+        }, {
+          "name" : "Парам2",
+          "value" : "Рубли"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "И элемент формы с именем 'Валюта' стал равен 'Рубли'",
+        "time" : {
+          "start" : 1656656548994,
+          "stop" : 1656656549012,
+          "duration" : 18
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Валюта"
+        }, {
+          "name" : "Парам2",
+          "value" : "Рубли"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 15,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "* заполнение ТЧ",
+      "time" : {
+        "start" : 1656656549013,
+        "stop" : 1656656550350,
+        "duration" : 1337
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "И в таблице \"Товары\" я активизирую поле с именем \"ТоварыТовар\"",
+        "time" : {
+          "start" : 1656656549013,
+          "stop" : 1656656549027,
+          "duration" : 14
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Товары"
+        }, {
+          "name" : "Парам2",
+          "value" : "ТоварыТовар"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "И я выбираю пункт контекстного меню с именем 'ТоварыКонтекстноеМенюВыделитьВсе' на элементе формы с именем \"Товары\"",
+        "time" : {
+          "start" : 1656656549028,
+          "stop" : 1656656549048,
+          "duration" : 20
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "ТоварыКонтекстноеМенюВыделитьВсе"
+        }, {
+          "name" : "Парам2",
+          "value" : "Товары"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "И я выбираю пункт контекстного меню с именем 'ТоварыКонтекстноеМенюУдалить' на элементе формы с именем \"Товары\"",
+        "time" : {
+          "start" : 1656656549049,
+          "stop" : 1656656549081,
+          "duration" : 32
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "ТоварыКонтекстноеМенюУдалить"
+        }, {
+          "name" : "Парам2",
+          "value" : "Товары"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "И в таблице \"Товары\" я нажимаю на кнопку с именем 'ТоварыДобавить'",
+        "time" : {
+          "start" : 1656656549081,
+          "stop" : 1656656549114,
+          "duration" : 33
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Товары"
+        }, {
+          "name" : "Парам2",
+          "value" : "ТоварыДобавить"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "И в таблице \"Товары\" я нажимаю кнопку выбора у реквизита с именем \"ТоварыТовар\"",
+        "time" : {
+          "start" : 1656656549115,
+          "stop" : 1656656549170,
+          "duration" : 55
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Товары"
+        }, {
+          "name" : "Парам2",
+          "value" : "ТоварыТовар"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "И я нажимаю на кнопку с именем 'ФормаСписок'",
+        "time" : {
+          "start" : 1656656549171,
+          "stop" : 1656656549386,
+          "duration" : 215
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "ФормаСписок"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "И в таблице \"Список\" я перехожу к строке:",
+        "time" : {
+          "start" : 1656656549387,
+          "stop" : 1656656549406,
+          "duration" : 19
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "acbfb067d4a50494",
+          "name" : "table",
+          "source" : "acbfb067d4a50494.csv",
+          "type" : "text/csv",
+          "size" : 30
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Список"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1
+      }, {
+        "name" : "И я нажимаю на кнопку с именем 'ФормаВыбрать'",
+        "time" : {
+          "start" : 1656656549407,
+          "stop" : 1656656549434,
+          "duration" : 27
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "ФормаВыбрать"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "И в таблице \"Товары\" я активизирую поле с именем \"ТоварыЦена\"",
+        "time" : {
+          "start" : 1656656549671,
+          "stop" : 1656656549697,
+          "duration" : 26
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Товары"
+        }, {
+          "name" : "Парам2",
+          "value" : "ТоварыЦена"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "И в таблице \"Товары\" в поле с именем 'ТоварыЦена' я ввожу текст '100,00'",
+        "time" : {
+          "start" : 1656656549700,
+          "stop" : 1656656549734,
+          "duration" : 34
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Товары"
+        }, {
+          "name" : "Парам2",
+          "value" : "ТоварыЦена"
+        }, {
+          "name" : "Парам3",
+          "value" : "100,00"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "И в таблице \"Товары\" я активизирую поле с именем \"ТоварыКоличество\"",
+        "time" : {
+          "start" : 1656656549735,
+          "stop" : 1656656549787,
+          "duration" : 52
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Товары"
+        }, {
+          "name" : "Парам2",
+          "value" : "ТоварыКоличество"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "И в таблице \"Товары\" в поле с именем 'ТоварыКоличество' я ввожу текст '2,00'",
+        "time" : {
+          "start" : 1656656549788,
+          "stop" : 1656656549827,
+          "duration" : 39
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Товары"
+        }, {
+          "name" : "Парам2",
+          "value" : "ТоварыКоличество"
+        }, {
+          "name" : "Парам3",
+          "value" : "2,00"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "И в таблице \"Товары\" я завершаю редактирование строки",
+        "time" : {
+          "start" : 1656656549828,
+          "stop" : 1656656549848,
+          "duration" : 20
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Товары"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "И в таблице 'Товары' поле 'Сумма' имеет значение '200,00'",
+        "time" : {
+          "start" : 1656656549849,
+          "stop" : 1656656549871,
+          "duration" : 22
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Товары"
+        }, {
+          "name" : "Парам2",
+          "value" : "Сумма"
+        }, {
+          "name" : "Парам3",
+          "value" : "200,00"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "И в таблице \"Товары\" я нажимаю на кнопку с именем 'ТоварыДобавить'",
+        "time" : {
+          "start" : 1656656549872,
+          "stop" : 1656656549888,
+          "duration" : 16
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Товары"
+        }, {
+          "name" : "Парам2",
+          "value" : "ТоварыДобавить"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "И в таблице \"Товары\" я нажимаю кнопку выбора у реквизита с именем \"ТоварыТовар\"",
+        "time" : {
+          "start" : 1656656549889,
+          "stop" : 1656656549949,
+          "duration" : 60
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Товары"
+        }, {
+          "name" : "Парам2",
+          "value" : "ТоварыТовар"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "И я нажимаю на кнопку с именем 'ФормаСписок'",
+        "time" : {
+          "start" : 1656656549950,
+          "stop" : 1656656550091,
+          "duration" : 141
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "ФормаСписок"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "И в таблице \"Список\" я перехожу к строке:",
+        "time" : {
+          "start" : 1656656550092,
+          "stop" : 1656656550116,
+          "duration" : 24
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "80cd7c6a94e51832",
+          "name" : "table",
+          "source" : "80cd7c6a94e51832.csv",
+          "type" : "text/csv",
+          "size" : 72
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Список"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1
+      }, {
+        "name" : "И я нажимаю на кнопку с именем 'ФормаВыбрать'",
+        "time" : {
+          "start" : 1656656550117,
+          "stop" : 1656656550144,
+          "duration" : 27
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "ФормаВыбрать"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "И в таблице \"Товары\" я активизирую поле с именем \"ТоварыЦена\"",
+        "time" : {
+          "start" : 1656656550145,
+          "stop" : 1656656550217,
+          "duration" : 72
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Товары"
+        }, {
+          "name" : "Парам2",
+          "value" : "ТоварыЦена"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "И в таблице \"Товары\" в поле с именем 'ТоварыЦена' я ввожу текст '100,00'",
+        "time" : {
+          "start" : 1656656550218,
+          "stop" : 1656656550262,
+          "duration" : 44
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Товары"
+        }, {
+          "name" : "Парам2",
+          "value" : "ТоварыЦена"
+        }, {
+          "name" : "Парам3",
+          "value" : "100,00"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "И в таблице 'Товары' поле 'Количество' имеет значение ''",
+        "time" : {
+          "start" : 1656656550263,
+          "stop" : 1656656550277,
+          "duration" : 14
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Товары"
+        }, {
+          "name" : "Парам2",
+          "value" : "Количество"
+        }, {
+          "name" : "Парам3",
+          "value" : ""
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "И в таблице \"Товары\" я завершаю редактирование строки",
+        "time" : {
+          "start" : 1656656550278,
+          "stop" : 1656656550285,
+          "duration" : 7
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Товары"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "И в таблице 'Товары' поле 'Сумма' имеет значение '100,00'",
+        "time" : {
+          "start" : 1656656550286,
+          "stop" : 1656656550310,
+          "duration" : 24
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Товары"
+        }, {
+          "name" : "Парам2",
+          "value" : "Сумма"
+        }, {
+          "name" : "Парам3",
+          "value" : "100,00"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Тогда таблица \"Товары\" стала равной:",
+        "time" : {
+          "start" : 1656656550311,
+          "stop" : 1656656550336,
+          "duration" : 25
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "b5a8d50d60903c42",
+          "name" : "table",
+          "source" : "b5a8d50d60903c42.csv",
+          "type" : "text/csv",
+          "size" : 158
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Товары"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1
+      }, {
+        "name" : "И элемент формы с именем 'ТоварыИтогКоличество' стал равен '3'",
+        "time" : {
+          "start" : 1656656550337,
+          "stop" : 1656656550343,
+          "duration" : 6
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "ТоварыИтогКоличество"
+        }, {
+          "name" : "Парам2",
+          "value" : "3"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "И элемент формы с именем 'ТоварыИтогСумма' стал равен '300'",
+        "time" : {
+          "start" : 1656656550344,
+          "stop" : 1656656550350,
+          "duration" : 6
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "ТоварыИтогСумма"
+        }, {
+          "name" : "Парам2",
+          "value" : "300"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 27,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 3
+    }, {
+      "name" : "* ввод через подбор",
+      "time" : {
+        "start" : 1656656550350,
+        "stop" : 1656656551054,
+        "duration" : 704
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "И в таблице \"Товары\" я активизирую поле с именем \"ТоварыТовар\"",
+        "time" : {
+          "start" : 1656656550350,
+          "stop" : 1656656550358,
+          "duration" : 8
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Товары"
+        }, {
+          "name" : "Парам2",
+          "value" : "ТоварыТовар"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "И я выбираю пункт контекстного меню с именем 'ТоварыКонтекстноеМенюВыделитьВсе' на элементе формы с именем \"Товары\"",
+        "time" : {
+          "start" : 1656656550359,
+          "stop" : 1656656550386,
+          "duration" : 27
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "ТоварыКонтекстноеМенюВыделитьВсе"
+        }, {
+          "name" : "Парам2",
+          "value" : "Товары"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "И я выбираю пункт контекстного меню с именем 'ТоварыКонтекстноеМенюУдалить' на элементе формы с именем \"Товары\"",
+        "time" : {
+          "start" : 1656656550388,
+          "stop" : 1656656550411,
+          "duration" : 23
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "ТоварыКонтекстноеМенюУдалить"
+        }, {
+          "name" : "Парам2",
+          "value" : "Товары"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "И в таблице \"Товары\" я нажимаю на кнопку с именем 'КомандаПодбор'",
+        "time" : {
+          "start" : 1656656550412,
+          "stop" : 1656656550440,
+          "duration" : 28
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Товары"
+        }, {
+          "name" : "Парам2",
+          "value" : "КомандаПодбор"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "И в таблице \"СписокТоваров\" я перехожу к строке:",
+        "time" : {
+          "start" : 1656656550442,
+          "stop" : 1656656550690,
+          "duration" : 248
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "280cfc1bf99c574c",
+          "name" : "table",
+          "source" : "280cfc1bf99c574c.csv",
+          "type" : "text/csv",
+          "size" : 82
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "СписокТоваров"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1
+      }, {
+        "name" : "И в таблице  \"СписокТоваров\" я перехожу на один уровень вниз",
+        "time" : {
+          "start" : 1656656550691,
+          "stop" : 1656656550700,
+          "duration" : 9
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "СписокТоваров"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "И в таблице \"СписокТоваров\" я перехожу к строке:",
+        "time" : {
+          "start" : 1656656550701,
+          "stop" : 1656656550731,
+          "duration" : 30
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "df2dddcb91186412",
+          "name" : "table",
+          "source" : "df2dddcb91186412.csv",
+          "type" : "text/csv",
+          "size" : 76
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "СписокТоваров"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1
+      }, {
+        "name" : "И в таблице  \"СписокТоваров\" я перехожу на один уровень вниз",
+        "time" : {
+          "start" : 1656656550733,
+          "stop" : 1656656550741,
+          "duration" : 8
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "СписокТоваров"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "И в таблице \"СписокТоваров\" я перехожу к строке:",
+        "time" : {
+          "start" : 1656656550742,
+          "stop" : 1656656550769,
+          "duration" : 27
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "f85968e94c6347f8",
+          "name" : "table",
+          "source" : "f85968e94c6347f8.csv",
+          "type" : "text/csv",
+          "size" : 99
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "СписокТоваров"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1
+      }, {
+        "name" : "И в таблице \"СписокТоваров\" я выбираю текущую строку",
+        "time" : {
+          "start" : 1656656550770,
+          "stop" : 1656656550781,
+          "duration" : 11
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "СписокТоваров"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Тогда таблица \"Товары\" стала равной:",
+        "time" : {
+          "start" : 1656656550782,
+          "stop" : 1656656550825,
+          "duration" : 43
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "73fe1fb09bb955a8",
+          "name" : "table",
+          "source" : "73fe1fb09bb955a8.csv",
+          "type" : "text/csv",
+          "size" : 63
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Товары"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1
+      }, {
+        "name" : "И в таблице \"СписокТоваров\" я перехожу к строке:",
+        "time" : {
+          "start" : 1656656550826,
+          "stop" : 1656656550840,
+          "duration" : 14
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "aac0262c83b2becf",
+          "name" : "table",
+          "source" : "aac0262c83b2becf.csv",
+          "type" : "text/csv",
+          "size" : 99
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "СписокТоваров"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1
+      }, {
+        "name" : "И в таблице \"СписокТоваров\" я выбираю текущую строку",
+        "time" : {
+          "start" : 1656656550841,
+          "stop" : 1656656550852,
+          "duration" : 11
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "СписокТоваров"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Тогда таблица \"Товары\" стала равной:",
+        "time" : {
+          "start" : 1656656550853,
+          "stop" : 1656656550891,
+          "duration" : 38
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "ba41566220e56157",
+          "name" : "table",
+          "source" : "ba41566220e56157.csv",
+          "type" : "text/csv",
+          "size" : 63
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Товары"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1
+      }, {
+        "name" : "И в таблице \"СписокТоваров\" я перехожу к строке:",
+        "time" : {
+          "start" : 1656656550892,
+          "stop" : 1656656550911,
+          "duration" : 19
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "1568c3c70a2d33ca",
+          "name" : "table",
+          "source" : "1568c3c70a2d33ca.csv",
+          "type" : "text/csv",
+          "size" : 82
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "СписокТоваров"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1
+      }, {
+        "name" : "И в таблице  \"СписокТоваров\" я перехожу на один уровень вверх",
+        "time" : {
+          "start" : 1656656550912,
+          "stop" : 1656656550920,
+          "duration" : 8
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "СписокТоваров"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "И в таблице  \"СписокТоваров\" я перехожу на один уровень вверх",
+        "time" : {
+          "start" : 1656656550921,
+          "stop" : 1656656550927,
+          "duration" : 6
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "СписокТоваров"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "И в таблице \"СписокТоваров\" я перехожу к строке:",
+        "time" : {
+          "start" : 1656656550928,
+          "stop" : 1656656550944,
+          "duration" : 16
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "80e1c222c2c2f1f2",
+          "name" : "table",
+          "source" : "80e1c222c2c2f1f2.csv",
+          "type" : "text/csv",
+          "size" : 68
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "СписокТоваров"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1
+      }, {
+        "name" : "И в таблице  \"СписокТоваров\" я перехожу на один уровень вниз",
+        "time" : {
+          "start" : 1656656550945,
+          "stop" : 1656656550954,
+          "duration" : 9
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "СписокТоваров"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "И в таблице \"СписокТоваров\" я перехожу к строке:",
+        "time" : {
+          "start" : 1656656550954,
+          "stop" : 1656656550980,
+          "duration" : 26
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "56e7d4b4ca76b949",
+          "name" : "table",
+          "source" : "56e7d4b4ca76b949.csv",
+          "type" : "text/csv",
+          "size" : 72
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "СписокТоваров"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1
+      }, {
+        "name" : "И в таблице \"СписокТоваров\" я выбираю текущую строку",
+        "time" : {
+          "start" : 1656656550981,
+          "stop" : 1656656550991,
+          "duration" : 10
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "СписокТоваров"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Тогда таблица \"Товары\" стала равной:",
+        "time" : {
+          "start" : 1656656550993,
+          "stop" : 1656656551040,
+          "duration" : 47
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "a8c3025257d1612e",
+          "name" : "table",
+          "source" : "a8c3025257d1612e.csv",
+          "type" : "text/csv",
+          "size" : 90
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Товары"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1
+      }, {
+        "name" : "И я нажимаю на кнопку с именем 'ОК'",
+        "time" : {
+          "start" : 1656656551041,
+          "stop" : 1656656551054,
+          "duration" : 13
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "ОК"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 23,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 10
+    }, {
+      "name" : "*\tизменение вида цены",
+      "time" : {
+        "start" : 1656656551056,
+        "stop" : 1656656551717,
+        "duration" : 661
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "И в таблице \"Товары\" я перехожу к строке:",
+        "time" : {
+          "start" : 1656656551056,
+          "stop" : 1656656551128,
+          "duration" : 72
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "a5e26edfc5ad76c9",
+          "name" : "table",
+          "source" : "a5e26edfc5ad76c9.csv",
+          "type" : "text/csv",
+          "size" : 33
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Товары"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1
+      }, {
+        "name" : "И в таблице \"Товары\" в поле с именем 'ТоварыЦена' я ввожу текст '100,00'",
+        "time" : {
+          "start" : 1656656551129,
+          "stop" : 1656656551181,
+          "duration" : 52
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Товары"
+        }, {
+          "name" : "Парам2",
+          "value" : "ТоварыЦена"
+        }, {
+          "name" : "Парам3",
+          "value" : "100,00"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "И в таблице \"Товары\" я завершаю редактирование строки",
+        "time" : {
+          "start" : 1656656551182,
+          "stop" : 1656656551202,
+          "duration" : 20
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Товары"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "И в таблице \"Товары\" я перехожу к строке:",
+        "time" : {
+          "start" : 1656656551203,
+          "stop" : 1656656551239,
+          "duration" : 36
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "8e0558539c8e2c18",
+          "name" : "table",
+          "source" : "8e0558539c8e2c18.csv",
+          "type" : "text/csv",
+          "size" : 37
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Товары"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1
+      }, {
+        "name" : "И в таблице \"Товары\" в поле с именем 'ТоварыЦена' я ввожу текст '100,00'",
+        "time" : {
+          "start" : 1656656551245,
+          "stop" : 1656656551297,
+          "duration" : 52
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Товары"
+        }, {
+          "name" : "Парам2",
+          "value" : "ТоварыЦена"
+        }, {
+          "name" : "Парам3",
+          "value" : "100,00"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "И в таблице \"Товары\" я завершаю редактирование строки",
+        "time" : {
+          "start" : 1656656551298,
+          "stop" : 1656656551322,
+          "duration" : 24
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Товары"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Тогда таблица \"Товары\" стала равной:",
+        "time" : {
+          "start" : 1656656551323,
+          "stop" : 1656656551373,
+          "duration" : 50
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "13b954c072d7170b",
+          "name" : "table",
+          "source" : "13b954c072d7170b.csv",
+          "type" : "text/csv",
+          "size" : 158
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Товары"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1
+      }, {
+        "name" : "И из выпадающего списка с именем \"ВидЦен\" я выбираю точное значение 'Оптовая'",
+        "time" : {
+          "start" : 1656656551374,
+          "stop" : 1656656551412,
+          "duration" : 38
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "ВидЦен"
+        }, {
+          "name" : "Парам2",
+          "value" : "Оптовая"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Тогда таблица \"Товары\" стала равной:",
+        "time" : {
+          "start" : 1656656551696,
+          "stop" : 1656656551717,
+          "duration" : 21
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "bae98a0d65fefb9c",
+          "name" : "table",
+          "source" : "bae98a0d65fefb9c.csv",
+          "type" : "text/csv",
+          "size" : 146
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Товары"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 9,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 4
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 80,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 18
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "_0302 Заполнение документа"
+  }, {
+    "name" : "feature",
+    "value" : "Документ Расход товара"
+  }, {
+    "name" : "epic",
+    "value" : "Users"
+  }, {
+    "name" : "suite",
+    "value" : "Документ Расход товара"
+  }, {
+    "name" : "tag",
+    "value" : "расходтовара"
+  }, {
+    "name" : "tag",
+    "value" : "tree"
+  }, {
+    "name" : "package",
+    "value" : "Продажи"
+  }, {
+    "name" : "host",
+    "value" : "skm-01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "расходтовара", "tree" ]
+  },
+  "source" : "160042479e7873d5.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,58 @@
+{
+	"uuid": "01232a65-2238-43cb-a1d3-51c8bb19062f",
+	"name": "Контекст__0102 подготовительный (установка расширений)",
+	"description": "",
+	"children": [
+		"4aa72ac4-39c3-4992-a547-bb67ff641e63"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": null,
+			"stop": null,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "Дано Я открыл новый сеанс TestClient или подключил уже существующий",
+					"start": 1656656272512,
+					"stop": 1656656284711,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И Я закрываю все окна клиентского приложения",
+					"start": 1656656284885,
+					"stop": 1656656285200,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		}
+	],
+	"start": null,
+	"stop": null
+}

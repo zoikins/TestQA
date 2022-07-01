@@ -1,0 +1,76 @@
+{
+	"uuid": "7ddc3b81-19dd-4377-8a12-36eb781fbb38",
+	"historyId": "Отчет Остатки._0202 проведение",
+	"name": "_0202 проведение",
+	"fullName": null,
+	"start": 1656656509044,
+	"stop": 1656656510088,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "И я выполняю код встроенного языка на сервере",
+			"start": 1656656509856,
+			"stop": 1656656510087,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "0a2ae1e7-324c-4d5e-affd-73c127e9a1c7-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "_0202 проведение"
+		},
+		{
+			"name": "feature",
+			"value": "Отчет Остатки"
+		},
+		{
+			"name": "epic",
+			"value": "Users"
+		},
+		{
+			"name": "suite",
+			"value": "Отчет Остатки"
+		},
+		{
+			"name": "tag",
+			"value": "отчетостатки"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "проверка отчетов"
+		},
+		{
+			"name": "host",
+			"value": "skm-01"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

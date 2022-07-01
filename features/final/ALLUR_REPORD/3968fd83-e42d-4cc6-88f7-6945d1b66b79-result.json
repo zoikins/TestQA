@@ -1,0 +1,782 @@
+{
+	"uuid": "3968fd83-e42d-4cc6-88f7-6945d1b66b79",
+	"historyId": "Документ Расход товара Продавец._0402Документ Расход товара Продавец",
+	"name": "_0402Документ Расход товара Продавец",
+	"fullName": null,
+	"start": 1656656539514,
+	"stop": 1656656543647,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю навигационную ссылку \"e1cib/list/Документ.РасходТовара\"",
+			"start": 1656656540327,
+			"stop": 1656656540331,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "e1cib/list/Документ.РасходТовара"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "* создание и заполнение документа",
+			"start": 1656656540332,
+			"stop": 1656656541399,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И я нажимаю на кнопку с именем 'ФормаСоздать'",
+					"start": 1656656540332,
+					"stop": 1656656540501,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ФормаСоздать"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"Организация\" я выбираю точное значение 'ООО \"Все для дома\"'",
+					"start": 1656656540502,
+					"stop": 1656656540703,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Организация"
+						},
+						{
+							"name": "Парам2",
+							"value": "ООО \"Все для дома\""
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"Покупатель\" я выбираю точное значение 'Мосхлеб ОАО'",
+					"start": 1656656540704,
+					"stop": 1656656540807,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Покупатель"
+						},
+						{
+							"name": "Парам2",
+							"value": "Мосхлеб ОАО"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"Склад\" я выбираю точное значение 'Строящийся склад'",
+					"start": 1656656540808,
+					"stop": 1656656540866,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Склад"
+						},
+						{
+							"name": "Парам2",
+							"value": "Строящийся склад"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"Валюта\" я выбираю точное значение 'Рубли'",
+					"start": 1656656540866,
+					"stop": 1656656540914,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Валюта"
+						},
+						{
+							"name": "Парам2",
+							"value": "Рубли"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"Товары\" я нажимаю на кнопку с именем 'ТоварыДобавить'",
+					"start": 1656656540915,
+					"stop": 1656656540944,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Товары"
+						},
+						{
+							"name": "Парам2",
+							"value": "ТоварыДобавить"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"Товары\" я нажимаю кнопку выбора у реквизита с именем \"ТоварыТовар\"",
+					"start": 1656656540945,
+					"stop": 1656656541008,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Товары"
+						},
+						{
+							"name": "Парам2",
+							"value": "ТоварыТовар"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'ФормаСписок'",
+					"start": 1656656541009,
+					"stop": 1656656541219,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ФормаСписок"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"Список\" я перехожу к строке:",
+					"start": 1656656541220,
+					"stop": 1656656541247,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Список"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "576118a7-5b30-4e9c-97fb-3764a258d056-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"Список\" я выбираю текущую строку",
+					"start": 1656656541248,
+					"stop": 1656656541262,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Список"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"Товары\" я активизирую поле с именем \"ТоварыЦена\"",
+					"start": 1656656541263,
+					"stop": 1656656541338,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Товары"
+						},
+						{
+							"name": "Парам2",
+							"value": "ТоварыЦена"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"Товары\" в поле с именем 'ТоварыЦена' я ввожу текст '100,00'",
+					"start": 1656656541339,
+					"stop": 1656656541379,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Товары"
+						},
+						{
+							"name": "Парам2",
+							"value": "ТоварыЦена"
+						},
+						{
+							"name": "Парам3",
+							"value": "100,00"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"Товары\" я завершаю редактирование строки",
+					"start": 1656656541380,
+					"stop": 1656656541399,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Товары"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "* редактирование существующего в форме документа",
+			"start": 1656656541400,
+			"stop": 1656656542362,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "Дано Я открываю навигационную ссылку \"e1cib/data/Документ.РасходТовара?ref=bbf30050ba5c887711e1fe6190994fe1\"",
+					"start": 1656656541400,
+					"stop": 1656656541427,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "e1cib/data/Документ.РасходТовара?ref=bbf30050ba5c887711e1fe6190994fe1"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'ФормаЗаписать'",
+					"start": 1656656541428,
+					"stop": 1656656541560,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ФормаЗаписать"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'ФормаПровести'",
+					"start": 1656656541561,
+					"stop": 1656656541650,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ФормаПровести"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'ФормаОтменаПроведения'",
+					"start": 1656656541946,
+					"stop": 1656656541959,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ФормаОтменаПроведения"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'ФормаУстановитьПометкуУдаления'",
+					"start": 1656656541961,
+					"stop": 1656656542032,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ФормаУстановитьПометкуУдаления"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'Button0'",
+					"start": 1656656542033,
+					"stop": 1656656542111,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Button0"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'ФормаУстановитьПометкуУдаления'",
+					"start": 1656656542112,
+					"stop": 1656656542200,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ФормаУстановитьПометкуУдаления"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'Button0'",
+					"start": 1656656542201,
+					"stop": 1656656542281,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Button0"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'ФормаПровести'",
+					"start": 1656656542282,
+					"stop": 1656656542362,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ФормаПровести"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "* редактирование существующего в форме списка",
+			"start": 1656656542363,
+			"stop": 1656656543645,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И я закрываю все окна клиентского приложения",
+					"start": 1656656542363,
+					"stop": 1656656542967,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Дано Я открываю навигационную ссылку \"e1cib/list/Документ.РасходТовара\"",
+					"start": 1656656543169,
+					"stop": 1656656543172,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "e1cib/list/Документ.РасходТовара"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"Список\" я перехожу к строке:",
+					"start": 1656656543173,
+					"stop": 1656656543261,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Список"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "0dd97593-2199-4770-a7a5-400e4bbe76c8-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'ФормаОтменаПроведения'",
+					"start": 1656656543262,
+					"stop": 1656656543290,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ФормаОтменаПроведения"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'ФормаУстановитьПометкуУдаления'",
+					"start": 1656656543291,
+					"stop": 1656656543367,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ФормаУстановитьПометкуУдаления"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'Button0'",
+					"start": 1656656543367,
+					"stop": 1656656543429,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Button0"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'ФормаУстановитьПометкуУдаления'",
+					"start": 1656656543431,
+					"stop": 1656656543507,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ФормаУстановитьПометкуУдаления"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'Button0'",
+					"start": 1656656543508,
+					"stop": 1656656543565,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Button0"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'ФормаПровести'",
+					"start": 1656656543567,
+					"stop": 1656656543645,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ФормаПровести"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "_0402Документ Расход товара Продавец"
+		},
+		{
+			"name": "feature",
+			"value": "Документ Расход товара Продавец"
+		},
+		{
+			"name": "epic",
+			"value": "Users"
+		},
+		{
+			"name": "suite",
+			"value": "Документ Расход товара Продавец"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Продажи"
+		},
+		{
+			"name": "host",
+			"value": "skm-01"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

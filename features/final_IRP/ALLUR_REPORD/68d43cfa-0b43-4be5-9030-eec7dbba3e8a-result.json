@@ -1,0 +1,50 @@
+{
+	"uuid": "68d43cfa-0b43-4be5-9030-eec7dbba3e8a",
+	"historyId": "тестирование отчета остатки (D4011_FreeStocks)._0201 подготовительный (экспорт данных)",
+	"name": "_0201 подготовительный (экспорт данных)",
+	"fullName": null,
+	"start": 1656497423840,
+	"stop": 1656497423840,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "_0201 подготовительный (экспорт данных)"
+		},
+		{
+			"name": "feature",
+			"value": "тестирование отчета остатки (D4011_FreeStocks)"
+		},
+		{
+			"name": "epic",
+			"value": "Users"
+		},
+		{
+			"name": "suite",
+			"value": "тестирование отчета остатки (D4011_FreeStocks)"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "проверка отчетов"
+		},
+		{
+			"name": "host",
+			"value": "skm-01"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

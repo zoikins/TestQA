@@ -1,0 +1,1171 @@
+[ {
+  "uid" : "565211a100903382",
+  "name" : "Открытие формы объекта \"Заказ\"",
+  "time" : {
+    "start" : 1656656295559,
+    "stop" : 1656656296773,
+    "duration" : 1214
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d4ccd5e20bd92ba5",
+  "name" : "Открытие формы объекта \"Пользователи\"",
+  "time" : {
+    "start" : 1656656452784,
+    "stop" : 1656656453702,
+    "duration" : 918
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d014690dfa411d51",
+  "name" : "Открытие формы объекта \"Встречи\"",
+  "time" : {
+    "start" : 1656656421496,
+    "stop" : 1656656422465,
+    "duration" : 969
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1e67d9c3c9a6bf99",
+  "name" : "Открытие формы объекта \"ПочтовыеВложения\"",
+  "time" : {
+    "start" : 1656656456836,
+    "stop" : 1656656457760,
+    "duration" : 924
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "66cf470ca9869635",
+  "name" : "Открытие формы списка \"СостояниеИсходящихПисем\"",
+  "time" : {
+    "start" : 1656656383714,
+    "stop" : 1656656384665,
+    "duration" : 951
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "29322c264582f9e9",
+  "name" : "_0309 Регистр ТоварныеЗапасы",
+  "time" : {
+    "start" : 1656656496655,
+    "stop" : 1656656498099,
+    "duration" : 1444
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "94dfe2d28229102",
+  "name" : "Открытие формы списка \"ОперацияПоУчетуТоваров\"",
+  "time" : {
+    "start" : 1656656297792,
+    "stop" : 1656656298712,
+    "duration" : 920
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "296868b26f1bbc32",
+  "name" : "_0201 Загрузка данных расхода и прихода",
+  "time" : {
+    "start" : 1656656506403,
+    "stop" : 1656656508066,
+    "duration" : 1663
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6899682f2432ad8c",
+  "name" : "Открытие формы списка \"ЦеныТоваров\"",
+  "time" : {
+    "start" : 1656656391639,
+    "stop" : 1656656392615,
+    "duration" : 976
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e0193393cdc6ebd4",
+  "name" : "Открытие формы объекта \"ТоварныеЗапасы\"",
+  "time" : {
+    "start" : 1656656405074,
+    "stop" : 1656656406137,
+    "duration" : 1063
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6109ea86952d7c33",
+  "name" : "_0101 Подготовка",
+  "time" : {
+    "start" : 1656656499088,
+    "stop" : 1656656500738,
+    "duration" : 1650
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f794d82138240aaf",
+  "name" : "Открытие формы объекта \"ВзаимосвязьПродажТоваров\"",
+  "time" : {
+    "start" : 1656656317091,
+    "stop" : 1656656318056,
+    "duration" : 965
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a4fe2157d1d8c0b7",
+  "name" : "Открытие формы объекта \"СостояниеИсходящихПисем\"",
+  "time" : {
+    "start" : 1656656385544,
+    "stop" : 1656656386793,
+    "duration" : 1249
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b809367074dd62db",
+  "name" : "Открытие формы объекта \"ЖурналРегистрации\"",
+  "time" : {
+    "start" : 1656656334966,
+    "stop" : 1656656336103,
+    "duration" : 1137
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2d9a302556cf317d",
+  "name" : "Открытие формы объекта \"Товары\"",
+  "time" : {
+    "start" : 1656656477152,
+    "stop" : 1656656478503,
+    "duration" : 1351
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e3b4f6ccd78d1e20",
+  "name" : "Открытие формы объекта \"Банки\"",
+  "time" : {
+    "start" : 1656656409403,
+    "stop" : 1656656410429,
+    "duration" : 1026
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "36c29acb3ceee622",
+  "name" : "Открытие формы объекта \"VAExtension_ОткрытьВсеФункции\"",
+  "time" : {
+    "start" : 1656656368133,
+    "stop" : 1656656369237,
+    "duration" : 1104
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "46f16965287ed33e",
+  "name" : "Открытие формы объекта \"Организации\"",
+  "time" : {
+    "start" : 1656656448511,
+    "stop" : 1656656449466,
+    "duration" : 955
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e1252e205346ccbb",
+  "name" : "Открытие формы объекта \"Продажи\"",
+  "time" : {
+    "start" : 1656656401386,
+    "stop" : 1656656402261,
+    "duration" : 875
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "98fd8c7e9881c226",
+  "name" : "_0202 проведение",
+  "time" : {
+    "start" : 1656656509044,
+    "stop" : 1656656510088,
+    "duration" : 1044
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "654c0f9a40a56d7b",
+  "name" : "Открытие формы объекта \"Характеристики\"",
+  "time" : {
+    "start" : 1656656389603,
+    "stop" : 1656656390546,
+    "duration" : 943
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f99c7a9c3c9835aa",
+  "name" : "Открытие формы объекта \"УправлениеСистемойВзаимодействия\"",
+  "time" : {
+    "start" : 1656656355679,
+    "stop" : 1656656356657,
+    "duration" : 978
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ec6f28ac96107bad",
+  "name" : "Открытие формы объекта \"ВидыЦен\"",
+  "time" : {
+    "start" : 1656656417431,
+    "stop" : 1656656418366,
+    "duration" : 935
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e7eff36072b9939e",
+  "name" : "Открытие формы объекта \"VAExtension_ОткрытьНастройкаНачальнойСтраницы\"",
+  "time" : {
+    "start" : 1656656370312,
+    "stop" : 1656656371341,
+    "duration" : 1029
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "302397c9508f5444",
+  "name" : "Открытие формы списка \"ТоварныеЗапасы\"",
+  "time" : {
+    "start" : 1656656403179,
+    "stop" : 1656656404159,
+    "duration" : 980
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cbacdd38be0d25d3",
+  "name" : "Открытие формы списка \"ВидыЦен\"",
+  "time" : {
+    "start" : 1656656415432,
+    "stop" : 1656656416548,
+    "duration" : 1116
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ae58334309912ef",
+  "name" : "Открытие формы объекта \"ПриходТовара\"",
+  "time" : {
+    "start" : 1656656310997,
+    "stop" : 1656656312002,
+    "duration" : 1005
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7ab8aa62e1d354e3",
+  "name" : "Открытие формы списка \"Организации\"",
+  "time" : {
+    "start" : 1656656446681,
+    "stop" : 1656656447625,
+    "duration" : 944
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a12f06241c8f7ef2",
+  "name" : "_0303 Проверка печатной формы",
+  "time" : {
+    "start" : 1656656552712,
+    "stop" : 1656656554771,
+    "duration" : 2059
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "559f926acdc154c9",
+  "name" : "Открытие формы объекта \"МобильныеУстройства\"",
+  "time" : {
+    "start" : 1656656441203,
+    "stop" : 1656656442133,
+    "duration" : 930
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2864fc1267d5d7f9",
+  "name" : "Открытие формы списка \"КурсыВалют\"",
+  "time" : {
+    "start" : 1656656372338,
+    "stop" : 1656656373302,
+    "duration" : 964
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "16e1ed417f9f7115",
+  "name" : "Открытие формы объекта \"УправлениеАгрегатамиПродаж\"",
+  "time" : {
+    "start" : 1656656349291,
+    "stop" : 1656656350326,
+    "duration" : 1035
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "85afbe45864030b1",
+  "name" : "Открытие формы объекта \"Взаиморасчеты\"",
+  "time" : {
+    "start" : 1656656397528,
+    "stop" : 1656656398433,
+    "duration" : 905
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "724b96978d67e216",
+  "name" : "Открытие формы объекта \"НастройкиПользователя\"",
+  "time" : {
+    "start" : 1656656337000,
+    "stop" : 1656656337948,
+    "duration" : 948
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7db0578a2338f838",
+  "name" : "Открытие формы объекта \"РасчетныеСчета\"",
+  "time" : {
+    "start" : 1656656460539,
+    "stop" : 1656656461623,
+    "duration" : 1084
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1bc5b0cd6f1c180c",
+  "name" : "_0203 Сравнение с макетом",
+  "time" : {
+    "start" : 1656656511074,
+    "stop" : 1656656517832,
+    "duration" : 6758
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "160042479e7873d5",
+  "name" : "_0302 Заполнение документа",
+  "time" : {
+    "start" : 1656656546826,
+    "stop" : 1656656551719,
+    "duration" : 4893
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bdd4efbe382eea8f",
+  "name" : "Открытие формы объекта \"НастройкиТорговогоОборудования\"",
+  "time" : {
+    "start" : 1656656444859,
+    "stop" : 1656656445780,
+    "duration" : 921
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e564c83aedbc4e16",
+  "name" : "Открытие формы объекта \"КурсыВалют\"",
+  "time" : {
+    "start" : 1656656374369,
+    "stop" : 1656656375300,
+    "duration" : 931
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "85f90bbab99e1f47",
+  "name" : "Открытие формы объекта \"УправлениеПолнотекстовымПоиском\"",
+  "time" : {
+    "start" : 1656656353556,
+    "stop" : 1656656354587,
+    "duration" : 1031
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3440450428cecf4f",
+  "name" : "Открытие формы объекта \"VAExtension_ПолучениеМакета\"",
+  "time" : {
+    "start" : 1656656366100,
+    "stop" : 1656656367184,
+    "duration" : 1084
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a3b7cf6ec6f2658",
+  "name" : "Открытие формы списка \"Оплата\"",
+  "time" : {
+    "start" : 1656656301657,
+    "stop" : 1656656302597,
+    "duration" : 940
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e61f1729cc05fdc7",
+  "name" : "Открытие формы списка \"Контрагенты\"",
+  "time" : {
+    "start" : 1656656435304,
+    "stop" : 1656656436326,
+    "duration" : 1022
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f3338b7fc008a898",
+  "name" : "_0102 подготовительный (установка расширений)",
+  "time" : {
+    "start" : 1656656272447,
+    "stop" : 1656656285410,
+    "duration" : 12963
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ef1ce81a51ab1266",
+  "name" : "Открытие формы объекта \"ИсходящиеПисьма\"",
+  "time" : {
+    "start" : 1656656433071,
+    "stop" : 1656656434339,
+    "duration" : 1268
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9514ce9d602f6b12",
+  "name" : "Открытие формы объекта \"Регионы\"",
+  "time" : {
+    "start" : 1656656469031,
+    "stop" : 1656656469939,
+    "duration" : 908
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5714d0a2172bd27b",
+  "name" : "Открытие формы списка \"НастройкиТорговогоОборудования\"",
+  "time" : {
+    "start" : 1656656443025,
+    "stop" : 1656656443960,
+    "duration" : 935
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8e9125da269ee374",
+  "name" : "_0402Документ Расход товара Продавец",
+  "time" : {
+    "start" : 1656656539514,
+    "stop" : 1656656543647,
+    "duration" : 4133
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a815551e6c090de0",
+  "name" : "Открытие формы объекта \"ДашбордПродажи\"",
+  "time" : {
+    "start" : 1656656318930,
+    "stop" : 1656656320290,
+    "duration" : 1360
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "afcc2761ef8f6401",
+  "name" : "Открытие формы списка \"ИсходящиеПисьма\"",
+  "time" : {
+    "start" : 1656656431246,
+    "stop" : 1656656432183,
+    "duration" : 937
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6708a35c15a7624d",
+  "name" : "Открытие формы списка \"МобильныеУстройства\"",
+  "time" : {
+    "start" : 1656656439373,
+    "stop" : 1656656440310,
+    "duration" : 937
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c15086e68d11f363",
+  "name" : "Открытие формы списка \"МобильныеОтчеты\"",
+  "time" : {
+    "start" : 1656656376199,
+    "stop" : 1656656377150,
+    "duration" : 951
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6f19e1c750f0530",
+  "name" : "Открытие формы объекта \"РасходТовара\"",
+  "time" : {
+    "start" : 1656656315059,
+    "stop" : 1656656316051,
+    "duration" : 992
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a485515992769395",
+  "name" : "_0305 агрузка данных",
+  "time" : {
+    "start" : 1656656487715,
+    "stop" : 1656656488877,
+    "duration" : 1162
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c091ecfccfe3e28",
+  "name" : "Открытие формы объекта \"ХранимыеФайлы\"",
+  "time" : {
+    "start" : 1656656485688,
+    "stop" : 1656656486711,
+    "duration" : 1023
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2a258e5249da75cf",
+  "name" : "Открытие формы объекта \"ДокументыОплата\"",
+  "time" : {
+    "start" : 1656656323186,
+    "stop" : 1656656324144,
+    "duration" : 958
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "64e209c390ff81b2",
+  "name" : "Открытие формы объекта \"VAExtension_ПроверкаФоновыхЗаданий\"",
+  "time" : {
+    "start" : 1656656359748,
+    "stop" : 1656656361119,
+    "duration" : 1371
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "159cd2e462500606",
+  "name" : "Открытие формы объекта \"УправлениеНастройкамиФорм\"",
+  "time" : {
+    "start" : 1656656351321,
+    "stop" : 1656656352644,
+    "duration" : 1323
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "25045aecc2404c1b",
+  "name" : "_0306 Проведение документов",
+  "time" : {
+    "start" : 1656656489742,
+    "stop" : 1656656490847,
+    "duration" : 1105
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1f42689dca98f17d",
+  "name" : "Открытие формы объекта \"ДинамикаПродаж\"",
+  "time" : {
+    "start" : 1656656321358,
+    "stop" : 1656656322308,
+    "duration" : 950
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cfb0d2a086fd01c4",
+  "name" : "Открытие формы объекта \"МобильныеОтчеты\"",
+  "time" : {
+    "start" : 1656656378227,
+    "stop" : 1656656379168,
+    "duration" : 941
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "37c2c1780e11f890",
+  "name" : "Открытие формы списка \"ПриходТовара\"",
+  "time" : {
+    "start" : 1656656308963,
+    "stop" : 1656656309932,
+    "duration" : 969
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5d1f390afcbfbf2e",
+  "name" : "_0301 Загрузка данных",
+  "time" : {
+    "start" : 1656656544589,
+    "stop" : 1656656545901,
+    "duration" : 1312
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c86faa0893fb976e",
+  "name" : "Открытие формы объекта \"РасчетныеСчетаКонтрагентов\"",
+  "time" : {
+    "start" : 1656656464853,
+    "stop" : 1656656465909,
+    "duration" : 1056
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "76f3c9837c56276d",
+  "name" : "Открытие формы списка \"ПочтовыеВложения\"",
+  "time" : {
+    "start" : 1656656454806,
+    "stop" : 1656656455749,
+    "duration" : 943
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "14d84af495e7ae39",
+  "name" : "Открытие формы списка \"ВходящиеПисьма\"",
+  "time" : {
+    "start" : 1656656423527,
+    "stop" : 1656656424488,
+    "duration" : 961
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7eaaa65c10f77a05",
+  "name" : "_0401 Документ Расход товара Продавец",
+  "time" : {
+    "start" : 1656656537284,
+    "stop" : 1656656538469,
+    "duration" : 1185
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "350a6decfe4a5df",
+  "name" : "_00011 Экспорт пользователей",
+  "time" : {
+    "start" : 1656656286414,
+    "stop" : 1656656287484,
+    "duration" : 1070
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b33611afe03719d7",
+  "name" : "Открытие формы объекта \"ОстаткиТоваровНаСкладах\"",
+  "time" : {
+    "start" : 1656656325218,
+    "stop" : 1656656326163,
+    "duration" : 945
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9132245dcda6abc9",
+  "name" : "Открытие формы объекта \"Оплата\"",
+  "time" : {
+    "start" : 1656656303476,
+    "stop" : 1656656304420,
+    "duration" : 944
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3ea1206c3539e8cc",
+  "name" : "Открытие формы списка \"ХранимыеФайлы\"",
+  "time" : {
+    "start" : 1656656483652,
+    "stop" : 1656656484670,
+    "duration" : 1018
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e665dd4d6a079f73",
+  "name" : "Открытие формы объекта \"СписокАктивныхПользователей\"",
+  "time" : {
+    "start" : 1656656345170,
+    "stop" : 1656656346292,
+    "duration" : 1122
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dd2ebb1c8073214e",
+  "name" : "Открытие формы объекта \"РедактированиеЦен\"",
+  "time" : {
+    "start" : 1656656343179,
+    "stop" : 1656656344235,
+    "duration" : 1056
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "62186f913924601b",
+  "name" : "Открытие формы списка \"Встречи\"",
+  "time" : {
+    "start" : 1656656419264,
+    "stop" : 1656656420436,
+    "duration" : 1172
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4a0f9279bffb2f46",
+  "name" : "Открытие формы объекта \"Валюты\"",
+  "time" : {
+    "start" : 1656656413572,
+    "stop" : 1656656414492,
+    "duration" : 920
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f98d97ed5145e2d4",
+  "name" : "Открытие формы списка \"Характеристики\"",
+  "time" : {
+    "start" : 1656656387778,
+    "stop" : 1656656388722,
+    "duration" : 944
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c872bddae999f8c1",
+  "name" : "Открытие формы списка \"СостояниеВходящихПисем\"",
+  "time" : {
+    "start" : 1656656380057,
+    "stop" : 1656656380989,
+    "duration" : 932
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "382441f248255ca3",
+  "name" : "Открытие формы объекта \"ДемонстрацияВозможностейДиаграмм\"",
+  "time" : {
+    "start" : 1656656332931,
+    "stop" : 1656656333994,
+    "duration" : 1063
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dca7d4141add4782",
+  "name" : "Открытие формы списка \"РасходТовара\"",
+  "time" : {
+    "start" : 1656656313030,
+    "stop" : 1656656314041,
+    "duration" : 1011
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "225f3c64bcf513f5",
+  "name" : "Открытие формы списка \"Банки\"",
+  "time" : {
+    "start" : 1656656407275,
+    "stop" : 1656656408433,
+    "duration" : 1158
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e0fad5835c4df229",
+  "name" : "Открытие формы объекта \"VAExtension_ДанныеТекущегоОкна\"",
+  "time" : {
+    "start" : 1656656364212,
+    "stop" : 1656656365158,
+    "duration" : 946
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7cb063948f9b836c",
+  "name" : "Открытие формы списка \"Продажи\"",
+  "time" : {
+    "start" : 1656656399355,
+    "stop" : 1656656400322,
+    "duration" : 967
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a618d1a749489329",
+  "name" : "Открытие формы списка \"Валюты\"",
+  "time" : {
+    "start" : 1656656411402,
+    "stop" : 1656656412491,
+    "duration" : 1089
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2a0d10d38f866c20",
+  "name" : "Открытие формы списка \"РасчетныеСчетаКонтрагентов\"",
+  "time" : {
+    "start" : 1656656462730,
+    "stop" : 1656656463887,
+    "duration" : 1157
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9cc724daaf554c2a",
+  "name" : "Открытие формы списка \"Товары\"",
+  "time" : {
+    "start" : 1656656475118,
+    "stop" : 1656656476115,
+    "duration" : 997
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bceca8ef75c11611",
+  "name" : "_0307 Регистр Взаиморасчеты",
+  "time" : {
+    "start" : 1656656491776,
+    "stop" : 1656656493266,
+    "duration" : 1490
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "91db3ac027746554",
+  "name" : "Открытие формы списка \"Пользователи\"",
+  "time" : {
+    "start" : 1656656450544,
+    "stop" : 1656656451771,
+    "duration" : 1227
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c59591483125d019",
+  "name" : "Открытие формы списка \"ПоступлениеДенег\"",
+  "time" : {
+    "start" : 1656656305303,
+    "stop" : 1656656306262,
+    "duration" : 959
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3c9f18278a79aa04",
+  "name" : "Открытие формы списка \"Регионы\"",
+  "time" : {
+    "start" : 1656656466887,
+    "stop" : 1656656467944,
+    "duration" : 1057
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "262bf06dce176414",
+  "name" : "Открытие формы объекта \"ЭлектроннаяПочта\"",
+  "time" : {
+    "start" : 1656656357713,
+    "stop" : 1656656358732,
+    "duration" : 1019
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8e07a10aaeed0492",
+  "name" : "Открытие формы списка \"Заказ\"",
+  "time" : {
+    "start" : 1656656293321,
+    "stop" : 1656656294532,
+    "duration" : 1211
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ef5ebb9f54bb4061",
+  "name" : "Открытие формы списка \"Взаиморасчеты\"",
+  "time" : {
+    "start" : 1656656395497,
+    "stop" : 1656656396500,
+    "duration" : 1003
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a693a8f35a664863",
+  "name" : "_0403 Документ Заказ Продавец",
+  "time" : {
+    "start" : 1656656532808,
+    "stop" : 1656656536435,
+    "duration" : 3627
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6c7adcee5ec964e3",
+  "name" : "Открытие формы объекта \"СостояниеВходящихПисем\"",
+  "time" : {
+    "start" : 1656656381891,
+    "stop" : 1656656382823,
+    "duration" : 932
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fd5088f488c3108b",
+  "name" : "Открытие формы объекта \"Контрагенты\"",
+  "time" : {
+    "start" : 1656656437347,
+    "stop" : 1656656438354,
+    "duration" : 1007
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5b1c2bf7334a0b5a",
+  "name" : "Открытие формы списка \"Склады\"",
+  "time" : {
+    "start" : 1656656471064,
+    "stop" : 1656656472215,
+    "duration" : 1151
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d19cf0e1a10060d0",
+  "name" : "_0102 добавление файла и перевыбор",
+  "time" : {
+    "start" : 1656656501630,
+    "stop" : 1656656505305,
+    "duration" : 3675
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9a90e607698217a",
+  "name" : "Открытие формы объекта \"ПоступлениеДенег\"",
+  "time" : {
+    "start" : 1656656307137,
+    "stop" : 1656656308063,
+    "duration" : 926
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2695aba52919decb",
+  "name" : "Открытие формы объекта \"ОперацияПоУчетуТоваров\"",
+  "time" : {
+    "start" : 1656656299617,
+    "stop" : 1656656300592,
+    "duration" : 975
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b2a5c6f22dd08d9e",
+  "name" : "Открытие формы объекта \"УдалениеПомеченныхОбъектов\"",
+  "time" : {
+    "start" : 1656656347261,
+    "stop" : 1656656348329,
+    "duration" : 1068
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8365606f5ee75c3",
+  "name" : "Открытие формы объекта \"ХранилищеВариантовОтчетов\"",
+  "time" : {
+    "start" : 1656656481622,
+    "stop" : 1656656482589,
+    "duration" : 967
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "94b5368c28af66b4",
+  "name" : "Открытие формы объекта \"ОтчетПоВзаиморасчетам\"",
+  "time" : {
+    "start" : 1656656327039,
+    "stop" : 1656656328033,
+    "duration" : 994
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "22ce04d2fda80c71",
+  "name" : "Открытие формы объекта \"ВходящиеПисьма\"",
+  "time" : {
+    "start" : 1656656425562,
+    "stop" : 1656656426521,
+    "duration" : 959
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d7dc8956f7f57206",
+  "name" : "Открытие формы объекта \"Склады\"",
+  "time" : {
+    "start" : 1656656473150,
+    "stop" : 1656656474235,
+    "duration" : 1085
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "675a6c877bc51668",
+  "name" : "Открытие формы объекта \"АдминистративныйСервис\"",
+  "time" : {
+    "start" : 1656656331106,
+    "stop" : 1656656332037,
+    "duration" : 931
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3829fac3e815e34f",
+  "name" : "Открытие формы списка \"РасчетныеСчета\"",
+  "time" : {
+    "start" : 1656656458680,
+    "stop" : 1656656459613,
+    "duration" : 933
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e1267bb801a95772",
+  "name" : "_0403 Документ Загрузка данных",
+  "time" : {
+    "start" : 1656656518798,
+    "stop" : 1656656531773,
+    "duration" : 12975
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8f6ad0f9a721afcd",
+  "name" : "Открытие формы объекта \"ЗначенияХарактеристик\"",
+  "time" : {
+    "start" : 1656656429430,
+    "stop" : 1656656430353,
+    "duration" : 923
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1df512e7ee52be6e",
+  "name" : "Открытие формы списка \"ХранилищеВариантовОтчетов\"",
+  "time" : {
+    "start" : 1656656479588,
+    "stop" : 1656656480565,
+    "duration" : 977
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9e31d0d5e86f51f4",
+  "name" : "_0308 Регистр Продажи",
+  "time" : {
+    "start" : 1656656494216,
+    "stop" : 1656656495705,
+    "duration" : 1489
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9f867ea1d8bfe8d5",
+  "name" : "Открытие формы объекта \"ПроведениеДокументов\"",
+  "time" : {
+    "start" : 1656656339026,
+    "stop" : 1656656339995,
+    "duration" : 969
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "de9dbb3a3d6b7789",
+  "name" : "Открытие формы объекта \"VAExtension_ВыполнитьПроизвольныйКод\"",
+  "time" : {
+    "start" : 1656656362180,
+    "stop" : 1656656363117,
+    "duration" : 937
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1fc981dce044c57c",
+  "name" : "Открытие формы объекта \"ЦеныТоваров\"",
+  "time" : {
+    "start" : 1656656393669,
+    "stop" : 1656656394589,
+    "duration" : 920
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "44f8bf94474e36f3",
+  "name" : "Открытие формы объекта \"Путеводитель\"",
+  "time" : {
+    "start" : 1656656341061,
+    "stop" : 1656656342237,
+    "duration" : 1176
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9b3c978871df2bb8",
+  "name" : "Открытие формы объекта \"ПрайсЛист\"",
+  "time" : {
+    "start" : 1656656329077,
+    "stop" : 1656656330032,
+    "duration" : 955
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eb1942f997aa022",
+  "name" : "_00011 Экспорт пользователей ИБ",
+  "time" : {
+    "start" : 1656656288449,
+    "stop" : 1656656292367,
+    "duration" : 3918
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "753be2e392c9c373",
+  "name" : "Открытие формы списка \"ЗначенияХарактеристик\"",
+  "time" : {
+    "start" : 1656656427591,
+    "stop" : 1656656428555,
+    "duration" : 964
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

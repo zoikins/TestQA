@@ -1,0 +1,32 @@
+{
+	"uuid": "8692a049-0570-430a-8d35-8f0f33c6f8cf",
+	"name": "Контекст_Открытие формы объекта \"МобильныеОтчеты\"",
+	"description": "",
+	"children": [
+		"2296eb65-6bc6-423a-a1a6-4b61cabff01c"
+	],
+	"befores": [
+		{
+			"name": "Дано я подключаю профиль TestClient \"Этот клиент\"",
+			"start": 1656656378298,
+			"stop": 1656656378916,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Этот клиент"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

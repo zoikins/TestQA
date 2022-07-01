@@ -1,0 +1,40 @@
+{
+	"uuid": "b9f071f0-eede-4374-855b-1380e49527ae",
+	"name": "Контекст__0403 Документ Загрузка данных",
+	"description": "",
+	"children": [
+		"0094a25d-4a63-427c-8216-7b6a9ad658f7"
+	],
+	"befores": [
+		{
+			"name": "Дано я подключаю TestClient \"Продавец\" логин \"Продавец\" пароль \"\"",
+			"start": 1656656518849,
+			"stop": 1656656531100,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Продавец"
+				},
+				{
+					"name": "Парам2",
+					"value": "Продавец"
+				},
+				{
+					"name": "Парам3",
+					"value": ""
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

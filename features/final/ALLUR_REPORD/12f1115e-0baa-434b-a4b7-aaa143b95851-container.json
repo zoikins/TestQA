@@ -1,0 +1,32 @@
+{
+	"uuid": "29a14747-49e1-435b-aeb0-6b478ce1b139",
+	"name": "Контекст_Открытие формы списка \"ЗначенияХарактеристик\"",
+	"description": "",
+	"children": [
+		"12f1115e-0baa-434b-a4b7-aaa143b95851"
+	],
+	"befores": [
+		{
+			"name": "Дано я подключаю профиль TestClient \"Этот клиент\"",
+			"start": 1656656427654,
+			"stop": 1656656428270,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Этот клиент"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

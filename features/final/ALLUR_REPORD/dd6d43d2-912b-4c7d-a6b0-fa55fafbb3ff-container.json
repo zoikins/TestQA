@@ -1,0 +1,32 @@
+{
+	"uuid": "e306a5b3-a4ba-4d5a-8d91-f3169d11f615",
+	"name": "Контекст_Открытие формы списка \"ПоступлениеДенег\"",
+	"description": "",
+	"children": [
+		"dd6d43d2-912b-4c7d-a6b0-fa55fafbb3ff"
+	],
+	"befores": [
+		{
+			"name": "Дано я подключаю профиль TestClient \"Этот клиент\"",
+			"start": 1656656305353,
+			"stop": 1656656305983,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Этот клиент"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

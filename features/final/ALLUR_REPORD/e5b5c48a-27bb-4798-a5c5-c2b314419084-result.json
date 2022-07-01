@@ -1,0 +1,77 @@
+{
+	"uuid": "e5b5c48a-27bb-4798-a5c5-c2b314419084",
+	"historyId": "Экспорт пользователей._00011 Экспорт пользователей",
+	"name": "_00011 Экспорт пользователей",
+	"fullName": null,
+	"start": 1656656286414,
+	"stop": 1656656287484,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "И я проверяю или создаю для справочника \"Пользователи\" объекты:",
+			"start": 1656656287432,
+			"stop": 1656656287483,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Пользователи"
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "ad9dd59f-c434-4b2e-b4dd-551b2f4618ae-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "_00011 Экспорт пользователей"
+		},
+		{
+			"name": "feature",
+			"value": "Экспорт пользователей"
+		},
+		{
+			"name": "epic",
+			"value": "Users"
+		},
+		{
+			"name": "suite",
+			"value": "Экспорт пользователей"
+		},
+		{
+			"name": "tag",
+			"value": "дерево"
+		},
+		{
+			"name": "package",
+			"value": "External"
+		},
+		{
+			"name": "host",
+			"value": "skm-01"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

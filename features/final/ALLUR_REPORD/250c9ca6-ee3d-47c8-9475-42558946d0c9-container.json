@@ -1,0 +1,32 @@
+{
+	"uuid": "996136e1-e9e8-4eab-b616-6d2dd52b1092",
+	"name": "Контекст_Открытие формы объекта \"ОтчетПоВзаиморасчетам\"",
+	"description": "",
+	"children": [
+		"250c9ca6-ee3d-47c8-9475-42558946d0c9"
+	],
+	"befores": [
+		{
+			"name": "Дано я подключаю профиль TestClient \"Этот клиент\"",
+			"start": 1656656327089,
+			"stop": 1656656327687,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Этот клиент"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

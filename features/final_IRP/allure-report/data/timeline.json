@@ -1,0 +1,35 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "skm-01",
+    "children" : [ {
+      "name" : "_0201 Тестирование отчета D4011_FreeStocks (Свободные остатки)",
+      "uid" : "2f143bd8d3fdf6bc",
+      "parentUid" : "50c0e6018c0c5d7beae49d4600123877",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656497398540,
+        "stop" : 1656497421133,
+        "duration" : 22593
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "_0201 подготовительный (экспорт данных)",
+      "uid" : "cec7a30f5a3e3a98",
+      "parentUid" : "50c0e6018c0c5d7beae49d4600123877",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1656497423840,
+        "stop" : 1656497423840,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "50c0e6018c0c5d7beae49d4600123877"
+  } ]
+}

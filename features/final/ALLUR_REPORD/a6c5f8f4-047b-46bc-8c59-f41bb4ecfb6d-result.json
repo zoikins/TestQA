@@ -1,0 +1,136 @@
+{
+	"uuid": "a6c5f8f4-047b-46bc-8c59-f41bb4ecfb6d",
+	"historyId": "проверка  Движения документа Расход товара._0308 Регистр Продажи",
+	"name": "_0308 Регистр Продажи",
+	"fullName": null,
+	"start": 1656656494216,
+	"stop": 1656656495705,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "И я закрываю все окна клиентского приложения",
+			"start": 1656656495026,
+			"stop": 1656656495231,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Дано Я открываю навигационную ссылку \"e1cib/data/Документ.РасходТовара?ref=a1aa086266c6d20f11e70b13d9094c69\"",
+			"start": 1656656495433,
+			"stop": 1656656495440,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "e1cib/data/Документ.РасходТовара?ref=a1aa086266c6d20f11e70b13d9094c69"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И В текущем окне я нажимаю кнопку командного интерфейса 'Регистр продаж'",
+			"start": 1656656495441,
+			"stop": 1656656495578,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Регистр продаж"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда таблица \"Список\" стала равной:",
+			"start": 1656656495579,
+			"stop": 1656656495704,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Список"
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "8fa493b7-bdcf-4fd7-b3df-e567f78cd559-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "_0308 Регистр Продажи"
+		},
+		{
+			"name": "feature",
+			"value": "проверка  Движения документа Расход товара"
+		},
+		{
+			"name": "epic",
+			"value": "Users"
+		},
+		{
+			"name": "suite",
+			"value": "проверка  Движения документа Расход товара"
+		},
+		{
+			"name": "tag",
+			"value": "расходтовара"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "движение документов"
+		},
+		{
+			"name": "host",
+			"value": "skm-01"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

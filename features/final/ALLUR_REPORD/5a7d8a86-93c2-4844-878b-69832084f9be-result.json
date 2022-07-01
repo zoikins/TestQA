@@ -1,0 +1,397 @@
+{
+	"uuid": "5a7d8a86-93c2-4844-878b-69832084f9be",
+	"historyId": "Товары добавление внешних файлов._0102 добавление файла и перевыбор",
+	"name": "_0102 добавление файла и перевыбор",
+	"fullName": null,
+	"start": 1656656501630,
+	"stop": 1656656505305,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "И я закрываю все окна клиентского приложения",
+			"start": 1656656502542,
+			"stop": 1656656502959,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Дано Я открываю навигационную ссылку \"e1cib/data/Справочник.Товары?ref=a9b000055d49b45e11db8c51bbb079af\"",
+			"start": 1656656503156,
+			"stop": 1656656503161,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "e1cib/data/Справочник.Товары?ref=a9b000055d49b45e11db8c51bbb079af"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю кнопку выбора у поля с именем \"ФайлКартинки\"",
+			"start": 1656656503162,
+			"stop": 1656656503708,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФайлКартинки"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если таблица \"Список\" содержит строки:  тогда",
+			"start": 1656656503710,
+			"stop": 1656656505021,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Список"
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "72663811-78f4-49bd-9162-6e7d49b37a89-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": [
+				{
+					"name": "И в таблице \"Список\" я перехожу к строке:",
+					"start": 1656656503913,
+					"stop": 1656656503922,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Список"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "c3c57b70-040c-454c-b1fa-697a252c3e14-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И я выбираю пункт контекстного меню с именем 'СписокКонтекстноеМенюИзменить' на элементе формы с именем \"Список\"",
+					"start": 1656656503922,
+					"stop": 1656656503936,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "СписокКонтекстноеМенюИзменить"
+						},
+						{
+							"name": "Парам2",
+							"value": "Список"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я выбираю файл \"$КаталогПроекта$\\Files\\itempicture1.png\"",
+					"start": 1656656503936,
+					"stop": 1656656503938,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "$КаталогПроекта$\\Files\\itempicture1.png"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'ВыбратьФайлСДискаИЗаписать'",
+					"start": 1656656503939,
+					"stop": 1656656504059,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ВыбратьФайлСДискаИЗаписать"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'ФормаЗаписатьИЗакрыть'",
+					"start": 1656656504060,
+					"stop": 1656656504187,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ФормаЗаписатьИЗакрыть"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я жду закрытия окна 'itempicture1.png (Файл)' в течение 20 секунд",
+					"start": 1656656504187,
+					"stop": 1656656505021,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "itempicture1.png (Файл)"
+						},
+						{
+							"name": "Парам2",
+							"value": "20"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаВыбрать'",
+			"start": 1656656505023,
+			"stop": 1656656505048,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаВыбрать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ОбновитьКартинку'",
+			"start": 1656656505050,
+			"stop": 1656656505121,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ОбновитьКартинку"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю кнопку выбора у поля с именем \"ФайлКартинки\"",
+			"start": 1656656505123,
+			"stop": 1656656505156,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФайлКартинки"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"Список\" я перехожу к строке:",
+			"start": 1656656505157,
+			"stop": 1656656505264,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Список"
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "4127b572-3742-4624-bb74-aeb2ddfc00b9-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"Список\" я выбираю текущую строку",
+			"start": 1656656505265,
+			"stop": 1656656505274,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Список"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю кнопку выбора у поля с именем \"ФайлКартинки\"",
+			"start": 1656656505275,
+			"stop": 1656656505301,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФайлКартинки"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "_0102 добавление файла и перевыбор"
+		},
+		{
+			"name": "feature",
+			"value": "Товары добавление внешних файлов"
+		},
+		{
+			"name": "epic",
+			"value": "Users"
+		},
+		{
+			"name": "suite",
+			"value": "Товары добавление внешних файлов"
+		},
+		{
+			"name": "tag",
+			"value": "товарыфайлы"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "добавление внешних файлов"
+		},
+		{
+			"name": "host",
+			"value": "skm-01"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

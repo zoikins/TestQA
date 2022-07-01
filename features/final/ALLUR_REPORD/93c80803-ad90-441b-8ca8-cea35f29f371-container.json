@@ -1,0 +1,32 @@
+{
+	"uuid": "d1dcce91-9aed-47d7-b84a-34c0737981ca",
+	"name": "Контекст_Открытие формы объекта \"ПриходТовара\"",
+	"description": "",
+	"children": [
+		"93c80803-ad90-441b-8ca8-cea35f29f371"
+	],
+	"befores": [
+		{
+			"name": "Дано я подключаю профиль TestClient \"Этот клиент\"",
+			"start": 1656656311067,
+			"stop": 1656656311658,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Этот клиент"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

@@ -1,0 +1,32 @@
+{
+	"uuid": "3d36ed05-52f3-495e-bcd5-48fe9111ccf3",
+	"name": "Контекст_Открытие формы списка \"Валюты\"",
+	"description": "",
+	"children": [
+		"f0d670cb-ce85-407f-b4eb-43882fafb7df"
+	],
+	"befores": [
+		{
+			"name": "Дано я подключаю профиль TestClient \"Этот клиент\"",
+			"start": 1656656411459,
+			"stop": 1656656412126,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Этот клиент"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

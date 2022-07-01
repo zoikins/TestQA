@@ -1,0 +1,32 @@
+{
+	"uuid": "97455e5d-4ca8-476d-b179-1aaad76cadf2",
+	"name": "Контекст_Открытие формы объекта \"Банки\"",
+	"description": "",
+	"children": [
+		"01aaa050-3b3a-44bc-85d7-8f1a2f9007e8"
+	],
+	"befores": [
+		{
+			"name": "Дано я подключаю профиль TestClient \"Этот клиент\"",
+			"start": 1656656409463,
+			"stop": 1656656410122,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Этот клиент"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

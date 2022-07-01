@@ -1,0 +1,32 @@
+{
+	"uuid": "fa6f65d1-0cb8-40ea-a99a-83becac857aa",
+	"name": "Контекст__0306 Проведение документов",
+	"description": "",
+	"children": [
+		"de4383f6-80a4-43df-9d57-84a7de294bf3"
+	],
+	"befores": [
+		{
+			"name": "Дано я подключаю профиль TestClient \"Этот клиент\"",
+			"start": 1656656489788,
+			"stop": 1656656490388,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Этот клиент"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

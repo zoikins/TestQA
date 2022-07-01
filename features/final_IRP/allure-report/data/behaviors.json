@@ -1,0 +1,47 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Users",
+    "children" : [ {
+      "name" : "тестирование отчета остатки (D4011_FreeStocks)",
+      "children" : [ {
+        "name" : "_0201 Тестирование отчета D4011_FreeStocks (Свободные остатки)",
+        "children" : [ {
+          "name" : "_0201 Тестирование отчета D4011_FreeStocks (Свободные остатки)",
+          "uid" : "2f143bd8d3fdf6bc",
+          "parentUid" : "0c7f7cd5fbc8229d7844717e119f96cd",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656497398540,
+            "stop" : 1656497421133,
+            "duration" : 22593
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "0c7f7cd5fbc8229d7844717e119f96cd"
+      }, {
+        "name" : "_0201 подготовительный (экспорт данных)",
+        "children" : [ {
+          "name" : "_0201 подготовительный (экспорт данных)",
+          "uid" : "cec7a30f5a3e3a98",
+          "parentUid" : "3af91a1b52452ea8a1efff7719f65a03",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1656497423840,
+            "stop" : 1656497423840,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "3af91a1b52452ea8a1efff7719f65a03"
+      } ],
+      "uid" : "6ef5c9ccf47a59162bed9338654f4d76"
+    } ],
+    "uid" : "8233a41300bd5d5bd2551cb8ccf39969"
+  } ]
+}

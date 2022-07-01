@@ -1,0 +1,32 @@
+{
+	"uuid": "85f2ff09-5c4a-4552-9561-cc86b9903c50",
+	"name": "Контекст_Открытие формы объекта \"ОстаткиТоваровНаСкладах\"",
+	"description": "",
+	"children": [
+		"acb6e7d4-d9dc-43e2-8555-1f6cf0f59d62"
+	],
+	"befores": [
+		{
+			"name": "Дано я подключаю профиль TestClient \"Этот клиент\"",
+			"start": 1656656325291,
+			"stop": 1656656325920,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Этот клиент"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

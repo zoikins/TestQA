@@ -1,0 +1,32 @@
+{
+	"uuid": "146b7b4c-d27e-447d-bdbf-0b04669e7b23",
+	"name": "Контекст_Открытие формы объекта \"VAExtension_ВыполнитьПроизвольныйКод\"",
+	"description": "",
+	"children": [
+		"9df8b841-8b85-42ca-8c10-e307e21b69f9"
+	],
+	"befores": [
+		{
+			"name": "Дано я подключаю профиль TestClient \"Этот клиент\"",
+			"start": 1656656362236,
+			"stop": 1656656362881,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Этот клиент"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

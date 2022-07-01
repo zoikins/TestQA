@@ -1,0 +1,32 @@
+{
+	"uuid": "a0ff1fb1-38a8-47c2-a70f-2b167235bc2e",
+	"name": "Контекст_Открытие формы объекта \"МобильныеУстройства\"",
+	"description": "",
+	"children": [
+		"eeab4e31-2aac-4f86-ae66-f1e5e6e788be"
+	],
+	"befores": [
+		{
+			"name": "Дано я подключаю профиль TestClient \"Этот клиент\"",
+			"start": 1656656441257,
+			"stop": 1656656441884,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Этот клиент"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

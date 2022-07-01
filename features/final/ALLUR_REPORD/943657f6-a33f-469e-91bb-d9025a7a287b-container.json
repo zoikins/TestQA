@@ -1,0 +1,32 @@
+{
+	"uuid": "a545cf7e-d7f2-465a-bfaa-ee34af4d95ec",
+	"name": "Контекст_Открытие формы объекта \"VAExtension_ОткрытьВсеФункции\"",
+	"description": "",
+	"children": [
+		"943657f6-a33f-469e-91bb-d9025a7a287b"
+	],
+	"befores": [
+		{
+			"name": "Дано я подключаю профиль TestClient \"Этот клиент\"",
+			"start": 1656656368191,
+			"stop": 1656656368835,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Этот клиент"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

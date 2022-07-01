@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "67488815624f52287a09768372a656a7",
+    "name" : "тестирование отчета остатки (D4011_FreeStocks)",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    }
+  } ]
+}

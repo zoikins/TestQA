@@ -1,0 +1,32 @@
+{
+	"uuid": "d7d8fe62-a14d-4348-9fa8-d3dd71d39e36",
+	"name": "Контекст_Открытие формы списка \"Встречи\"",
+	"description": "",
+	"children": [
+		"fc8caf4a-e586-4ac8-8102-5e21315fd079"
+	],
+	"befores": [
+		{
+			"name": "Дано я подключаю профиль TestClient \"Этот клиент\"",
+			"start": 1656656419464,
+			"stop": 1656656420023,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Этот клиент"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

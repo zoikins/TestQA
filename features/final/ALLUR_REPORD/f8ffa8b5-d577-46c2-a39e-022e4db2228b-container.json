@@ -1,0 +1,32 @@
+{
+	"uuid": "d3bd7d1f-f7fc-46ce-8e1e-cdfb4cda6094",
+	"name": "Контекст_Открытие формы объекта \"УдалениеПомеченныхОбъектов\"",
+	"description": "",
+	"children": [
+		"f8ffa8b5-d577-46c2-a39e-022e4db2228b"
+	],
+	"befores": [
+		{
+			"name": "Дано я подключаю профиль TestClient \"Этот клиент\"",
+			"start": 1656656347318,
+			"stop": 1656656347976,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Этот клиент"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

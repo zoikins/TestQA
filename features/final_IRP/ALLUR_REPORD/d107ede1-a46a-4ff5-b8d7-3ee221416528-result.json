@@ -1,0 +1,413 @@
+{
+	"uuid": "d107ede1-a46a-4ff5-b8d7-3ee221416528",
+	"historyId": "тестирование отчета остатки (D4011_FreeStocks)._0201 Тестирование отчета D4011_FreeStocks (Свободные остатки)",
+	"name": "_0201 Тестирование отчета D4011_FreeStocks (Свободные остатки)",
+	"fullName": null,
+	"start": 1656497398540,
+	"stop": 1656497421133,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1656497398554,
+			"stop": 1656497413504,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "Дано Я открыл новый сеанс TestClient или подключил уже существующий",
+					"start": 1656497398554,
+					"stop": 1656497411779,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И Я закрываю все окна клиентского приложения",
+					"start": 1656497411962,
+					"stop": 1656497413504,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "Дано Я открываю навигационную ссылку \"e1cib/app/Report.D4011_FreeStocks\"",
+			"start": 1656497413622,
+			"stop": 1656497413624,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "e1cib/app/Report.D4011_FreeStocks"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "* cверка с макетом",
+			"start": 1656497413630,
+			"stop": 1656497420758,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И я нажимаю на кнопку с именем 'FormLoadVariant'",
+					"start": 1656497413630,
+					"stop": 1656497413958,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "FormLoadVariant"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я перехожу к закладке с именем \"GroupPageStandard\"",
+					"start": 1656497413966,
+					"stop": 1656497414224,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "GroupPageStandard"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'FormLoadSetting'",
+					"start": 1656497414229,
+					"stop": 1656497414241,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "FormLoadSetting"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "и пауза 3",
+					"start": 1656497414288,
+					"stop": 1656497417682,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "3"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'FormGenerate'",
+					"start": 1656497417843,
+					"stop": 1656497417859,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "FormGenerate"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я жду когда в табличном документе \"Result\" заполнится ячейка \"R2C1\" в течение 5 секунд",
+					"start": 1656497417867,
+					"stop": 1656497419029,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Result"
+						},
+						{
+							"name": "Парам2",
+							"value": "R2C1"
+						},
+						{
+							"name": "Парам3",
+							"value": "5"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Тогда Табличный документ \"Result\" равен макету \"D4011_FreeStocks макет основная настройка\"",
+					"start": 1656497419235,
+					"stop": 1656497420758,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Result"
+						},
+						{
+							"name": "Парам2",
+							"value": "D4011_FreeStocks макет основная настройка"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "* проверка суммы итого",
+			"start": 1656497420763,
+			"stop": 1656497421130,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И я запоминаю значение ячейки табличного документа 'Result' 'R17C10' в переменную \"НачальныйОстаток\"",
+					"start": 1656497420763,
+					"stop": 1656497421108,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Result"
+						},
+						{
+							"name": "Парам2",
+							"value": "R17C10"
+						},
+						{
+							"name": "Парам3",
+							"value": "НачальныйОстаток"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я запоминаю значение ячейки табличного документа 'Result' 'R17C11' в переменную \"Приход\"",
+					"start": 1656497421114,
+					"stop": 1656497421117,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Result"
+						},
+						{
+							"name": "Парам2",
+							"value": "R17C11"
+						},
+						{
+							"name": "Парам3",
+							"value": "Приход"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я запоминаю значение ячейки табличного документа 'Result' 'R17C12' в переменную \"Расход\"",
+					"start": 1656497421121,
+					"stop": 1656497421124,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Result"
+						},
+						{
+							"name": "Парам2",
+							"value": "R17C12"
+						},
+						{
+							"name": "Парам3",
+							"value": "Расход"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в табличном документе 'Result' ячейка с адресом 'R17C13' равна '{3+6-6}'",
+					"start": 1656497421127,
+					"stop": 1656497421130,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Result"
+						},
+						{
+							"name": "Парам2",
+							"value": "R17C13"
+						},
+						{
+							"name": "Парам3",
+							"value": "{3+6-6}"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "_0201 Тестирование отчета D4011_FreeStocks (Свободные остатки)"
+		},
+		{
+			"name": "feature",
+			"value": "тестирование отчета остатки (D4011_FreeStocks)"
+		},
+		{
+			"name": "epic",
+			"value": "Users"
+		},
+		{
+			"name": "suite",
+			"value": "тестирование отчета остатки (D4011_FreeStocks)"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "проверка отчетов"
+		},
+		{
+			"name": "host",
+			"value": "skm-01"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

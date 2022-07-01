@@ -1,0 +1,32 @@
+{
+	"uuid": "753b9771-f321-49d6-8f83-c3ef5aad9dfc",
+	"name": "Контекст_Открытие формы объекта \"УправлениеСистемойВзаимодействия\"",
+	"description": "",
+	"children": [
+		"e578e0c0-1d60-48ce-94d5-8fdff7bb25bf"
+	],
+	"befores": [
+		{
+			"name": "Дано я подключаю профиль TestClient \"Этот клиент\"",
+			"start": 1656656355739,
+			"stop": 1656656356385,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Этот клиент"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

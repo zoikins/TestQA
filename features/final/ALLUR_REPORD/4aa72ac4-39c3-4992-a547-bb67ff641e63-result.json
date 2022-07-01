@@ -1,0 +1,71 @@
+{
+	"uuid": "4aa72ac4-39c3-4992-a547-bb67ff641e63",
+	"historyId": "Экспорт пользователей._0102 подготовительный (установка расширений)",
+	"name": "_0102 подготовительный (установка расширений)",
+	"fullName": null,
+	"start": 1656656272447,
+	"stop": 1656656285410,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Если  расширение с именем \"VAExtension\" установлено Тогда",
+			"start": 1656656285402,
+			"stop": 1656656285410,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "VAExtension"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "_0102 подготовительный (установка расширений)"
+		},
+		{
+			"name": "feature",
+			"value": "Экспорт пользователей"
+		},
+		{
+			"name": "epic",
+			"value": "Users"
+		},
+		{
+			"name": "suite",
+			"value": "Экспорт пользователей"
+		},
+		{
+			"name": "tag",
+			"value": "дерево"
+		},
+		{
+			"name": "package",
+			"value": "External"
+		},
+		{
+			"name": "host",
+			"value": "skm-01"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

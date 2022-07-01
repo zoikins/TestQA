@@ -1,0 +1,158 @@
+{
+  "uid" : "29322c264582f9e9",
+  "name" : "_0309 Регистр ТоварныеЗапасы",
+  "historyId" : "проверка  Движения документа Расход товара._0309 Регистр ТоварныеЗапасы",
+  "time" : {
+    "start" : 1656656496655,
+    "stop" : 1656656498099,
+    "duration" : 1444
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Дано я подключаю профиль TestClient \"Этот клиент\"",
+    "time" : {
+      "start" : 1656656496711,
+      "stop" : 1656656497312,
+      "duration" : 601
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ {
+      "name" : "Парам1",
+      "value" : "Этот клиент"
+    } ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "И я закрываю все окна клиентского приложения",
+      "time" : {
+        "start" : 1656656497464,
+        "stop" : 1656656497675,
+        "duration" : 211
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Дано Я открываю навигационную ссылку \"e1cib/data/Документ.РасходТовара?ref=a1aa086266c6d20f11e70b13d9094c69\"",
+      "time" : {
+        "start" : 1656656497868,
+        "stop" : 1656656497871,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "e1cib/data/Документ.РасходТовара?ref=a1aa086266c6d20f11e70b13d9094c69"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "И В текущем окне я нажимаю кнопку командного интерфейса 'Регистр товарных запасов'",
+      "time" : {
+        "start" : 1656656497872,
+        "stop" : 1656656497970,
+        "duration" : 98
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "Регистр товарных запасов"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Тогда таблица \"Список\" стала равной:",
+      "time" : {
+        "start" : 1656656497971,
+        "stop" : 1656656498098,
+        "duration" : 127
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6f8bcd4b541b6242",
+        "name" : "table",
+        "source" : "6f8bcd4b541b6242.csv",
+        "type" : "text/csv",
+        "size" : 235
+      } ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "Список"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "_0309 Регистр ТоварныеЗапасы"
+  }, {
+    "name" : "feature",
+    "value" : "проверка  Движения документа Расход товара"
+  }, {
+    "name" : "epic",
+    "value" : "Users"
+  }, {
+    "name" : "suite",
+    "value" : "проверка  Движения документа Расход товара"
+  }, {
+    "name" : "tag",
+    "value" : "расходтовара"
+  }, {
+    "name" : "tag",
+    "value" : "tree"
+  }, {
+    "name" : "package",
+    "value" : "движение документов"
+  }, {
+    "name" : "host",
+    "value" : "skm-01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "расходтовара", "tree" ]
+  },
+  "source" : "29322c264582f9e9.json",
+  "parameterValues" : [ ]
+}

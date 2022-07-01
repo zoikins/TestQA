@@ -1,0 +1,136 @@
+{
+	"uuid": "50908c86-d1b6-4f6e-99d8-ed8e66debd2c",
+	"historyId": "проверка  Движения документа Расход товара._0309 Регистр ТоварныеЗапасы",
+	"name": "_0309 Регистр ТоварныеЗапасы",
+	"fullName": null,
+	"start": 1656656496655,
+	"stop": 1656656498099,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "И я закрываю все окна клиентского приложения",
+			"start": 1656656497464,
+			"stop": 1656656497675,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Дано Я открываю навигационную ссылку \"e1cib/data/Документ.РасходТовара?ref=a1aa086266c6d20f11e70b13d9094c69\"",
+			"start": 1656656497868,
+			"stop": 1656656497871,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "e1cib/data/Документ.РасходТовара?ref=a1aa086266c6d20f11e70b13d9094c69"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И В текущем окне я нажимаю кнопку командного интерфейса 'Регистр товарных запасов'",
+			"start": 1656656497872,
+			"stop": 1656656497970,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Регистр товарных запасов"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда таблица \"Список\" стала равной:",
+			"start": 1656656497971,
+			"stop": 1656656498098,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Список"
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "80f049da-85fa-4cf0-b89a-6381da67d1d8-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "_0309 Регистр ТоварныеЗапасы"
+		},
+		{
+			"name": "feature",
+			"value": "проверка  Движения документа Расход товара"
+		},
+		{
+			"name": "epic",
+			"value": "Users"
+		},
+		{
+			"name": "suite",
+			"value": "проверка  Движения документа Расход товара"
+		},
+		{
+			"name": "tag",
+			"value": "расходтовара"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "движение документов"
+		},
+		{
+			"name": "host",
+			"value": "skm-01"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

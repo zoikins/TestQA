@@ -1,0 +1,32 @@
+{
+	"uuid": "9a2877b0-de2c-49cc-9330-7d9684acfd63",
+	"name": "Контекст_Открытие формы объекта \"ВидыЦен\"",
+	"description": "",
+	"children": [
+		"451b0cdd-1d2c-402c-8223-28016c353380"
+	],
+	"befores": [
+		{
+			"name": "Дано я подключаю профиль TestClient \"Этот клиент\"",
+			"start": 1656656417483,
+			"stop": 1656656418115,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Этот клиент"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

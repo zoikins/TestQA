@@ -1,0 +1,32 @@
+{
+	"uuid": "d719cfd0-69cc-4fdb-ba11-af5df8b30cc1",
+	"name": "Контекст__0302 Заполнение документа",
+	"description": "",
+	"children": [
+		"19a0bf5d-0a8c-4842-80f9-a1a2ebaa7e8b"
+	],
+	"befores": [
+		{
+			"name": "Дано я подключаю профиль TestClient \"Этот клиент\"",
+			"start": 1656656546868,
+			"stop": 1656656547490,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Этот клиент"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

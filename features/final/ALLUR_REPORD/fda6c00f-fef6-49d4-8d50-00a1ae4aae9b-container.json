@@ -1,0 +1,32 @@
+{
+	"uuid": "2e6faab7-c14f-4c33-8646-2ca421429e1c",
+	"name": "Контекст__0307 Регистр Взаиморасчеты",
+	"description": "",
+	"children": [
+		"fda6c00f-fef6-49d4-8d50-00a1ae4aae9b"
+	],
+	"befores": [
+		{
+			"name": "Дано я подключаю профиль TestClient \"Этот клиент\"",
+			"start": 1656656491844,
+			"stop": 1656656492445,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Этот клиент"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

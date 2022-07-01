@@ -1,0 +1,32 @@
+{
+	"uuid": "2d1df055-6aab-4acd-9088-b98c417d164a",
+	"name": "Контекст_Открытие формы списка \"ВидыЦен\"",
+	"description": "",
+	"children": [
+		"67b39259-9db2-4531-8a53-8b143e891955"
+	],
+	"befores": [
+		{
+			"name": "Дано я подключаю профиль TestClient \"Этот клиент\"",
+			"start": 1656656415487,
+			"stop": 1656656416123,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Этот клиент"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

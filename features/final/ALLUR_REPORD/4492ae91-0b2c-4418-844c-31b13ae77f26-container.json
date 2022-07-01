@@ -1,0 +1,32 @@
+{
+	"uuid": "d171bd2c-6b17-405b-80c6-f52eaa2a629b",
+	"name": "Контекст_Открытие формы списка \"Заказ\"",
+	"description": "",
+	"children": [
+		"4492ae91-0b2c-4418-844c-31b13ae77f26"
+	],
+	"befores": [
+		{
+			"name": "Дано я подключаю профиль TestClient \"Этот клиент\"",
+			"start": 1656656293372,
+			"stop": 1656656294193,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Этот клиент"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

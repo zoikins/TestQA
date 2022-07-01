@@ -1,0 +1,179 @@
+{
+	"uuid": "3dbac120-97fa-4884-a5ee-1363d5b25619",
+	"historyId": "Отчет Остатки._0203 Сравнение с макетом",
+	"name": "_0203 Сравнение с макетом",
+	"fullName": null,
+	"start": 1656656511074,
+	"stop": 1656656517832,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю навигационную ссылку \"e1cib/app/Отчет.ОстаткиТоваровНаСкладах\"",
+			"start": 1656656511891,
+			"stop": 1656656511898,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "e1cib/app/Отчет.ОстаткиТоваровНаСкладах"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаЗагрузитьВариант'",
+			"start": 1656656511900,
+			"stop": 1656656512027,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаЗагрузитьВариант"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"СписокНастроек\" я выбираю текущую строку",
+			"start": 1656656512028,
+			"stop": 1656656512153,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СписокНастроек"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Пауза 5",
+			"start": 1656656512153,
+			"stop": 1656656517371,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "5"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаСформировать'",
+			"start": 1656656517578,
+			"stop": 1656656517596,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаСформировать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда Табличный документ \"Результат\" равен макету \"Отчет Остатки\"",
+			"start": 1656656517597,
+			"stop": 1656656517831,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Результат"
+				},
+				{
+					"name": "Парам2",
+					"value": "Отчет Остатки"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "_0203 Сравнение с макетом"
+		},
+		{
+			"name": "feature",
+			"value": "Отчет Остатки"
+		},
+		{
+			"name": "epic",
+			"value": "Users"
+		},
+		{
+			"name": "suite",
+			"value": "Отчет Остатки"
+		},
+		{
+			"name": "tag",
+			"value": "отчетостатки"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "проверка отчетов"
+		},
+		{
+			"name": "host",
+			"value": "skm-01"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

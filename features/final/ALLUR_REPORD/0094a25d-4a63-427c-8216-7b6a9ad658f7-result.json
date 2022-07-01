@@ -1,0 +1,327 @@
+{
+	"uuid": "0094a25d-4a63-427c-8216-7b6a9ad658f7",
+	"historyId": "Документ Заказ Продавец._0403 Документ Загрузка данных",
+	"name": "_0403 Документ Загрузка данных",
+	"fullName": null,
+	"start": 1656656518798,
+	"stop": 1656656531773,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "когда _0004 Экспорт Документа Заказ",
+			"start": 1656656531386,
+			"stop": 1656656531772,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И я проверяю или создаю для справочника \"Валюты\" объекты с обмен данными загрузка истина:",
+					"start": 1656656531386,
+					"stop": 1656656531415,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Валюты"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "4d4bbbf3-6fbf-4565-bfca-98166b1c81e0-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И я проверяю или создаю для справочника \"ВидыЦен\" объекты с обмен данными загрузка истина:",
+					"start": 1656656531416,
+					"stop": 1656656531444,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ВидыЦен"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "e391e439-9a9d-4cbe-a6f9-3be3a4784554-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И я проверяю или создаю для справочника \"Контрагенты\" объекты с обмен данными загрузка истина:",
+					"start": 1656656531444,
+					"stop": 1656656531520,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Контрагенты"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "5868ce2c-305d-4122-bfe1-486149ad94f2-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И я проверяю или создаю для справочника \"Организации\" объекты с обмен данными загрузка истина:",
+					"start": 1656656531521,
+					"stop": 1656656531549,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Организации"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "119a506e-2f5c-43f0-afb4-a50e6a5b9a70-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И я проверяю или создаю для справочника \"Пользователи\" объекты с обмен данными загрузка истина:",
+					"start": 1656656531550,
+					"stop": 1656656531579,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Пользователи"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "91c4b497-9e77-4a96-a15a-fb752b86e6e5-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И я проверяю или создаю для справочника \"Регионы\" объекты с обмен данными загрузка истина:",
+					"start": 1656656531579,
+					"stop": 1656656531615,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Регионы"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "0f99e4c4-1808-4336-90d3-4f9e13dcaa50-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И я проверяю или создаю для справочника \"Склады\" объекты с обмен данными загрузка истина:",
+					"start": 1656656531615,
+					"stop": 1656656531642,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Склады"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "e9529e8b-2273-4bc6-b0f4-2b4b301b7901-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И я проверяю или создаю для справочника \"Товары\" объекты с обмен данными загрузка истина:",
+					"start": 1656656531643,
+					"stop": 1656656531704,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Товары"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "0be57571-fc70-4439-bf08-279329933618-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И я проверяю или создаю для документа \"Заказ\" объекты с обмен данными загрузка истина:",
+					"start": 1656656531705,
+					"stop": 1656656531742,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Заказ"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "1b09a8d9-3fcc-46b5-91c4-e56e428d8c17-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И я перезаполняю для объекта табличную часть \"Товары\":",
+					"start": 1656656531743,
+					"stop": 1656656531772,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Товары"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "68b3af4e-4907-44cb-849c-b647b3a19902-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				}
+			]
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "_0403 Документ Загрузка данных"
+		},
+		{
+			"name": "feature",
+			"value": "Документ Заказ Продавец"
+		},
+		{
+			"name": "epic",
+			"value": "Users"
+		},
+		{
+			"name": "suite",
+			"value": "Документ Заказ Продавец"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Продажи"
+		},
+		{
+			"name": "host",
+			"value": "skm-01"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

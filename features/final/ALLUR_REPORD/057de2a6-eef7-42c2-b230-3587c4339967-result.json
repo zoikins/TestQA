@@ -1,0 +1,372 @@
+{
+	"uuid": "057de2a6-eef7-42c2-b230-3587c4339967",
+	"historyId": "Экспорт пользователей._00011 Экспорт пользователей ИБ",
+	"name": "_00011 Экспорт пользователей ИБ",
+	"fullName": null,
+	"start": 1656656288449,
+	"stop": 1656656292367,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1656656289461,
+			"stop": 1656656290077,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "Дано Я открыл новый сеанс TestClient или подключил уже существующий",
+					"start": 1656656289461,
+					"stop": 1656656289690,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И Я закрываю все окна клиентского приложения",
+					"start": 1656656289875,
+					"stop": 1656656290077,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "И я открываю окно функции для технического специалиста (расширение)",
+			"start": 1656656290280,
+			"stop": 1656656290283,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Функции для технического специалиста'",
+			"start": 1656656290283,
+			"stop": 1656656291843,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Функции для технического специалиста"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"Table\" я разворачиваю строку:",
+			"start": 1656656291843,
+			"stop": 1656656291898,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Table"
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "104144ba-04ce-4ad6-b6a3-98b737bbee8a-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"Table\" я перехожу к строке:",
+			"start": 1656656291899,
+			"stop": 1656656291931,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Table"
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "5e8e984e-960b-4a18-85e1-ac10942838b9-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"Table\" я выбираю текущую строку",
+			"start": 1656656291932,
+			"stop": 1656656291945,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Table"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "* Администратор",
+			"start": 1656656291946,
+			"stop": 1656656292196,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "Если таблица \"List\" содержит строки : тогда",
+					"start": 1656656291946,
+					"stop": 1656656292196,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "List"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "fc3b823b-36a9-4e5c-93cf-9974210b2e2c-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "* Менеджер по продажам",
+			"start": 1656656292197,
+			"stop": 1656656292254,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "Если таблица \"List\" содержит строки : тогда",
+					"start": 1656656292197,
+					"stop": 1656656292254,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "List"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "e046b13f-dad9-4c80-bf45-2e966b32a597-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "* Менеджер по закупкам",
+			"start": 1656656292254,
+			"stop": 1656656292309,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "Если таблица \"List\" содержит строки : тогда",
+					"start": 1656656292254,
+					"stop": 1656656292309,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "List"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "0ac6aae9-162a-49eb-a09a-df24ca3b3270-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "* Продавец",
+			"start": 1656656292309,
+			"stop": 1656656292366,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "Если таблица \"List\" содержит строки : тогда",
+					"start": 1656656292309,
+					"stop": 1656656292366,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "List"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "8444c503-e995-4ca3-bb09-40c5691adf97-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				}
+			]
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "_00011 Экспорт пользователей ИБ"
+		},
+		{
+			"name": "feature",
+			"value": "Экспорт пользователей"
+		},
+		{
+			"name": "epic",
+			"value": "Users"
+		},
+		{
+			"name": "suite",
+			"value": "Экспорт пользователей"
+		},
+		{
+			"name": "tag",
+			"value": "дерево"
+		},
+		{
+			"name": "package",
+			"value": "External"
+		},
+		{
+			"name": "host",
+			"value": "skm-01"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

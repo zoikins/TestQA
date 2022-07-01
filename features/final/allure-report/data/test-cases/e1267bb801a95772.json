@@ -1,0 +1,341 @@
+{
+  "uid" : "e1267bb801a95772",
+  "name" : "_0403 Документ Загрузка данных",
+  "historyId" : "Документ Заказ Продавец._0403 Документ Загрузка данных",
+  "time" : {
+    "start" : 1656656518798,
+    "stop" : 1656656531773,
+    "duration" : 12975
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Дано я подключаю TestClient \"Продавец\" логин \"Продавец\" пароль \"\"",
+    "time" : {
+      "start" : 1656656518849,
+      "stop" : 1656656531100,
+      "duration" : 12251
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ {
+      "name" : "Парам1",
+      "value" : "Продавец"
+    }, {
+      "name" : "Парам2",
+      "value" : "Продавец"
+    }, {
+      "name" : "Парам3",
+      "value" : ""
+    } ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "когда _0004 Экспорт Документа Заказ",
+      "time" : {
+        "start" : 1656656531386,
+        "stop" : 1656656531772,
+        "duration" : 386
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "И я проверяю или создаю для справочника \"Валюты\" объекты с обмен данными загрузка истина:",
+        "time" : {
+          "start" : 1656656531386,
+          "stop" : 1656656531415,
+          "duration" : 29
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "f770cc6f19f542e3",
+          "name" : "table",
+          "source" : "f770cc6f19f542e3.csv",
+          "type" : "text/csv",
+          "size" : 348
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Валюты"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1
+      }, {
+        "name" : "И я проверяю или создаю для справочника \"ВидыЦен\" объекты с обмен данными загрузка истина:",
+        "time" : {
+          "start" : 1656656531416,
+          "stop" : 1656656531444,
+          "duration" : 28
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "40e8c9e8219bb31c",
+          "name" : "table",
+          "source" : "40e8c9e8219bb31c.csv",
+          "type" : "text/csv",
+          "size" : 212
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "ВидыЦен"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1
+      }, {
+        "name" : "И я проверяю или создаю для справочника \"Контрагенты\" объекты с обмен данными загрузка истина:",
+        "time" : {
+          "start" : 1656656531444,
+          "stop" : 1656656531520,
+          "duration" : 76
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "d0efc651f969ff72",
+          "name" : "table",
+          "source" : "d0efc651f969ff72.csv",
+          "type" : "text/csv",
+          "size" : 1994
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Контрагенты"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1
+      }, {
+        "name" : "И я проверяю или создаю для справочника \"Организации\" объекты с обмен данными загрузка истина:",
+        "time" : {
+          "start" : 1656656531521,
+          "stop" : 1656656531549,
+          "duration" : 28
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "eba4389c6fb8b4d0",
+          "name" : "table",
+          "source" : "eba4389c6fb8b4d0.csv",
+          "type" : "text/csv",
+          "size" : 263
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Организации"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1
+      }, {
+        "name" : "И я проверяю или создаю для справочника \"Пользователи\" объекты с обмен данными загрузка истина:",
+        "time" : {
+          "start" : 1656656531550,
+          "stop" : 1656656531579,
+          "duration" : 29
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "b64d11dcdc0f46a9",
+          "name" : "table",
+          "source" : "b64d11dcdc0f46a9.csv",
+          "type" : "text/csv",
+          "size" : 371
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Пользователи"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1
+      }, {
+        "name" : "И я проверяю или создаю для справочника \"Регионы\" объекты с обмен данными загрузка истина:",
+        "time" : {
+          "start" : 1656656531579,
+          "stop" : 1656656531615,
+          "duration" : 36
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "64ec638226c44bac",
+          "name" : "table",
+          "source" : "64ec638226c44bac.csv",
+          "type" : "text/csv",
+          "size" : 330
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Регионы"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1
+      }, {
+        "name" : "И я проверяю или создаю для справочника \"Склады\" объекты с обмен данными загрузка истина:",
+        "time" : {
+          "start" : 1656656531615,
+          "stop" : 1656656531642,
+          "duration" : 27
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "d435200c86108d63",
+          "name" : "table",
+          "source" : "d435200c86108d63.csv",
+          "type" : "text/csv",
+          "size" : 249
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Склады"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1
+      }, {
+        "name" : "И я проверяю или создаю для справочника \"Товары\" объекты с обмен данными загрузка истина:",
+        "time" : {
+          "start" : 1656656531643,
+          "stop" : 1656656531704,
+          "duration" : 61
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "c41e6ef90692d105",
+          "name" : "table",
+          "source" : "c41e6ef90692d105.csv",
+          "type" : "text/csv",
+          "size" : 1352
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Товары"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1
+      }, {
+        "name" : "И я проверяю или создаю для документа \"Заказ\" объекты с обмен данными загрузка истина:",
+        "time" : {
+          "start" : 1656656531705,
+          "stop" : 1656656531742,
+          "duration" : 37
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "39f36acc3cc86d60",
+          "name" : "table",
+          "source" : "39f36acc3cc86d60.csv",
+          "type" : "text/csv",
+          "size" : 971
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Заказ"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1
+      }, {
+        "name" : "И я перезаполняю для объекта табличную часть \"Товары\":",
+        "time" : {
+          "start" : 1656656531743,
+          "stop" : 1656656531772,
+          "duration" : 29
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "67dfc9c02f417a5e",
+          "name" : "table",
+          "source" : "67dfc9c02f417a5e.csv",
+          "type" : "text/csv",
+          "size" : 440
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Товары"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 10,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 10
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 11,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 10
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "_0403 Документ Загрузка данных"
+  }, {
+    "name" : "feature",
+    "value" : "Документ Заказ Продавец"
+  }, {
+    "name" : "epic",
+    "value" : "Users"
+  }, {
+    "name" : "suite",
+    "value" : "Документ Заказ Продавец"
+  }, {
+    "name" : "tag",
+    "value" : "tree"
+  }, {
+    "name" : "package",
+    "value" : "Продажи"
+  }, {
+    "name" : "host",
+    "value" : "skm-01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "tree" ]
+  },
+  "source" : "e1267bb801a95772.json",
+  "parameterValues" : [ ]
+}

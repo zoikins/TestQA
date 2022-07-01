@@ -1,0 +1,40 @@
+{
+  "тестирование отчета остатки (D4011_FreeStocks)._0201 Тестирование отчета D4011_FreeStocks (Свободные остатки)" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2f143bd8d3fdf6bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656497398540,
+        "stop" : 1656497421133,
+        "duration" : 22593
+      }
+    } ]
+  },
+  "тестирование отчета остатки (D4011_FreeStocks)._0201 подготовительный (экспорт данных)" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cec7a30f5a3e3a98",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1656497423840,
+        "stop" : 1656497423840,
+        "duration" : 0
+      }
+    } ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+	"uuid": "1d5e4180-c8ff-4d6e-b400-53d6f4f5b0d9",
+	"name": "Контекст_Открытие формы списка \"Регионы\"",
+	"description": "",
+	"children": [
+		"6a949422-3099-482b-a641-2c0991e47577"
+	],
+	"befores": [
+		{
+			"name": "Дано я подключаю профиль TestClient \"Этот клиент\"",
+			"start": 1656656466943,
+			"stop": 1656656467637,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Этот клиент"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

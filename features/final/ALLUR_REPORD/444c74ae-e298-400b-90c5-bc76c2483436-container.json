@@ -1,0 +1,32 @@
+{
+	"uuid": "745aa3c5-1e80-4d97-9e31-b1a01d34ff2a",
+	"name": "Контекст_Открытие формы объекта \"Оплата\"",
+	"description": "",
+	"children": [
+		"444c74ae-e298-400b-90c5-bc76c2483436"
+	],
+	"befores": [
+		{
+			"name": "Дано я подключаю профиль TestClient \"Этот клиент\"",
+			"start": 1656656303528,
+			"stop": 1656656304137,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Этот клиент"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

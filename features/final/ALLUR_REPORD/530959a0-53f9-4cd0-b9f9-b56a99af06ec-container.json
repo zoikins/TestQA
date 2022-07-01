@@ -1,0 +1,32 @@
+{
+	"uuid": "4438fc96-ea9b-4f4f-985d-11d0e258db0e",
+	"name": "Контекст_Открытие формы объекта \"УправлениеПолнотекстовымПоиском\"",
+	"description": "",
+	"children": [
+		"530959a0-53f9-4cd0-b9f9-b56a99af06ec"
+	],
+	"befores": [
+		{
+			"name": "Дано я подключаю профиль TestClient \"Этот клиент\"",
+			"start": 1656656353610,
+			"stop": 1656656354257,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Этот клиент"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

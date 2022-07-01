@@ -1,0 +1,40 @@
+{
+	"uuid": "8ce9ed0a-6847-457e-92f3-cc73322377a8",
+	"name": "Контекст__0403 Документ Заказ Продавец",
+	"description": "",
+	"children": [
+		"9b4da67a-e5b5-4569-bf56-0735a62c5f2b"
+	],
+	"befores": [
+		{
+			"name": "Дано я подключаю TestClient \"Продавец\" логин \"Продавец\" пароль \"\"",
+			"start": 1656656532846,
+			"stop": 1656656533489,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Продавец"
+				},
+				{
+					"name": "Парам2",
+					"value": "Продавец"
+				},
+				{
+					"name": "Парам3",
+					"value": ""
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

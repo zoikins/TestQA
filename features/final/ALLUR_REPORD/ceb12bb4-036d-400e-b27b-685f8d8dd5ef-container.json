@@ -1,0 +1,32 @@
+{
+	"uuid": "973225ed-3466-422a-ac59-3e034a0c2446",
+	"name": "Контекст_Открытие формы списка \"ПочтовыеВложения\"",
+	"description": "",
+	"children": [
+		"ceb12bb4-036d-400e-b27b-685f8d8dd5ef"
+	],
+	"befores": [
+		{
+			"name": "Дано я подключаю профиль TestClient \"Этот клиент\"",
+			"start": 1656656454858,
+			"stop": 1656656455475,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Этот клиент"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

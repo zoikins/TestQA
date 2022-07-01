@@ -1,0 +1,133 @@
+{
+	"uuid": "9b4da67a-e5b5-4569-bf56-0735a62c5f2b",
+	"historyId": "Документ Заказ Продавец._0403 Документ Заказ Продавец",
+	"name": "_0403 Документ Заказ Продавец",
+	"fullName": null,
+	"start": 1656656532808,
+	"stop": 1656656536435,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я открываю навигационную ссылку \"e1cib/list/Документ.Заказ\"",
+			"start": 1656656533625,
+			"stop": 1656656533628,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "e1cib/list/Документ.Заказ"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Когда Проверяю шаги на Исключение:",
+			"start": 1656656533629,
+			"stop": 1656656536002,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "97dd50c0-f59b-4327-a891-d4e8eba3a0de-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		},
+		{
+			"name": "Дано Я открываю навигационную ссылку \"e1cib/data/Документ.Заказ?ref=bbf30050ba5c887711e1fe6190994fe8\"",
+			"start": 1656656536003,
+			"stop": 1656656536007,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "e1cib/data/Документ.Заказ?ref=bbf30050ba5c887711e1fe6190994fe8"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Когда Проверяю шаги на Исключение:",
+			"start": 1656656536009,
+			"stop": 1656656536434,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "f6d13a99-f210-4237-840e-6c9801532744-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "_0403 Документ Заказ Продавец"
+		},
+		{
+			"name": "feature",
+			"value": "Документ Заказ Продавец"
+		},
+		{
+			"name": "epic",
+			"value": "Users"
+		},
+		{
+			"name": "suite",
+			"value": "Документ Заказ Продавец"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Продажи"
+		},
+		{
+			"name": "host",
+			"value": "skm-01"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

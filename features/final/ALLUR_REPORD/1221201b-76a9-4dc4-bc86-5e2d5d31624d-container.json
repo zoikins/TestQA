@@ -1,0 +1,32 @@
+{
+	"uuid": "7936ce5b-9e8e-45d7-ae77-e4bb49c382ab",
+	"name": "Контекст__0201 Загрузка данных расхода и прихода",
+	"description": "",
+	"children": [
+		"1221201b-76a9-4dc4-bc86-5e2d5d31624d"
+	],
+	"befores": [
+		{
+			"name": "Дано я подключаю профиль TestClient \"Этот клиент\"",
+			"start": 1656656506463,
+			"stop": 1656656507090,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Этот клиент"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

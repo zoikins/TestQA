@@ -1,0 +1,32 @@
+{
+	"uuid": "bf185e74-5ce4-42f7-ab81-069fd4ca69f1",
+	"name": "Контекст_Открытие формы объекта \"ПроведениеДокументов\"",
+	"description": "",
+	"children": [
+		"14656c52-5654-46d4-a72f-a58647cc4ba5"
+	],
+	"befores": [
+		{
+			"name": "Дано я подключаю профиль TestClient \"Этот клиент\"",
+			"start": 1656656339092,
+			"stop": 1656656339722,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Этот клиент"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

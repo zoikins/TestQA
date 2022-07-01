@@ -1,0 +1,32 @@
+{
+	"uuid": "6f045d8b-9842-48d2-b4e4-a617c163745a",
+	"name": "Контекст_Открытие формы объекта \"VAExtension_ПолучениеМакета\"",
+	"description": "",
+	"children": [
+		"4b13637a-4368-43ed-97fe-deffd13d0875"
+	],
+	"befores": [
+		{
+			"name": "Дано я подключаю профиль TestClient \"Этот клиент\"",
+			"start": 1656656366158,
+			"stop": 1656656366799,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Этот клиент"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

@@ -1,0 +1,386 @@
+{
+  "uid" : "2f143bd8d3fdf6bc",
+  "name" : "_0201 Тестирование отчета D4011_FreeStocks (Свободные остатки)",
+  "historyId" : "тестирование отчета остатки (D4011_FreeStocks)._0201 Тестирование отчета D4011_FreeStocks (Свободные остатки)",
+  "time" : {
+    "start" : 1656497398540,
+    "stop" : 1656497421133,
+    "duration" : 22593
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+      "time" : {
+        "start" : 1656497398554,
+        "stop" : 1656497413504,
+        "duration" : 14950
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Дано Я открыл новый сеанс TestClient или подключил уже существующий",
+        "time" : {
+          "start" : 1656497398554,
+          "stop" : 1656497411779,
+          "duration" : 13225
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "И Я закрываю все окна клиентского приложения",
+        "time" : {
+          "start" : 1656497411962,
+          "stop" : 1656497413504,
+          "duration" : 1542
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Дано Я открываю навигационную ссылку \"e1cib/app/Report.D4011_FreeStocks\"",
+      "time" : {
+        "start" : 1656497413622,
+        "stop" : 1656497413624,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "e1cib/app/Report.D4011_FreeStocks"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "* cверка с макетом",
+      "time" : {
+        "start" : 1656497413630,
+        "stop" : 1656497420758,
+        "duration" : 7128
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "И я нажимаю на кнопку с именем 'FormLoadVariant'",
+        "time" : {
+          "start" : 1656497413630,
+          "stop" : 1656497413958,
+          "duration" : 328
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "FormLoadVariant"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "И я перехожу к закладке с именем \"GroupPageStandard\"",
+        "time" : {
+          "start" : 1656497413966,
+          "stop" : 1656497414224,
+          "duration" : 258
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "GroupPageStandard"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "И я нажимаю на кнопку с именем 'FormLoadSetting'",
+        "time" : {
+          "start" : 1656497414229,
+          "stop" : 1656497414241,
+          "duration" : 12
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "FormLoadSetting"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "и пауза 3",
+        "time" : {
+          "start" : 1656497414288,
+          "stop" : 1656497417682,
+          "duration" : 3394
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "3"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "И я нажимаю на кнопку с именем 'FormGenerate'",
+        "time" : {
+          "start" : 1656497417843,
+          "stop" : 1656497417859,
+          "duration" : 16
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "FormGenerate"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "И я жду когда в табличном документе \"Result\" заполнится ячейка \"R2C1\" в течение 5 секунд",
+        "time" : {
+          "start" : 1656497417867,
+          "stop" : 1656497419029,
+          "duration" : 1162
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Result"
+        }, {
+          "name" : "Парам2",
+          "value" : "R2C1"
+        }, {
+          "name" : "Парам3",
+          "value" : "5"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Тогда Табличный документ \"Result\" равен макету \"D4011_FreeStocks макет основная настройка\"",
+        "time" : {
+          "start" : 1656497419235,
+          "stop" : 1656497420758,
+          "duration" : 1523
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Result"
+        }, {
+          "name" : "Парам2",
+          "value" : "D4011_FreeStocks макет основная настройка"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 7,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "* проверка суммы итого",
+      "time" : {
+        "start" : 1656497420763,
+        "stop" : 1656497421130,
+        "duration" : 367
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "И я запоминаю значение ячейки табличного документа 'Result' 'R17C10' в переменную \"НачальныйОстаток\"",
+        "time" : {
+          "start" : 1656497420763,
+          "stop" : 1656497421108,
+          "duration" : 345
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Result"
+        }, {
+          "name" : "Парам2",
+          "value" : "R17C10"
+        }, {
+          "name" : "Парам3",
+          "value" : "НачальныйОстаток"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "И я запоминаю значение ячейки табличного документа 'Result' 'R17C11' в переменную \"Приход\"",
+        "time" : {
+          "start" : 1656497421114,
+          "stop" : 1656497421117,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Result"
+        }, {
+          "name" : "Парам2",
+          "value" : "R17C11"
+        }, {
+          "name" : "Парам3",
+          "value" : "Приход"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "И я запоминаю значение ячейки табличного документа 'Result' 'R17C12' в переменную \"Расход\"",
+        "time" : {
+          "start" : 1656497421121,
+          "stop" : 1656497421124,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Result"
+        }, {
+          "name" : "Парам2",
+          "value" : "R17C12"
+        }, {
+          "name" : "Парам3",
+          "value" : "Расход"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "И в табличном документе 'Result' ячейка с адресом 'R17C13' равна '{3+6-6}'",
+        "time" : {
+          "start" : 1656497421127,
+          "stop" : 1656497421130,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Result"
+        }, {
+          "name" : "Парам2",
+          "value" : "R17C13"
+        }, {
+          "name" : "Парам3",
+          "value" : "{3+6-6}"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 17,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "_0201 Тестирование отчета D4011_FreeStocks (Свободные остатки)"
+  }, {
+    "name" : "feature",
+    "value" : "тестирование отчета остатки (D4011_FreeStocks)"
+  }, {
+    "name" : "epic",
+    "value" : "Users"
+  }, {
+    "name" : "suite",
+    "value" : "тестирование отчета остатки (D4011_FreeStocks)"
+  }, {
+    "name" : "tag",
+    "value" : "tree"
+  }, {
+    "name" : "package",
+    "value" : "проверка отчетов"
+  }, {
+    "name" : "host",
+    "value" : "skm-01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "tree" ]
+  },
+  "source" : "2f143bd8d3fdf6bc.json",
+  "parameterValues" : [ ]
+}

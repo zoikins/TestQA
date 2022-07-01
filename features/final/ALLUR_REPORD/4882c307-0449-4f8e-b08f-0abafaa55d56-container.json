@@ -1,0 +1,32 @@
+{
+	"uuid": "e3227eb6-a5a0-4847-a8d4-0261e3965c0d",
+	"name": "Контекст__0101 Подготовка",
+	"description": "",
+	"children": [
+		"4882c307-0449-4f8e-b08f-0abafaa55d56"
+	],
+	"befores": [
+		{
+			"name": "Дано я подключаю профиль TestClient \"Этот клиент\"",
+			"start": 1656656499198,
+			"stop": 1656656499721,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Этот клиент"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

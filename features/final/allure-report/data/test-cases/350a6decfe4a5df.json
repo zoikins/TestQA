@@ -1,0 +1,86 @@
+{
+  "uid" : "350a6decfe4a5df",
+  "name" : "_00011 Экспорт пользователей",
+  "historyId" : "Экспорт пользователей._00011 Экспорт пользователей",
+  "time" : {
+    "start" : 1656656286414,
+    "stop" : 1656656287484,
+    "duration" : 1070
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "И я проверяю или создаю для справочника \"Пользователи\" объекты:",
+      "time" : {
+        "start" : 1656656287432,
+        "stop" : 1656656287483,
+        "duration" : 51
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ef0fc60e20ba27a8",
+        "name" : "table",
+        "source" : "ef0fc60e20ba27a8.csv",
+        "type" : "text/csv",
+        "size" : 922
+      } ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "Пользователи"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "_00011 Экспорт пользователей"
+  }, {
+    "name" : "feature",
+    "value" : "Экспорт пользователей"
+  }, {
+    "name" : "epic",
+    "value" : "Users"
+  }, {
+    "name" : "suite",
+    "value" : "Экспорт пользователей"
+  }, {
+    "name" : "tag",
+    "value" : "дерево"
+  }, {
+    "name" : "package",
+    "value" : "External"
+  }, {
+    "name" : "host",
+    "value" : "skm-01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "дерево" ]
+  },
+  "source" : "350a6decfe4a5df.json",
+  "parameterValues" : [ ]
+}

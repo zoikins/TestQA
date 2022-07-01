@@ -1,0 +1,32 @@
+{
+	"uuid": "68fec063-0afa-4f70-9e94-cf05d94c9857",
+	"name": "Контекст_Открытие формы объекта \"УправлениеАгрегатамиПродаж\"",
+	"description": "",
+	"children": [
+		"6fc43d01-30bb-4aee-aad7-a7516b5939bd"
+	],
+	"befores": [
+		{
+			"name": "Дано я подключаю профиль TestClient \"Этот клиент\"",
+			"start": 1656656349350,
+			"stop": 1656656350007,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Этот клиент"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

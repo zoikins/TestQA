@@ -1,0 +1,32 @@
+{
+	"uuid": "bae8d6cb-0f49-4462-96a2-0776e5b1690e",
+	"name": "Контекст_Открытие формы объекта \"ХранилищеВариантовОтчетов\"",
+	"description": "",
+	"children": [
+		"2e696ad9-ee5f-4b0c-a486-e5f3c2fb1752"
+	],
+	"befores": [
+		{
+			"name": "Дано я подключаю профиль TestClient \"Этот клиент\"",
+			"start": 1656656481688,
+			"stop": 1656656482294,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Этот клиент"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

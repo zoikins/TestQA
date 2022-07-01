@@ -1,0 +1,32 @@
+{
+	"uuid": "9a325a9e-7722-41bb-b22b-e0f0b9801c8d",
+	"name": "Контекст__0303 Проверка печатной формы",
+	"description": "",
+	"children": [
+		"b8dc3fbe-bb91-4d5a-9239-d21914e75f7d"
+	],
+	"befores": [
+		{
+			"name": "Дано я подключаю профиль TestClient \"Этот клиент\"",
+			"start": 1656656552753,
+			"stop": 1656656553351,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Этот клиент"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

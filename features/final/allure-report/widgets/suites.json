@@ -1,0 +1,92 @@
+{
+  "total" : 8,
+  "items" : [ {
+    "uid" : "da5e13156277673587dd2e81057f6cf3",
+    "name" : "Дымовые тесты",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 97,
+      "unknown" : 0,
+      "total" : 97
+    }
+  }, {
+    "uid" : "95cba582be6947618dc9ccce7596a1e7",
+    "name" : "проверка  Движения документа Расход товара",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "e4017ed35fdb954cd474342b3acc0581",
+    "name" : "Экспорт пользователей",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "d65acdfe105030d92a16f0f93b88d9cb",
+    "name" : "Отчет Остатки",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "1717b2d10d801d68a8c5adb3d0d4777f",
+    "name" : "Документ Расход товара",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "6edc95b9ae47117f1dbaba07c0c84e72",
+    "name" : "Товары добавление внешних файлов",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "fe22da470354b6f277f4a7564035ac26",
+    "name" : "Документ Заказ Продавец",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "5e732fb6cbb4a25955d64b8197f84622",
+    "name" : "Документ Расход товара Продавец",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  } ]
+}
